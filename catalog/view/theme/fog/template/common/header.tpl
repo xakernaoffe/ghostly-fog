@@ -47,6 +47,7 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
+Стартуем
 <nav id="top">
   <div class="container">
     <?php echo $currency; ?>
