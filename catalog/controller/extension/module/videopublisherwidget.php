@@ -20,8 +20,8 @@ class ControllerExtensionModuleVideoPublisherWidget extends Controller {
 	}
 	
 	public function index($setting) {
-		$this->document->addScript('view/javascript/summernote/summernote.min.js');
-		$this->document->addStyle('view/javascript/summernote/summernote.css');
+//		$this->document->addScript('view/javascript/summernote/summernote.min.js');
+//		$this->document->addStyle('view/javascript/summernote/summernote.css');
 
 		$this->language->load($this->modulePath);
 		$this->load->model($this->modulePath);

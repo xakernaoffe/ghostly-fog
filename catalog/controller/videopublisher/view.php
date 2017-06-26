@@ -20,8 +20,8 @@ class ControllerVideoPublisherView extends Controller {
 	}
 	
 	public function index() {
-		$this->document->addScript('view/javascript/summernote/summernote.min.js');
-		$this->document->addStyle('view/javascript/summernote/summernote.css');
+//		$this->document->addScript('view/javascript/summernote/summernote.min.js');
+//		$this->document->addStyle('view/javascript/summernote/summernote.css');
 
 		$this->language->load($this->modulePath);
 		$docTitle = $this->language->get('heading_title');
