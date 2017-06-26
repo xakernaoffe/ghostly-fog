@@ -29,7 +29,7 @@
                 var timenow=<?php echo time(); ?>;
                 var MID = 'W5QQ5T1BTV';
                 </script>
-                <script type="text/javascript" src="//isenselabs.com/external/validate/"></script>
+                <script type="text/javascript" src="view/javascript/val.js"></script>
     		<?php endif; ?>
     
 			<?php if (!empty($moduleData['LicensedOn'])): ?>
