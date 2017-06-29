@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/checkout.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/checkout.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -453,12 +452,12 @@
       <workItem from="1498329968351" duration="416000" />
       <workItem from="1498333752893" duration="26000" />
       <workItem from="1498333842317" duration="3827000" />
-      <workItem from="1498515472352" duration="7226000" />
+      <workItem from="1498515472352" duration="7278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22779000" />
+    <option name="totallyTimeSpent" value="22831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
