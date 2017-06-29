@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="" />
+    <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/DB BackUps/ghosttyFog-27.06.17-1.30.sql.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/DB BackUps/ghosttyFog.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/VideoPublisher.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/blank_theme.ocmod.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developers/readme.md" afterPath="$PROJECT_DIR$/developers/readme.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +62,7 @@
       <file leaf-file-name="ocmodpcart.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocmodpcart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="204">
               <caret line="181" column="35" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
               <folding />
             </state>
@@ -66,18 +73,91 @@
         <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-              <folding />
+              <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+              <folding>
+                <marker date="1498778482502" expanded="true" signature="2598:6012" ph="..." />
+                <marker date="1498778482502" expanded="true" signature="2621:3189" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="2674:2871" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3250:5994" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3346:4250" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498778482502" expanded="true" signature="3556:4233" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3632:3681" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3711:4224" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498778482502" expanded="true" signature="3793:3900" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3828:3889" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498778482502" expanded="true" signature="4281:5646" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498778482502" expanded="true" signature="4625:5629" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="4828:5066" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="4868:5056" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="4915:5045" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5096:5620" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498778482502" expanded="true" signature="5180:5291" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5216:5279" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498778482502" expanded="true" signature="5679:5988" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498778482502" expanded="true" signature="5754:5853" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5787:5844" ph="{...}" />
+                <marker date="1498778482502" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+              <folding>
+                <marker date="1498778482504" expanded="true" signature="2598:6012" ph="..." />
+                <marker date="1498778482504" expanded="true" signature="2621:3189" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="2674:2871" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3250:5994" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3346:4250" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498778482504" expanded="true" signature="3556:4233" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3632:3681" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3711:4224" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498778482504" expanded="true" signature="3793:3900" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3828:3889" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498778482504" expanded="true" signature="4281:5646" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498778482504" expanded="true" signature="4625:5629" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="4828:5066" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="4868:5056" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="4915:5045" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5096:5620" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498778482504" expanded="true" signature="5180:5291" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5216:5279" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498778482504" expanded="true" signature="5679:5988" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498778482504" expanded="true" signature="5754:5853" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5787:5844" ph="{...}" />
+                <marker date="1498778482504" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/developers/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -175,6 +255,7 @@
         <option value="$PROJECT_DIR$/admin/view/template/module/videopublisher/tab_support.php" />
         <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/developers/readme.md" />
       </list>
     </option>
   </component>
@@ -354,12 +435,12 @@
       <workItem from="1498329968351" duration="416000" />
       <workItem from="1498333752893" duration="26000" />
       <workItem from="1498333842317" duration="3827000" />
-      <workItem from="1498515472352" duration="9547000" />
+      <workItem from="1498515472352" duration="10204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25100000" />
+    <option name="totallyTimeSpent" value="25757000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,17 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developers/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="138" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/videopublisher.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -787,7 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocmodpcart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="204">
           <caret line="181" column="35" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
           <folding />
         </state>
@@ -796,16 +866,87 @@
     <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-          <folding />
+          <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <marker date="1498778482502" expanded="true" signature="2598:6012" ph="..." />
+            <marker date="1498778482502" expanded="true" signature="2621:3189" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="2674:2871" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3250:5994" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3346:4250" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498778482502" expanded="true" signature="3556:4233" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3632:3681" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3711:4224" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498778482502" expanded="true" signature="3793:3900" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3828:3889" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498778482502" expanded="true" signature="4281:5646" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498778482502" expanded="true" signature="4625:5629" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="4828:5066" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="4868:5056" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="4915:5045" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5096:5620" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498778482502" expanded="true" signature="5180:5291" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5216:5279" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498778482502" expanded="true" signature="5679:5988" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498778482502" expanded="true" signature="5754:5853" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5787:5844" ph="{...}" />
+            <marker date="1498778482502" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <marker date="1498778482504" expanded="true" signature="2598:6012" ph="..." />
+            <marker date="1498778482504" expanded="true" signature="2621:3189" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="2674:2871" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3250:5994" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3346:4250" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498778482504" expanded="true" signature="3556:4233" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3632:3681" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3711:4224" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498778482504" expanded="true" signature="3793:3900" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3828:3889" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498778482504" expanded="true" signature="4281:5646" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498778482504" expanded="true" signature="4625:5629" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="4828:5066" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="4868:5056" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="4915:5045" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5096:5620" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498778482504" expanded="true" signature="5180:5291" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5216:5279" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498778482504" expanded="true" signature="5679:5988" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498778482504" expanded="true" signature="5754:5853" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5787:5844" ph="{...}" />
+            <marker date="1498778482504" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developers/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

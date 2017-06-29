@@ -1,7 +1,11 @@
 Тут храниться все что помогло создать сайт 
 
 
+Call back:
+http://lowenet.biz/resources/opencart-2-x-obratnyj-zvonok-s-sms-opovescheniem.743/
 
-попап карт  модульс багами и решением
-https://liveopencart.ru/opencart-moduli-shablony/moduli/zakaz/-vsplyivayuschaya-korzina-s-zamenoy-knopki-kupit-dlya-opencart-i-ocstore-2-3
+
+
+callback list:
+http://ghostly-fog/admin/index.php?route=catalog/callback&token=QeNp3Ttbix9Sxu4L6ioy8nq4QH2r56Kh
 

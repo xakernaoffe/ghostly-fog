@@ -1,0 +1,57 @@
+.callback-fixed-button {
+	width: 250px;
+	height: 35px;
+	position: fixed;
+	bottom: 10px;
+	right: 5px;
+	z-index: 100;
+	transition: all 0s ease-out;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0px 0 0px;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+}
+.callback-fixed-button-phone {
+	width: 320px;
+	height: 45px;
+	position: fixed;
+	bottom: 10px;
+	right: 5px;
+	z-index: 100;
+	transition: all 0s ease-out;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+	padding: 8px 8px 0 8px;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+}
+.callback-fixed-button-phone .input-group{
+	width: 200px;
+	float:right;
+}
+.callback-fixed-button-phone label {
+	float:left;
+	margin-top: 8px;
+}
+#callback-phone-field-alert {
+	position: fixed;
+	bottom: 60px;
+	right: 5px;
+	width: 318px;
+	z-index: 100;
+}
+.show-callback {
+	cursor: pointer;
+}
