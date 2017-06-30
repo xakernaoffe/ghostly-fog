@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/DB BackUps/ghosttyFog-27.06.17-1.30.sql.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/DB BackUps/ghosttyFog.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/VideoPublisher.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developers/blank_theme.ocmod.zip" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developers/readme.md" afterPath="$PROJECT_DIR$/developers/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,92 +24,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checkout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/checkout.php">
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="147" column="1" lean-forward="false" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+            <state relative-caret-position="495">
+              <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="val.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.751/val.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab_support.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/module/videopublisher/tab_support.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="31" column="85" lean-forward="false" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videopublisher.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/module/videopublisher.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ocmodpcart.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocmodpcart.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="181" column="35" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-              <folding>
-                <marker date="1498778482502" expanded="true" signature="2598:6012" ph="..." />
-                <marker date="1498778482502" expanded="true" signature="2621:3189" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="2674:2871" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3250:5994" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3346:4250" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-                <marker date="1498778482502" expanded="true" signature="3556:4233" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3632:3681" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3711:4224" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
-                <marker date="1498778482502" expanded="true" signature="3793:3900" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3828:3889" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-                <marker date="1498778482502" expanded="true" signature="4281:5646" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-                <marker date="1498778482502" expanded="true" signature="4625:5629" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="4828:5066" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="4868:5056" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="4915:5045" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5096:5620" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
-                <marker date="1498778482502" expanded="true" signature="5180:5291" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5216:5279" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-                <marker date="1498778482502" expanded="true" signature="5679:5988" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
-                <marker date="1498778482502" expanded="true" signature="5754:5853" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5787:5844" ph="{...}" />
-                <marker date="1498778482502" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,73 +37,215 @@
       <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+            <state relative-caret-position="294">
+              <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
               <folding>
-                <marker date="1498778482504" expanded="true" signature="2598:6012" ph="..." />
-                <marker date="1498778482504" expanded="true" signature="2621:3189" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="2674:2871" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3250:5994" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3346:4250" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-                <marker date="1498778482504" expanded="true" signature="3556:4233" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3632:3681" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3711:4224" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
-                <marker date="1498778482504" expanded="true" signature="3793:3900" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3828:3889" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-                <marker date="1498778482504" expanded="true" signature="4281:5646" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-                <marker date="1498778482504" expanded="true" signature="4625:5629" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="4828:5066" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="4868:5056" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="4915:5045" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5096:5620" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
-                <marker date="1498778482504" expanded="true" signature="5180:5291" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5216:5279" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-                <marker date="1498778482504" expanded="true" signature="5679:5988" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
-                <marker date="1498778482504" expanded="true" signature="5754:5853" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5787:5844" ph="{...}" />
-                <marker date="1498778482504" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498845682642" expanded="true" signature="2347:5761" ph="..." />
+                <marker date="1498845682642" expanded="true" signature="2370:2938" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="2423:2620" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="2999:5743" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3095:3999" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3110:3990" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498845682642" expanded="true" signature="3305:3982" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3381:3430" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3460:3973" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3492:3788" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498845682642" expanded="true" signature="3542:3649" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3577:3638" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="3690:3777" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498845682642" expanded="true" signature="4030:5395" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4045:5386" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498845682642" expanded="true" signature="4374:5378" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4577:4815" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4617:4805" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4664:4794" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4845:5369" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4877:5184" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498845682642" expanded="true" signature="4929:5040" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="4965:5028" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="5083:5173" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498845682642" expanded="true" signature="5428:5737" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="5457:5728" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498845682642" expanded="true" signature="5503:5602" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="5536:5593" ph="{...}" />
+                <marker date="1498845682642" expanded="true" signature="5639:5720" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/developers/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+              <folding>
+                <marker date="1498845682638" expanded="true" signature="2594:6008" ph="..." />
+                <marker date="1498845682638" expanded="true" signature="2617:3185" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="2670:2867" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3246:5990" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3342:4246" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3357:4237" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498845682638" expanded="true" signature="3552:4229" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3628:3677" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3707:4220" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3739:4035" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498845682638" expanded="true" signature="3789:3896" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3824:3885" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="3937:4024" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498845682638" expanded="true" signature="4277:5642" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="4292:5633" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+                <marker date="1498845682638" expanded="true" signature="4621:5625" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="4824:5062" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="4864:5052" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="4911:5041" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5092:5616" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5124:5431" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498845682638" expanded="true" signature="5176:5287" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5212:5275" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5330:5420" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+                <marker date="1498845682638" expanded="true" signature="5675:5984" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5704:5975" ph="{&quot;tLoading&quot;: ''...}" />
+                <marker date="1498845682638" expanded="true" signature="5750:5849" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5783:5840" ph="{...}" />
+                <marker date="1498845682638" expanded="true" signature="5886:5967" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/product/product.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1498845684119" expanded="true" signature="33034:33041" ph="×" />
+                <marker date="1498845684119" expanded="true" signature="33888:33902" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435">
+              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding>
+                <marker date="1498845682241" expanded="true" signature="3031:7133" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3064:7122" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3097:7109" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3131:3393" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3425:6887" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3481:6873" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3606:3977" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3637:3760" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="3791:3964" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="4120:4490" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="4151:4276" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="4307:4477" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="4635:5011" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="4666:4793" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="4824:4998" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="5168:5692" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="5199:5324" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="5355:5679" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="5438:5664" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="5837:6211" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="5868:5995" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="6026:6198" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="6354:6724" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="6385:6510" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="6541:6711" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="6921:7097" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="7332:8030" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="7370:8019" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="7482:8005" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="7707:7976" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="8220:8466" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="8249:8454" ph="{...}" />
+                <marker date="1498845682241" expanded="true" signature="8594:10940" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="8701:10931" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="8732:10920" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="9206:10256" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="9519:10242" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="10956:11781" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="10982:11771" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11004:11762" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11033:11632" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11057:11619" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11661:11696" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11833:13358" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11866:13351" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="11898:12143" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="12206:13342" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="12240:13331" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="12370:13158" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="12534:13144" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="12575:13004" ph="..." />
+                <marker date="1498845682241" expanded="true" signature="12757:12960" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1459508076000" expanded="true" signature="25360:25367" ph="×" />
+                <marker date="1459508076000" expanded="true" signature="26214:26228" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>defaul</find>
-      <find>default</find>
-      <find>/default</find>
-      <find>/default/</find>
-      <find>defau</find>
-      <find>select</find>
-      <find>$this-&gt;error['warning'</find>
-      <find>isenselabs.com/external/validate/</find>
-      <find>e/summernote.min.js</find>
-      <find>FollowSymlinks</find>
       <find>age-&gt;get('error_permission');</find>
       <find>if(!$this-&gt;user-&gt;hasPermission('modify', 'module/popupcart')) {</find>
-      <find>if(!$this-&gt;user-&gt;hasPermission('modify', 'module/popupcart'))</find>
       <find>if(!$this-&gt;user-&gt;hasPermission('modify', 'module/popupcart'))</find>
       <find>'modify', 'module/popupcart'))</find>
       <find>ву</find>
@@ -186,7 +253,6 @@
       <find>d</find>
       <find>$email</find>
       <find>$data['products_related'] = $settings['related_show']</find>
-      <find>m/external/validat</find>
       <find>defa</find>
       <find>/isenselabs.com/external/validate/</find>
       <find>ocmodpcart.c</find>
@@ -195,7 +261,19 @@
       <find>ocmodpcart.css Failed to load resource: the server responded with a status of 404 (Not Found)</find>
       <find>ocmodpcart.css</find>
       <find>ocmodpcart.cs</find>
-      <find>ocmodpcart.css</find>
+      <find>m/external/validat</find>
+      <find>ocm</find>
+      <find>view/theme/default/stylesheet/ocmodpcart.css</find>
+      <find>theme_default</find>
+      <find>content=&quot;website&quot;</find>
+      <find>/default/stylesheet/ocmodpcart.c</find>
+      <find>/default/stylesheet/ocmodpcart.</find>
+      <find>/default/stylesheet/ocmodpcart.css</find>
+      <find>/default/stylesheet/ocmodpcart.cs</find>
+      <find>/default/stylesheet/ocmodpcart.css</find>
+      <find>/* Fix some bootstrap issues */span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {	display: inline;}</find>
+      <find>/* Fix some bootstrap issues</find>
+      <find>catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -206,8 +284,13 @@
       <dir>C:\OpenServer\domains\localhost\ghostly-fog\catalog\view\theme\fog</dir>
       <dir>C:\OpenServer\domains\localhost\ghostly-fog</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\admin</dir>
-      <dir>C:\OpenServer\domains\ghostly-fog\admin</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\default</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\admin\view\template</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\admin</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\catalog</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog</dir>
       <dir>C:\OpenServer\domains\ghostly-fog</dir>
     </dirStrings>
   </component>
@@ -237,7 +320,6 @@
         <option value="$PROJECT_DIR$/admin/language/ru-ru/extension/theme/fog.php" />
         <option value="$PROJECT_DIR$/admin/view/template/extension/theme/fog.tpl" />
         <option value="$PROJECT_DIR$/admin/controller/extension/theme/fog.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
         <option value="$USER_HOME$/Desktop/all.css" />
         <option value="$PROJECT_DIR$/admin/view/template/extension/module/videopublisher/tab_support.php" />
         <option value="$PROJECT_DIR$/catalog/controller/videopublisher/view.php" />
@@ -254,8 +336,19 @@
         <option value="$PROJECT_DIR$/catalog/controller/checkout/checkout.php" />
         <option value="$PROJECT_DIR$/admin/view/template/module/videopublisher/tab_support.php" />
         <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl" />
-        <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/developers/readme.md" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_mixins.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_reset.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
       </list>
     </option>
   </component>
@@ -272,6 +365,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -287,7 +383,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,12 +405,349 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modification" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -324,18 +756,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\ghostly-fog\admin\view\template\extension\module" />
-      <recent name="C:\OpenServer\domains\ghostly-fog\admin\controller\extension\module" />
-      <recent name="C:\OpenServer\domains\ghostly-fog\admin\controller\extension" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\ghostly-fog\system\storage\modification\catalog\view\theme\fog\template\product" />
       <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\view\template\extension\theme" />
       <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\language\ru-ru\extension\theme" />
       <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\language\en-gb\extension\theme" />
       <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\controller\extension\theme" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\ghostly-fog\admin\view\template\extension\module" />
+      <recent name="C:\OpenServer\domains\ghostly-fog\admin\controller\extension\module" />
+      <recent name="C:\OpenServer\domains\ghostly-fog\admin\controller\extension" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,12 +869,13 @@
       <workItem from="1498329968351" duration="416000" />
       <workItem from="1498333752893" duration="26000" />
       <workItem from="1498333842317" duration="3827000" />
-      <workItem from="1498515472352" duration="10204000" />
+      <workItem from="1498515472352" duration="13133000" />
+      <workItem from="1498824629700" duration="6639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25757000" />
+    <option name="totallyTimeSpent" value="35325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,20 +888,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-195" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21864952" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11433172" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25830653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -506,132 +940,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/dev/Gruntfile.js" />
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/dev/start.cmd" />
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/library/template/php.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/extension/module/pilibaba_button.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="109" lean-forward="false" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/extension/module/pp_button.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/extension/theme/theme_default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.163/opencartforumcom.php" />
-    <entry file="file://$PROJECT_DIR$/admin/language/en-gb/extension/theme/theme_default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/extension/theme/fog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.104/opencartforumcom.php" />
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/extension/payment/klarna_account.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/extension/payment/eway.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" column="178" lean-forward="false" selection-start-line="36" selection-start-column="178" selection-end-line="36" selection-end-column="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/en-gb/extension/theme/fog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/ru-ru/extension/theme/theme_default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/ru-ru/extension/theme/fog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/extension/theme/fog.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.242/upload/admin/view/template/extension/theme/opencartforumcom.tpl" />
-    <entry file="file://$PROJECT_DIR$/admin/view/template/extension/theme/theme_default.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="196" column="33" lean-forward="false" selection-start-line="196" selection-start-column="33" selection-end-line="196" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="23" lean-forward="false" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$USER_HOME$/Desktop/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219225">
           <caret line="14615" column="17" lean-forward="false" selection-start-line="14615" selection-start-column="17" selection-end-line="14615" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,27 +1007,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/videopublisher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/videopublisherwidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/videopublisher.php" />
+    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/videopublisherwidget.php" />
     <entry file="file://$PROJECT_DIR$/catalog/controller/videopublisher/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,47 +1020,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/extension/module/videopublisher/tab_support.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/catalog/view/theme/default/template/module/callback.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/admin/controller/module/callback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/module/callback-sender.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/extension/module/videopublisher/tab_support.php" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/catalog/view/theme/default/template/module/callback.tpl" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/admin/controller/module/callback.php" />
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/callback-sender.php" />
     <entry file="file://$PROJECT_DIR$/catalog/controller/module/callback.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,22 +1050,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/popupcart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3226">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/extension/module/callback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/popupcart.php" />
+    <entry file="file://$PROJECT_DIR$/admin/controller/extension/module/callback.php" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -807,135 +1060,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/extension/module/popupcart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="120" column="67" lean-forward="false" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-dist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="147" column="1" lean-forward="false" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/extension/module/popupcart.php" />
+    <entry file="file://$PROJECT_DIR$/config-dist.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.751/val.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/module/videopublisher/tab_support.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="31" column="85" lean-forward="false" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/module/videopublisher.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocmodpcart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="181" column="35" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding>
-            <marker date="1498778482502" expanded="true" signature="2598:6012" ph="..." />
-            <marker date="1498778482502" expanded="true" signature="2621:3189" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="2674:2871" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3250:5994" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3346:4250" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-            <marker date="1498778482502" expanded="true" signature="3556:4233" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3632:3681" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3711:4224" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
-            <marker date="1498778482502" expanded="true" signature="3793:3900" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3828:3889" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-            <marker date="1498778482502" expanded="true" signature="4281:5646" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-            <marker date="1498778482502" expanded="true" signature="4625:5629" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="4828:5066" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="4868:5056" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="4915:5045" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5096:5620" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
-            <marker date="1498778482502" expanded="true" signature="5180:5291" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5216:5279" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-            <marker date="1498778482502" expanded="true" signature="5679:5988" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
-            <marker date="1498778482502" expanded="true" signature="5754:5853" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5787:5844" ph="{...}" />
-            <marker date="1498778482502" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding>
-            <marker date="1498778482504" expanded="true" signature="2598:6012" ph="..." />
-            <marker date="1498778482504" expanded="true" signature="2621:3189" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="2674:2871" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3250:5994" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3346:4250" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3361:4241" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-            <marker date="1498778482504" expanded="true" signature="3556:4233" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3632:3681" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3711:4224" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3743:4039" ph="{&quot;tLoading&quot;: ''...}" />
-            <marker date="1498778482504" expanded="true" signature="3793:3900" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3828:3889" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="3941:4028" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-            <marker date="1498778482504" expanded="true" signature="4281:5646" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="4296:5637" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
-            <marker date="1498778482504" expanded="true" signature="4625:5629" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="4828:5066" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="4868:5056" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="4915:5045" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5096:5620" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5128:5435" ph="{&quot;tLoading&quot;: ''...}" />
-            <marker date="1498778482504" expanded="true" signature="5180:5291" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5216:5279" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5334:5424" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-            <marker date="1498778482504" expanded="true" signature="5679:5988" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5708:5979" ph="{&quot;tLoading&quot;: ''...}" />
-            <marker date="1498778482504" expanded="true" signature="5754:5853" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5787:5844" ph="{...}" />
-            <marker date="1498778482504" expanded="true" signature="5890:5971" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,9 +1074,278 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
             <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocmodpcart.tpl" />
+    <entry file="file://$PROJECT_DIR$/admin/view/template/module/videopublisher.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/module/videopublisher/tab_support.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="31" column="85" lean-forward="false" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/ocmodpcart.css" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_mixins.scss" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_reset.scss" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding>
+            <marker date="1498845682642" expanded="true" signature="2347:5761" ph="..." />
+            <marker date="1498845682642" expanded="true" signature="2370:2938" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="2423:2620" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="2999:5743" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3095:3999" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3110:3990" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498845682642" expanded="true" signature="3305:3982" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3381:3430" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3460:3973" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3492:3788" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498845682642" expanded="true" signature="3542:3649" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3577:3638" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="3690:3777" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498845682642" expanded="true" signature="4030:5395" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4045:5386" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498845682642" expanded="true" signature="4374:5378" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4577:4815" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4617:4805" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4664:4794" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4845:5369" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4877:5184" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498845682642" expanded="true" signature="4929:5040" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="4965:5028" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="5083:5173" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498845682642" expanded="true" signature="5428:5737" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="5457:5728" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498845682642" expanded="true" signature="5503:5602" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="5536:5593" ph="{...}" />
+            <marker date="1498845682642" expanded="true" signature="5639:5720" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+          <folding>
+            <marker date="1498845682638" expanded="true" signature="2594:6008" ph="..." />
+            <marker date="1498845682638" expanded="true" signature="2617:3185" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="2670:2867" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3246:5990" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3342:4246" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3357:4237" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498845682638" expanded="true" signature="3552:4229" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3628:3677" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3707:4220" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3739:4035" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498845682638" expanded="true" signature="3789:3896" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3824:3885" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="3937:4024" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498845682638" expanded="true" signature="4277:5642" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="4292:5633" ph="{&quot;url&quot;: 'index.php?route=checkout/cart/add'...}" />
+            <marker date="1498845682638" expanded="true" signature="4621:5625" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="4824:5062" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="4864:5052" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="4911:5041" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5092:5616" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5124:5431" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498845682638" expanded="true" signature="5176:5287" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5212:5275" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5330:5420" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+            <marker date="1498845682638" expanded="true" signature="5675:5984" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5704:5975" ph="{&quot;tLoading&quot;: ''...}" />
+            <marker date="1498845682638" expanded="true" signature="5750:5849" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5783:5840" ph="{...}" />
+            <marker date="1498845682638" expanded="true" signature="5886:5967" ph="{&quot;src&quot;: 'index.php?route=module/ocmodpcart'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498845683520" expanded="true" signature="33034:33041" ph="×" />
+            <marker date="1498845683520" expanded="true" signature="33888:33902" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498845684119" expanded="true" signature="33034:33041" ph="×" />
+            <marker date="1498845684119" expanded="true" signature="33888:33902" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <marker date="1498845682241" expanded="true" signature="3031:7133" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3064:7122" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3097:7109" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3131:3393" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3425:6887" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3481:6873" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3606:3977" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3637:3760" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="3791:3964" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="4120:4490" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="4151:4276" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="4307:4477" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="4635:5011" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="4666:4793" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="4824:4998" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="5168:5692" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="5199:5324" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="5355:5679" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="5438:5664" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="5837:6211" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="5868:5995" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="6026:6198" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="6354:6724" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="6385:6510" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="6541:6711" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="6921:7097" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="7332:8030" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="7370:8019" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="7482:8005" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="7707:7976" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="8220:8466" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="8249:8454" ph="{...}" />
+            <marker date="1498845682241" expanded="true" signature="8594:10940" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="8701:10931" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="8732:10920" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="9206:10256" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="9519:10242" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="10956:11781" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="10982:11771" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11004:11762" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11033:11632" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11057:11619" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11661:11696" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11833:13358" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11866:13351" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="11898:12143" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="12206:13342" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="12240:13331" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="12370:13158" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="12534:13144" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="12575:13004" ph="..." />
+            <marker date="1498845682241" expanded="true" signature="12757:12960" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/product/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459508076000" expanded="true" signature="25360:25367" ph="×" />
+            <marker date="1459508076000" expanded="true" signature="26214:26228" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

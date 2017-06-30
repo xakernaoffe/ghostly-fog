@@ -31,7 +31,7 @@
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
-<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="catalog/view/theme/fog/stylesheet/stylesheet.css" rel="stylesheet">
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -47,8 +47,13 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
+
+bl
+gnhgndgi
+gh
 <nav id="top">
   <div class="container">
+
     <?php echo $currency; ?>
     <?php echo $language; ?>
     <div id="top-links" class="nav pull-right">

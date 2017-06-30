@@ -47,8 +47,10 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
+default
 <nav id="top">
   <div class="container">
+    default
     <?php echo $currency; ?>
     <?php echo $language; ?>
     <div id="top-links" class="nav pull-right">
