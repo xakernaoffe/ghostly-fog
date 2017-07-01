@@ -1,3 +1,30 @@
 @import url(stylesheet.css);
+@font-face {
+  font-family: 'MyriadPro Regular';
+  src: url("./fonts/MyriadProRegular.ttf"); }
+.navigation {
+  background: #363636; }
+  .navigation__links__item {
+    display: inline-block;
+    font: 13px "MyriadPro Regular";
+    line-height: 15px;
+    color: #fff;
+    padding: 20px 15px; }
+    .navigation__links__item:hover {
+      color: #fff;
+      text-decoration: underline; }
+    .navigation__links__item:first-child {
+      padding-left: 0; }
+  .navigation__links__icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    width: 9px;
+    height: 17px;
+    background: url("./img/loginIcon.png") no-repeat; }
+  .navigation__links.login {
+    text-align: right; }
+    .navigation__links.login__item {
+      padding-right: 0; }
 
 /*# sourceMappingURL=style.css.map */

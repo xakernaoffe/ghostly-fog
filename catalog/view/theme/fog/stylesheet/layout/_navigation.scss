@@ -1,0 +1,33 @@
+.navigation {
+  background: $gray-light;
+  &__links {
+    &__item {
+      display: inline-block;
+      font: $base-font $base-font-family;
+      line-height: 15px;
+      color: $white;
+      padding:20px 15px;
+      &:hover {
+        color: $white;
+        text-decoration: underline;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+    &__icon {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 6px;
+      width: 9px;
+      height: 17px;
+      background: url("./img/loginIcon.png") no-repeat;
+    }
+    &.login {
+      text-align: right;
+      &__item {
+        padding-right: 0;
+      }
+    }
+  }
+}
