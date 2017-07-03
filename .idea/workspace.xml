@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_search.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/catalog/logo-100x100.png" afterPath="$PROJECT_DIR$/image/cache/catalog/logo-100x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/logo.png" afterPath="$PROJECT_DIR$/image/catalog/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_product.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/setting/setting.php" afterPath="$PROJECT_DIR$/admin/controller/setting/setting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/setting/setting.tpl" afterPath="$PROJECT_DIR$/admin/view/template/setting/setting.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/cart.php" afterPath="$PROJECT_DIR$/catalog/controller/common/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/information/contact.php" afterPath="$PROJECT_DIR$/catalog/controller/information/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/checkout/cart.php" afterPath="$PROJECT_DIR$/catalog/language/russian/checkout/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/common/cart.php" afterPath="$PROJECT_DIR$/catalog/language/russian/common/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/common/search.php" afterPath="$PROJECT_DIR$/catalog/language/russian/common/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/javascript/common.js" afterPath="$PROJECT_DIR$/catalog/view/javascript/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/latest.php" afterPath="$PROJECT_DIR$/catalog/controller/module/latest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/latest.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/latest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/cart.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/cart.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/information/contact.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/information/contact.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developers/readme.md" afterPath="$PROJECT_DIR$/developers/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +26,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.48785293">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="164">
+                <state relative-caret-position="495">
                   <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="latest.tpl" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -54,18 +49,18 @@
           <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-15">
-                  <caret line="197" column="3" lean-forward="false" selection-start-line="191" selection-start-column="2" selection-end-line="197" selection-end-column="3" />
+                <state relative-caret-position="300">
+                  <caret line="683" column="1" lean-forward="false" selection-start-line="521" selection-start-column="0" selection-end-line="683" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="search.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl">
+          <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="80" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="80" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +73,8 @@
           <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -88,37 +83,42 @@
           <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_search.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_search.scss">
+          <file leaf-file-name="_product.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_product.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="750">
-                  <caret line="136" column="7" lean-forward="false" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+                <state relative-caret-position="448">
+                  <caret line="310" column="38" lean-forward="false" selection-start-line="310" selection-start-column="38" selection-end-line="310" selection-end-column="38" />
                   <folding>
-                    <marker date="1499082167389" expanded="true" signature="4469:4476" ph="×" />
-                    <marker date="1499082167389" expanded="true" signature="8534:8541" ph="×" />
-                    <marker date="1499082167389" expanded="true" signature="9380:9387" ph="×" />
-                    <marker date="1499082167389" expanded="true" signature="10256:10263" ph="×" />
-                    <marker date="1499082167389" expanded="true" signature="13099:13105" ph=" " />
-                    <marker date="1499082167389" expanded="true" signature="13105:13111" ph=" " />
-                    <marker date="1499082167389" expanded="true" signature="13111:13117" ph=" " />
+                    <marker date="1459508076000" expanded="true" signature="25360:25367" ph="×" />
+                    <marker date="1459508076000" expanded="true" signature="26214:26228" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="latest.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/controller/module/latest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -136,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//</find>
-      <find>/d/</find>
       <find>/de/</find>
       <find>/def/</find>
       <find>/defa/</find>
@@ -166,6 +164,8 @@
       <find>text_items</find>
       <find>cart</find>
       <find>child['name']</find>
+      <find>input-quantity</find>
+      <find>$minimum</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -194,12 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/catalog/controller/extension/module/videopublisherwidget.php" />
-        <option value="$PROJECT_DIR$/catalog/controller/extension/module/videopublisher.php" />
-        <option value="$PROJECT_DIR$/../.htaccess" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/admin/config.php" />
-        <option value="$PROJECT_DIR$/catalog/controller/extension/module/popupcart.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/admin/controller/extension/module/popupcart.php" />
         <option value="$PROJECT_DIR$/admin/controller/extension/module/callback.php" />
@@ -234,17 +228,23 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/cart.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/menu.scss" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css" />
         <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
         <option value="$PROJECT_DIR$/catalog/language/russian/common/search.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_menu.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/search.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_search.scss" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/latest.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/latest.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_latest.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_product.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl" />
       </list>
     </option>
   </component>
@@ -316,6 +316,44 @@
               <option name="myItemId" value="fog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -372,14 +410,6 @@
               <option name="myItemId" value="fog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheet" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -418,10 +448,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,15 +519,29 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="russian" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,7 +554,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../talniri" />
+    <property name="last_opened_file_path" value="E:/My all works/Проекты localhost/music" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
@@ -632,12 +672,12 @@
       <workItem from="1498333752893" duration="26000" />
       <workItem from="1498333842317" duration="3827000" />
       <workItem from="1498515472352" duration="13133000" />
-      <workItem from="1498824629700" duration="40242000" />
+      <workItem from="1498824629700" duration="48496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68928000" />
+    <option name="totallyTimeSpent" value="77182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +692,7 @@
     <frame x="1358" y="-195" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -703,191 +743,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/controller/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/payment/klarna_account.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/mega_filter.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="308" column="28" lean-forward="false" selection-start-line="308" selection-start-column="28" selection-end-line="308" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/module/mega_filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="1835" column="51" lean-forward="false" selection-start-line="1835" selection-start-column="51" selection-end-line="1835" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/mf/mega_filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1802" column="48" lean-forward="false" selection-start-line="1802" selection-start-column="48" selection-end-line="1802" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/mega_filter.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="310" column="102" lean-forward="false" selection-start-line="310" selection-start-column="102" selection-end-line="310" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/language/english/module/mega_filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="299" column="235" lean-forward="false" selection-start-line="299" selection-start-column="235" selection-end-line="299" selection-end-column="235" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/storage/modification/catalog/view/theme/fog/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <marker date="1499082108834" expanded="true" signature="862:956" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="1000:1095" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="1129:1284" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="1311:1382" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="1655:1729" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="1737:1807" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="2597:2743" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="2862:2951" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="2993:3073" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3119:3154" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3204:8715" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3253:7355" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3286:7344" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3319:7331" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3353:3615" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3647:7109" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3703:7095" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3739:4213" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3828:4199" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="3859:3982" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4013:4186" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4255:4726" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4342:4712" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4373:4498" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4529:4699" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4769:5247" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4857:5233" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="4888:5015" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5046:5220" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5294:5928" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5390:5914" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5421:5546" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5577:5901" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5660:5886" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5773:5866" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="5971:6447" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6059:6433" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6090:6217" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6248:6420" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6489:6960" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6576:6946" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6607:6732" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="6763:6933" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7143:7319" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7394:8700" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7436:8264" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7554:8252" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7592:8241" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7704:8227" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="7929:8198" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8272:8427" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8442:8688" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8471:8676" ph="{...}" />
-            <marker date="1499082108834" expanded="true" signature="8759:13549" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8778:11157" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8804:11150" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8911:11141" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="8942:11130" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9141:9379" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9184:9364" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9416:10466" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9729:10452" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9763:10229" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="10237:10433" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9683:11409" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9709:11399" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11381:11390" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9760:10420" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9784:10407" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9814:10284" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="9859:10070" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="10078:10263" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="10292:10389" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="10449:10484" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11461:12986" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11494:12979" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11526:11771" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11834:12970" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11868:12959" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="11998:12786" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="12162:12772" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="12203:12632" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="12342:12610" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="12385:12588" ph="..." />
-            <marker date="1499082108834" expanded="true" signature="12440:12565" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1459508076000" expanded="true" signature="25360:25367" ph="×" />
-            <marker date="1459508076000" expanded="true" signature="26214:26228" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/russian/information/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/russian/information/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/russian/information/information.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -935,14 +790,6 @@
           <folding>
             <marker date="1459508076000" expanded="true" signature="741:747" ph="©" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/common/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,14 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-601">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="80" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1101,14 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="197" column="3" lean-forward="false" selection-start-line="191" selection-start-column="2" selection-end-line="197" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/russian/common/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1125,34 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/russian/common/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1181,22 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -1210,6 +1001,169 @@
             <marker date="1499082167389" expanded="true" signature="13105:13111" ph=" " />
             <marker date="1499082167389" expanded="true" signature="13111:13117" ph=" " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/information/information.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/information/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/My all works/Проекты localhost/musicShop/catalog/view/theme/musicshop/stylesheet/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8145">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="80" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="63" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/information/information.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/latest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/latest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="683" column="1" lean-forward="false" selection-start-line="521" selection-start-column="0" selection-end-line="683" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="310" column="38" lean-forward="false" selection-start-line="310" selection-start-column="38" selection-end-line="310" selection-end-column="38" />
+          <folding>
+            <marker date="1459508076000" expanded="true" signature="25360:25367" ph="×" />
+            <marker date="1459508076000" expanded="true" signature="26214:26228" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>

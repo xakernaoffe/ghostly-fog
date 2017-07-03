@@ -14,6 +14,9 @@
 @font-face {
   font-family: 'Roboto Thin';
   src: url("./fonts/Roboto-Thin.ttf"); }
+@font-face {
+  font-family: 'OpenSans Semibold';
+  src: url("./fonts/OpenSans-Semibold.ttf"); }
 header {
   background: #211f20; }
   header .callback {
@@ -196,5 +199,43 @@ header {
     background: url("./img/searchIcon.png") center no-repeat; }
     .search__btn:focus {
       outline: none; }
+
+.product {
+  position: relative; }
+  .product__thumb {
+    background: #fff;
+    overflow: auto; }
+    .product__thumb__image {
+      text-align: center; }
+    .product__thumb__caption {
+      padding: 0 30px; }
+  .product__name {
+    display: block;
+    text-align: center;
+    position: relative;
+    min-height: 45px;
+    font: 16px "Roboto Medium";
+    color: #4e4e4e; }
+    .product__name:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 2px auto;
+      width: 85px;
+      height: 1px;
+      background: #32a0ed; }
+  .product__price {
+    text-align: center;
+    margin: 20px 0;
+    font: 18px/20px "OpenSans Semibold";
+    color: #3a3a3a;
+    text-transform: uppercase; }
+  .product__btn {
+    margin-bottom: 15px; }
+
+body {
+  background: #f4f4f4; }
 
 /*# sourceMappingURL=style.css.map */

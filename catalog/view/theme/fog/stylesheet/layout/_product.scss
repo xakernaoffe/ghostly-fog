@@ -1,0 +1,42 @@
+.product {
+  position: relative;
+  &__thumb {
+    background: $white;
+    overflow: auto;
+    &__image {
+      text-align: center;
+    }
+    &__caption {
+      padding:0 30px;
+    }
+  }
+  &__name {
+    display: block;
+    text-align: center;
+    position: relative;
+    min-height: 45px;
+    font: 16px "Roboto Medium";
+    color: $text-color;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin:2px auto;
+      width:85px;
+      height: 1px;
+      background: $blue;
+    }
+  }
+  &__price {
+    text-align: center;
+    margin:20px 0;
+    font: 18px/20px "OpenSans Semibold";
+    color: #3a3a3a;
+    text-transform: uppercase;
+  }
+  &__btn {
+    margin-bottom:15px;
+  }
+}

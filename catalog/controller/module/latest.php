@@ -4,12 +4,14 @@ class ControllerModuleLatest extends Controller {
 		$this->load->language('module/latest');
 
 		$data['heading_title'] = $this->language->get('heading_title');
+        $data['text_link'] = $this->language->get('text_link');
 
 		$data['text_tax'] = $this->language->get('text_tax');
 
 		$data['button_cart'] = $this->language->get('button_cart');
 		$data['button_wishlist'] = $this->language->get('button_wishlist');
 		$data['button_compare'] = $this->language->get('button_compare');
+        $data['latest'] = $this->url->link('product/latest');
 
 		$this->load->model('catalog/product');
 
