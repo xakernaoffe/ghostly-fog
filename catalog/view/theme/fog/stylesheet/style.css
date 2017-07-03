@@ -2,6 +2,99 @@
 @font-face {
   font-family: 'MyriadPro Regular';
   src: url("./fonts/MyriadProRegular.ttf"); }
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url("./fonts/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url("./fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: 'RobotoCondensed Regular';
+  src: url("./fonts/RobotoCondensed-Regular.ttf"); }
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("./fonts/Roboto-Thin.ttf"); }
+header {
+  background: #211f20; }
+  header .callback {
+    padding-top: 40px; }
+    header .callback__icon {
+      width: 41px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 16px;
+      background: url("./img/callbackIcon.png") no-repeat; }
+    header .callback__info {
+      display: inline-block;
+      vertical-align: middle;
+      font: 16px/20px "OpenSans Regular";
+      color: #fff; }
+    header .callback__link {
+      display: block;
+      color: #32a0ed;
+      padding-bottom: 2px; }
+  header .phones {
+    padding-top: 40px; }
+    header .phones__icon {
+      width: 39px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 16px;
+      background: url("./img/phonesIcon.png") no-repeat; }
+    header .phones__links {
+      display: inline-block;
+      vertical-align: middle; }
+      header .phones__links__item {
+        display: block;
+        font: 16px/20px "Roboto Medium";
+        color: #fff; }
+  header .cart {
+    padding-top: 40px; }
+    header .cart .cart-wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      border: 1px solid #32a0ed;
+      border-radius: 5px;
+      height: 46px; }
+      header .cart .cart-wrap__icon {
+        width: 35%;
+        height: 46px;
+        background: linear-gradient(to top, #32a0ed, #00deff);
+        position: relative;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px; }
+        header .cart .cart-wrap__icon:after {
+          content: '';
+          position: absolute;
+          top: 13px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          width: 23px;
+          height: 21px;
+          background: url("./img/cartIcon.png") no-repeat; }
+      header .cart .cart-wrap__sum {
+        width: 65%;
+        text-align: center;
+        font: 16px/46px "OpenSans Regular";
+        color: #fff; }
+      header .cart .cart-wrap__total {
+        position: absolute;
+        top: 12px;
+        left: -15px;
+        background: #363636;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font: 14px/25px "OpenSans Regular";
+        color: #fff;
+        text-align: center; }
+
 .navigation {
   background: #363636; }
   .navigation__links__item {
@@ -26,5 +119,82 @@
     text-align: right; }
     .navigation__links.login__item {
       padding-right: 0; }
+
+.menu {
+  background: #141414; }
+  .menu .navbar {
+    min-height: 55px;
+    margin: 0;
+    padding: 0;
+    border: none; }
+    .menu .navbar__container {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+      align-items: center; }
+    .menu .navbar__item {
+      padding: 0 13px;
+      position: relative;
+      overflow: visible; }
+      .menu .navbar__item .sub-menu {
+        display: none;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        background: #363636;
+        z-index: 5;
+        height: 200px; }
+        .menu .navbar__item .sub-menu__container {
+          padding: 25px 30px; }
+        .menu .navbar__item .sub-menu__list {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: stretch;
+          flex-wrap: wrap; }
+        .menu .navbar__item .sub-menu__item {
+          width: 25%; }
+    .menu .navbar__link {
+      font: 16px/55px "RobotoCondensed Regular";
+      text-transform: uppercase;
+      color: #fff; }
+
+.search {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin-bottom: 0; }
+  .search__container {
+    width: 320px;
+    height: 35px;
+    border: 1px solid #d5d5d5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center; }
+  .search__field {
+    width: 85%;
+    background: none;
+    border: none;
+    padding: 0 15px;
+    font: 14px/35px "Roboto Thin";
+    color: #a4a4a4; }
+    .search__field:focus {
+      outline: none; }
+  .search__btn {
+    width: 15%;
+    height: 30px;
+    border: none;
+    background: url("./img/searchIcon.png") center no-repeat; }
+    .search__btn:focus {
+      outline: none; }
 
 /*# sourceMappingURL=style.css.map */

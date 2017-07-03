@@ -13,3 +13,10 @@ ajax checkoout
 
 http://lowenet.biz/threads/ajax-quick-checkout-one-page-checkout-checkout-checkout.469/page-3
 http://lowenet.biz/threads/ajax-quick-checkout-one-page-checkout-checkout-checkout.469/page-7
+
+2 telephone
+http://forum.opencart-russia.ru/threads/sozdanie-dopolnitelnogo-telefona.994/
+
+
+total and sum cart header
+https://opencartforum.com/topic/35072-kak-mozhno-vyvesti-stoimost-pokupok-i-kolichestvo-tovarov/

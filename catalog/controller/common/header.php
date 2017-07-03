@@ -37,6 +37,7 @@ class ControllerCommonHeader extends Controller {
 
 		$data['title'] = $this->document->getTitle();
         $data['contact'] = $this->url->link('information/contact');
+        $data['open'] = nl2br($this->config->get('config_open')); //time-work
 
 		$data['base'] = $server;
 		$data['description'] = $this->document->getDescription();
@@ -46,6 +47,9 @@ class ControllerCommonHeader extends Controller {
 		$data['scripts'] = $this->document->getScripts();
 		$data['lang'] = $this->language->get('code');
 		$data['direction'] = $this->language->get('direction');
+        $data['telephone'] = $this->config->get('config_telephone');
+        $data['telephone2'] = $this->config->get('config_telephone2');
+
 
 		$data['name'] = $this->config->get('config_name');
 
@@ -138,7 +142,7 @@ class ControllerCommonHeader extends Controller {
 					);
 
 					$children_data[] = array(
-						'name'  => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+						'name'  => $child['name'],
 						'href'  => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
 					);
 				}

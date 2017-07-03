@@ -1,4 +1,95 @@
 header{
-
-
+  background: $gray-dark;
+  .callback {
+    padding-top: 40px;
+    &__icon {
+      width: 41px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 16px;
+      background: url("./img/callbackIcon.png") no-repeat;
+    }
+    &__info {
+      display: inline-block;
+      vertical-align: middle;
+      font: 16px/20px "OpenSans Regular";
+      color: $white;
+    }
+    &__link {
+      display: block;
+      color: $blue;
+      padding-bottom: 2px;
+    }
+  }
+  .phones {
+    padding-top: 40px;
+    &__icon {
+      width: 39px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 16px;
+      background: url("./img/phonesIcon.png") no-repeat;
+    }
+    &__links {
+      display: inline-block;
+      vertical-align: middle;
+      &__item {
+        display: block;
+        font: 16px/20px "Roboto Medium";
+        color: $white;
+      }
+    }
+  }
+  .cart {
+    padding-top: 40px;
+    .cart-wrap {
+      position: relative;
+      display: flex;
+      justify-content:center;
+      align-content: center;
+      align-items: center;
+      border: 1px solid $blue;
+      border-radius: 5px;
+      height: 46px;
+      &__icon {
+        width: 35%;
+        height: 46px;
+        background: linear-gradient(to top, #32a0ed, #00deff);
+        position: relative;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        &:after {
+          content: '';
+          position: absolute;
+          top: 13px;
+          left: 0;
+          right: 0;
+          margin:0 auto;
+          width: 23px;
+          height: 21px;
+          background: url("./img/cartIcon.png") no-repeat;
+        }
+      }
+      &__sum {
+        width: 65%;
+        text-align: center;
+        font: 16px/46px "OpenSans Regular";
+        color: $white;
+      }
+      &__total {
+        position: absolute;
+        top: 12px;
+        left: -15px;
+        background: $gray-light;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font: 14px/25px "OpenSans Regular";
+        color: $white;
+        text-align: center;
+      }
+    }
+  }
 }

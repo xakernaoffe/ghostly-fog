@@ -32,6 +32,7 @@
             </div>
             <div class="col-sm-3"><strong><?php echo $text_telephone; ?></strong><br>
               <?php echo $telephone; ?><br />
+                <?php echo $telephone2; ?><br />
               <br />
               <?php if ($fax) { ?>
               <strong><?php echo $text_fax; ?></strong><br>

@@ -127,6 +127,14 @@ $(document).ready(function() {
 	$(document).ajaxStop(function() {
 		$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 	});
+
+    // delete placeholder
+    $('input,textarea').focus(function(){
+        $(this).data('placeholder',$(this).attr('placeholder'))
+            .attr('placeholder','');
+    }).blur(function(){
+        $(this).attr('placeholder',$(this).data('placeholder'));
+    });
 });
 
 // Cart add remove functions
