@@ -20,3 +20,7 @@ http://forum.opencart-russia.ru/threads/sozdanie-dopolnitelnogo-telefona.994/
 
 total and sum cart header
 https://opencartforum.com/topic/35072-kak-mozhno-vyvesti-stoimost-pokupok-i-kolichestvo-tovarov/
+
+
+add plus minus btn 
+https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=25282

@@ -135,6 +135,40 @@ $(document).ready(function() {
     }).blur(function(){
         $(this).attr('placeholder',$(this).data('placeholder'));
     });
+
+
+    // add plus minus buttons
+    $('.js-quantity').on('click', '.js-minus-qty', function(e){
+        var block = $(this).closest('.js-quantity');
+        var quantity = block.find('.js-input-quantity');
+        var quantityVal = quantity.val();
+
+        if(quantityVal >= 2){
+            var val = parseInt(quantityVal) - parseInt(1);
+            quantity.val(val);
+        }
+    });
+    $('.js-quantity').on('click', '.js-plus-qty', function(e){
+        var block = $(this).closest('.js-quantity');
+        var quantity = block.find('.js-input-quantity');
+        var quantityVal = quantity.val();
+
+        var val = parseInt(quantityVal) + parseInt(1);
+        quantity.val(val);
+
+    });
+    $('.js-addToCart').on('click', function () {
+        var val = $(this).prev('.js-quantity').find('.js-input-quantity').val();
+        var id = $(this).data('id');
+        get_ocmodpcart(id,'catalog', val);
+    });
+
+    // slick slider
+    $('.js-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+    });
 });
 
 // Cart add remove functions

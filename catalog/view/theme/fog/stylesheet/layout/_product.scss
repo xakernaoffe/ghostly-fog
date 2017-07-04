@@ -1,8 +1,18 @@
 .product {
   position: relative;
+  .status-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+  }
   &__thumb {
     background: $white;
     overflow: auto;
+    border:2px solid $white;
+    &:hover {
+      border: 2px solid $blue;
+    }
     &__image {
       text-align: center;
     }
@@ -35,8 +45,107 @@
     font: 18px/20px "OpenSans Semibold";
     color: #3a3a3a;
     text-transform: uppercase;
+    &_new {
+      color: $red;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    &_old {
+      font: 15px/20px "OpenSans Regular";
+      color: #8b8b8b;
+      display: inline-block;
+      vertical-align: bottom;
+      text-decoration: line-through;
+    }
   }
   &__btn {
     margin-bottom:15px;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    align-items: center;
+    padding:0 40px;
+    &__quantity {
+      width: 70px;
+      position: relative;
+      .quantity__buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #cacaca;
+        border-radius: 50%;
+        padding: 0;
+        overflow: hidden;
+        &__up {
+          display: block;
+          width: 100%;
+          height: 14px;
+          background: url("./img/arrowUp.png") no-repeat center;
+          margin:0;
+          cursor: pointer;
+          &:hover{
+            background: url("./img/arrowUp.png") no-repeat center, linear-gradient(#91cef9 , white);
+          }
+        }
+        &__down {
+          display: block;
+          width: 100%;
+          height: 14px;
+          background: url("./img/arrowDown.png") no-repeat center;
+          margin: 0;
+          cursor: pointer;
+          &:hover{
+            background: url("./img/arrowDown.png") no-repeat center, linear-gradient(white , #91cef9);
+          }
+        }
+      }
+    }
+    &__field {
+      width: 100%;
+      height: 30px;
+      padding-left: 20px;
+      background: $white;
+      border: 1px solid #cacaca;
+      border-radius: 20px;
+      font: 14px/30px "Open Sans";
+      color: $black;
+    }
+    &__button {
+      width: 95px;
+      height: 30px;
+      border: 2px solid $blue;
+      border-radius: 20px;
+      padding-left:8px;
+      background: $white;
+      transition-duration: 0.3s;
+      outline: none;
+      &:hover {
+        background: $blue;
+      }
+      &:hover {
+        .product__btn__button__icon{
+          background: url("./img/productCartIconHover.png") no-repeat;
+        }
+        .product__btn__button__text {
+          color: $white;
+        }
+      }
+      &__icon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 17px;
+        height: 16px;
+        background: url("./img/productCartIcon.png") no-repeat;
+      }
+      &__text {
+        display: inline-block;
+        vertical-align: middle;
+        font: 14px/24px "Open Sans";
+        color: #2a2a2a;
+      }
+    }
   }
 }

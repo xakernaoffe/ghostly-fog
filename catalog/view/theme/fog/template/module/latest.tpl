@@ -1,8 +1,8 @@
 <div class="module">
-    <div class="page-title"><?php echo $heading_title; ?></div>
-    <a href="<?php echo $latest; ?>"><?php echo $text_link; ?></a>
+    <div class="module__title"><?php echo $heading_title; ?></div>
+    <a class="module__link" href="<?php echo $latest; ?>"><?php echo $text_link; ?></a>
     <div class="row">
-        <div class="latest">
+        <div class="latest js-slider">
             <?php foreach ($products as $product) { ?>
                 <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="status-icon"></div>
@@ -26,12 +26,16 @@
                             <?php } ?>
                         </div>
                         <div class="product__btn">
-                            <div class="product__quantity">
-                                <input type="text" name="quantity" value="<?php echo $minimum; ?>" id="input-quantity" class="product__quantity" />
+                            <div class="product__btn__quantity js-quantity">
+                                <div class="quantity__buttons ">
+                                    <span class="quantity__buttons__up js-plus-qty"></span>
+                                    <span class="quantity__buttons__down js-minus-qty"></span>
+                                </div>
+                                <input type="text" name="quantity" value="1" size="2" class="product__btn__field js-input-quantity" />
                             </div>
-                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-                                <span class="product__btn__icon"></span>
-                                <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>
+                            <button type="button" class="product__btn__button js-addToCart" data-id="<?php echo $product['product_id']; ?>">
+                                <span class="product__btn__button__icon"></span>
+                                <span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>
                             </button>
                         </div>
                     </div>
@@ -40,4 +44,12 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+
+
+
+
+    });
+</script>
 

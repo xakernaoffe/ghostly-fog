@@ -54,9 +54,9 @@
 //  content: none;
 //}
 //
-//a:hover, a:active {
-//  outline: none;
-//}
+a:hover, a:active,a:focus {
+  outline: none;
+}
 //
 //table {
 //  border-collapse: collapse;
