@@ -16,9 +16,12 @@ class ControllerCommonFooter extends Controller {
 		$data['text_affiliate'] = $this->language->get('text_affiliate');
 		$data['text_special'] = $this->language->get('text_special');
 		$data['text_account'] = $this->language->get('text_account');
+		$data['text_room'] = $this->language->get('text_room');
 		$data['text_order'] = $this->language->get('text_order');
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
+		$data['text_catrgories'] = $this->language->get('text_catrgories');
+		$data['text_warning'] = $this->language->get('text_warning');
 
 		$this->load->model('catalog/information');
 
@@ -45,7 +48,53 @@ class ControllerCommonFooter extends Controller {
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
 		$data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
 
-		$data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+        $data['email'] = $this->config->get('config_email');
+        $data['site_name'] = $this->config->get('config_name');
+        $data['site_descr'] = $this->config->get('config_meta_description');
+        $data['telephone'] = $this->config->get('config_telephone');
+        $data['telephone2'] = $this->config->get('config_telephone2');
+        $data['open'] = nl2br($this->config->get('config_open'));
+        $data['home'] = $this->url->link('common/home');
+
+		$data['powered'] = sprintf(date('Y', time()));
+
+        // Menu
+        $this->load->model('catalog/category');
+
+        $this->load->model('catalog/product');
+
+        $data['categories'] = array();
+
+        $categories = $this->model_catalog_category->getCategories(0);
+
+        foreach ($categories as $category) {
+            if ($category['top']) {
+                // Level 2
+                $children_data = array();
+
+                $children = $this->model_catalog_category->getCategories($category['category_id']);
+
+                foreach ($children as $child) {
+                    $filter_data = array(
+                        'filter_category_id'  => $child['category_id'],
+                        'filter_sub_category' => true
+                    );
+
+                    $children_data[] = array(
+                        'name'  => $child['name'],
+                        'href'  => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
+                    );
+                }
+
+                // Level 1
+                $data['categories'][] = array(
+                    'name'     => $category['name'],
+                    'children' => $children_data,
+                    'column'   => $category['column'] ? $category['column'] : 1,
+                    'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
+                );
+            }
+        }
 
 		// Whos Online
 		if ($this->config->get('config_customer_online')) {

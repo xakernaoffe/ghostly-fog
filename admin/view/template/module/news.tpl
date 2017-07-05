@@ -26,10 +26,77 @@
       <div class="panel-body">
         <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form-news" class="form-horizontal">
           <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"><?php echo $entry_name; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="name" value="<?php echo $name; ?>" placeholder="<?php echo $entry_name; ?>" id="input-name" class="form-control" />
+              <?php if ($error_name) { ?>
+              <div class="text-danger"><?php echo $error_name; ?></div>
+              <?php } ?>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-width"><?php echo $entry_width; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="width" value="<?php echo $width; ?>" placeholder="<?php echo $entry_width; ?>" id="input-width" class="form-control" />
+              <?php if ($error_width) { ?>
+              <div class="text-danger"><?php echo $error_width; ?></div>
+              <?php } ?>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-height"><?php echo $entry_height; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="height" value="<?php echo $height; ?>" placeholder="<?php echo $entry_height; ?>" id="input-height" class="form-control" />
+              <?php if ($error_height) { ?>
+              <div class="text-danger"><?php echo $error_height; ?></div>
+              <?php } ?>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-limit"><?php echo $entry_limit; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="limit" value="<?php echo $limit; ?>" placeholder="<?php echo $entry_limit; ?>" id="input-limit" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-desc-limit"><?php echo $entry_desc_limit; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="desc_limit" value="<?php echo $desc_limit; ?>" placeholder="<?php echo $entry_desc_limit; ?>" id="input-desc-limit" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-show-title"><?php echo $entry_show_title; ?></label>
+            <div class="col-sm-10">
+              <select name="show_title" id="input-show-icon" class="form-control">
+                <?php if ($show_title) { ?>
+                <option value="1" selected="selected"><?php echo $text_yes; ?></option>
+                <option value="0"><?php echo $text_no; ?></option>
+                <?php } else { ?>
+                <option value="1"><?php echo $text_yes; ?></option>
+                <option value="0" selected="selected"><?php echo $text_no; ?></option>
+                <?php } ?>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-show-icon"><?php echo $entry_show_icon; ?></label>
+            <div class="col-sm-10">
+              <select name="show_icon" id="input-show-icon" class="form-control">
+                <?php if ($show_icon) { ?>
+                <option value="1" selected="selected"><?php echo $text_yes; ?></option>
+                <option value="0"><?php echo $text_no; ?></option>
+                <?php } else { ?>
+                <option value="1"><?php echo $text_yes; ?></option>
+                <option value="0" selected="selected"><?php echo $text_no; ?></option>
+                <?php } ?>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
             <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
             <div class="col-sm-10">
-              <select name="news_status" id="input-status" class="form-control">
-                <?php if ($news_status) { ?>
+              <select name="status" id="input-status" class="form-control">
+                <?php if ($status) { ?>
                 <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
                 <option value="0"><?php echo $text_disabled; ?></option>
                 <?php } else { ?>

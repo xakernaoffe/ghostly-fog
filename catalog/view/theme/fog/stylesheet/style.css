@@ -1,6 +1,8 @@
 @import url(stylesheet.css);
 a:hover, a:active, a:focus {
-  outline: none; }
+  outline: none;
+  text-decoration: none;
+  color: inherit; }
 
 @font-face {
   font-family: 'MyriadPro Regular';
@@ -335,7 +337,8 @@ body {
   background: #f4f4f4; }
 
 .module {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
   .module__title {
     display: inline-block;
     vertical-align: middle;
@@ -390,6 +393,159 @@ body {
     .module .slick-arrow.slick-next {
       background: #007cd2 url("./img/slick-next.png") center no-repeat;
       right: 15px; }
+
+.pvr-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 13px;
+  flex-wrap: wrap; }
+  .pvr-list .pvr-video-item {
+    width: 30%; }
+
+.news {
+  margin-top: 13px; }
+  .news__thumb {
+    background: #fff; }
+  .news__caption {
+    padding: 10px 20px 0; }
+  .news__title {
+    font: 16px/18px "Roboto Medium";
+    color: #4e4e4e; }
+  .news__descr {
+    font: 14px/18px "Roboto Light";
+    color: #4d4d4d;
+    margin: 16px 0; }
+  .news__info {
+    border-top: 1px solid #f4f4f4;
+    padding: 10px 20px;
+    font: 13px/15px "Roboto Light";
+    color: #b6b6b6; }
+
+.module .owl-carousel {
+  margin-bottom: 50px;
+  padding: 25px 55px;
+  background: #f4f4f4;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc; }
+  .module .owl-carousel .owl-wrapper-outer {
+    border: none;
+    box-shadow: none;
+    border-radius: 0; }
+  .module .owl-carousel .owl-buttons .owl-prev {
+    opacity: 1;
+    left: 0;
+    top: 25px;
+    width: 33px;
+    height: 92px;
+    background: #2a2a2a; }
+    .module .owl-carousel .owl-buttons .owl-prev .prev {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      display: block;
+      width: 6px;
+      height: 10px;
+      background: url("./img/slick-prev.png") center no-repeat; }
+  .module .owl-carousel .owl-buttons .owl-next {
+    opacity: 1;
+    right: 0;
+    top: 25px;
+    width: 33px;
+    height: 92px;
+    background: #2a2a2a; }
+    .module .owl-carousel .owl-buttons .owl-next .next {
+      position: absolute;
+      display: block;
+      width: 6px;
+      height: 10px;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background: url("./img/slick-next.png") center no-repeat; }
+
+.footer {
+  background: #363636; }
+  .footer__item__title {
+    font: 18px/20px "Roboto Medium";
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 27px; }
+  .footer__item__list {
+    margin: 0;
+    list-style-type: none;
+    padding: 0; }
+  .footer__item__link {
+    display: block;
+    font: 14px/16px "OpenSans Regular";
+    color: #a9a9a9;
+    margin: 8px 0; }
+  .footer__item__info {
+    margin: 8px 0 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center; }
+    .footer__item__info__icon {
+      width: 20%; }
+      .footer__item__info__icon .phones {
+        display: block;
+        width: 20px;
+        height: 32px;
+        background: url("./img/phonesIconF.png") no-repeat; }
+      .footer__item__info__icon .work-time {
+        display: block;
+        width: 30px;
+        height: 32px;
+        background: url("./img/workTimeIconF.png") no-repeat; }
+      .footer__item__info__icon .mail {
+        display: block;
+        width: 32px;
+        height: 24px;
+        background: url("./img/mailIcon.png") no-repeat; }
+    .footer__item__info__link {
+      display: block;
+      font: 14px/16px "Roboto Light";
+      color: #fff; }
+    .footer__item__info__wrap {
+      font: 14px/16px "Roboto Light";
+      color: #fff; }
+    .footer__item__info.social {
+      justify-content: center;
+      margin-bottom: 25px; }
+  .footer__item__socLink {
+    width: 17%;
+    text-align: center; }
+
+.copyright {
+  background: #2a2a2a;
+  font: 13px/18px "OpenSans Regular";
+  color: #a9a9a9;
+  padding: 20px 0; }
+  .copyright__text {
+    padding: 0; }
+    .copyright__text__link {
+      font: 13px/18px "OpenSans Regular";
+      color: #a9a9a9; }
+      .copyright__text__link:hover {
+        color: #a9a9a9; }
+  .copyright .warning {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0; }
+    .copyright .warning__text {
+      width: 80%; }
+    .copyright .warning__icon {
+      display: block;
+      width: 38px;
+      height: 38px;
+      background: url("./img/warningIcon.png") no-repeat; }
 
 /* Slider */
 .slick-slider {

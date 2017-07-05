@@ -1,0 +1,99 @@
+.footer {
+  background: $gray-light;
+  &__item {
+    &__title {
+      font: 18px/20px "Roboto Medium";
+      color: $white;
+      text-transform: uppercase;
+      margin-bottom: 27px;
+    }
+    &__list {
+      margin:0;
+      list-style-type:none;
+      padding: 0;
+    }
+    &__link {
+      display: block;
+      font: 14px/16px "OpenSans Regular";
+      color: #a9a9a9;
+      margin:8px 0;
+    }
+    &__info {
+      margin:8px 0 12px;
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+      align-content: center;
+      &__icon {
+        width: 20%;
+        .phones {
+          display: block;
+          width: 20px;
+          height: 32px;
+          background: url("./img/phonesIconF.png") no-repeat;
+        }
+        .work-time {
+          display: block;
+          width: 30px;
+          height: 32px;
+          background: url("./img/workTimeIconF.png") no-repeat;
+        }
+        .mail {
+          display: block;
+          width: 32px;
+          height: 24px;
+          background: url("./img/mailIcon.png") no-repeat;
+        }
+      }
+      &__link {
+        display: block;
+        font: 14px/16px "Roboto Light";
+        color: $white;
+      }
+      &__wrap {
+        font: 14px/16px "Roboto Light";
+        color: $white;
+      }
+      &.social {
+        justify-content:center;
+        margin-bottom: 25px;
+      }
+    }
+    &__socLink {
+      width: 17%;
+      text-align: center;
+    }
+  }
+}
+.copyright {
+  background: #2a2a2a;
+  font: 13px/18px "OpenSans Regular";
+  color: #a9a9a9;
+  padding: 20px 0;
+  &__text {
+    padding: 0;
+    &__link {
+      font: 13px/18px "OpenSans Regular";
+      color: #a9a9a9;
+      &:hover {
+        color: #a9a9a9;
+      }
+    }
+  }
+  .warning {
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    &__text {
+      width: 80%;
+    }
+    &__icon {
+      display: block;
+      width: 38px;
+      height: 38px;
+      background: url("./img/warningIcon.png") no-repeat;
+    }
+  }
+}

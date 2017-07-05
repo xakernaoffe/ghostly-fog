@@ -1,47 +1,92 @@
-<footer>
+<footer class="footer">
   <div class="container">
     <div class="row">
-      <?php if ($informations) { ?>
-      <div class="col-sm-3">
-        <h5><?php echo $text_information; ?></h5>
-        <ul class="list-unstyled">
-          <?php foreach ($informations as $information) { ?>
-          <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-          <?php } ?>
-        </ul>
-      </div>
-      <?php } ?>
-      <div class="col-sm-3">
-        <h5><?php echo $text_service; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-          <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
-          <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5><?php echo $text_extra; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-          <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-          <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-          <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5><?php echo $text_account; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-          <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-          <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
-          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-        </ul>
-      </div>
+        <?php if ($categories) { ?>
+            <div class="footer__item col-sm-3">
+                <div class="footer__item__title"><?php echo $text_catrgories ?></div>
+                <ul class="footer__item__list">
+                    <?php foreach ($categories as $category) { ?>
+                        <li>
+                            <a href="<?php echo $category['href']; ?>" class="footer__item__link"><?php echo $category['name']; ?></a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+        <?php } ?>
+        <div class="footer__item col-sm-3">
+            <div class="footer__item__title"><?php echo $text_account; ?></div>
+            <ul class="footer__item__list">
+                <li><a href="<?php echo $account; ?>" class="footer__item__link"><?php echo $text_room; ?></a></li>
+                <li><a href="<?php echo $order; ?>" class="footer__item__link"><?php echo $text_order; ?></a></li>
+                <li><a href="<?php echo $newsletter; ?>" class="footer__item__link"><?php echo $text_newsletter; ?></a></li>
+            </ul>
+        </div>
+        <?php if ($informations) { ?>
+            <div class="footer__item col-sm-3">
+                <div class="footer__item__title"><?php echo $text_information; ?></div>
+                <ul class="footer__item__list">
+                    <?php foreach ($informations as $information) { ?>
+                        <li><a href="<?php echo $information['href']; ?>" class="footer__item__link"><?php echo $information['title']; ?></a></li>
+                    <?php } ?>
+                </ul>
+                <a href="<?php echo $contact; ?>" class="footer__item__link"><?php echo $text_contact; ?></a>
+            </div>
+        <?php } ?>
+        <div class="footer__item col-sm-3">
+            <div class="footer__item__title"><?php echo $text_contact; ?></div>
+            <div class="footer__item__info">
+                <div class="footer__item__info__icon">
+                    <span class="phones"></span>
+                </div>
+                <div class="footer__item__info__wrap">
+                    <a href="tel:+380934484918" class="footer__item__info__link"><?php echo $telephone; ?></a>
+                    <a href="tel:+380957089879" class="footer__item__info__link"><?php echo $telephone2; ?></a>
+                </div>
+            </div>
+            <div class="footer__item__info">
+                <div class="footer__item__info__icon">
+                    <span class="work-time"></span>
+                </div>
+                <div class="footer__item__info__wrap">
+                    <?php echo $open; ?>
+                </div>
+            </div>
+            <div class="footer__item__info">
+                <div class="footer__item__info__icon">
+                    <span class="mail"></span>
+                </div>
+                <div class="footer__item__info__wrap"><?php echo $email; ?></div>
+            </div>
+            <div class="footer__item__info social">
+                <a href="#" class="footer__item__socLink">
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="footer__item__socLink">
+                    <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="footer__item__socLink">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="footer__item__socLink">
+                    <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
     </div>
-    <hr>
-    <p><?php echo $powered; ?></p>
-  </div>
 </footer>
+<div class="copyright">
+    <div class="container">
+        <div class="copyright__text col-sm-9">
+            <?php echo $powered; ?>
+            <a href="<?php echo $home; ?>" class="copyright__text__link"><?php echo $site_name; ?></a>
+            <div class="copyright__text__content"><?php echo $site_descr; ?></div>
+        </div>
+        <div class="warning col-sm-3">
+            <div class="warning__text"><?php echo $text_warning; ?></div>
+            <div class="warning__icon"></div>
+        </div>
+    </div>
+</div>
 
 <!-- Theme created by MakaroFF for OpenCart 2.1 -->
 

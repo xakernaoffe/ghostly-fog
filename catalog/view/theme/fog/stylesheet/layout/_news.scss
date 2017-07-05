@@ -1,0 +1,24 @@
+.news {
+  margin-top: 13px;
+  &__thumb {
+    background: $white;
+  }
+  &__caption {
+    padding:10px 20px 0;
+  }
+  &__title {
+    font: 16px/18px "Roboto Medium";
+    color: $text-color;
+  }
+  &__descr {
+    font: 14px/18px "Roboto Light";
+    color: #4d4d4d;
+    margin:16px 0;
+  }
+  &__info {
+    border-top: 1px solid #f4f4f4;
+    padding:10px 20px;
+    font: 13px/15px "Roboto Light";
+    color: #b6b6b6;
+  }
+}

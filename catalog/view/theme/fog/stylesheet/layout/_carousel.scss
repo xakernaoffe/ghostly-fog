@@ -1,0 +1,55 @@
+
+.module {
+  .owl-carousel {
+    margin-bottom: 50px;
+    padding:25px 55px;
+    background: #f4f4f4;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    .owl-wrapper-outer {
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    .owl-buttons {
+      .owl-prev {
+        opacity: 1;
+        left: 0;
+        top: 25px;
+        width: 33px;
+        height: 92px;
+        background: #2a2a2a;
+        .prev {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          margin:0 auto;
+          display: block;
+          width: 6px;
+          height: 10px;
+          background: url("./img/slick-prev.png") center no-repeat;
+        }
+      }
+      .owl-next {
+        opacity: 1;
+        right: 0;
+        top: 25px;
+        width: 33px;
+        height: 92px;
+        background: #2a2a2a;
+        .next {
+          position: absolute;
+          display: block;
+          width: 6px;
+          height: 10px;
+          top: 50%;
+          left: 0;
+          right: 0;
+          margin:0 auto;
+          background: url("./img/slick-next.png") center no-repeat;
+        }
+      }
+    }
+  }
+}

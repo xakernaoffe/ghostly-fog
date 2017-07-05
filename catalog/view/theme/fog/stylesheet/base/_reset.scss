@@ -56,6 +56,8 @@
 //
 a:hover, a:active,a:focus {
   outline: none;
+  text-decoration: none;
+  color: inherit;
 }
 //
 //table {
