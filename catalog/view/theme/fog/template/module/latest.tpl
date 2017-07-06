@@ -1,6 +1,9 @@
 <div class="module">
-    <div class="module__title"><?php echo $heading_title; ?></div>
-    <a class="module__link" href="<?php echo $latest; ?>"><?php echo $text_link; ?></a>
+    <div class="module__header">
+        <div class="module__title"><?php echo $heading_title; ?></div>
+        <a class="module__link" href="<?php echo $latest; ?>"><?php echo $text_link; ?></a>
+        <hr class="module__header__line">
+    </div>
     <div class="row">
         <div class="latest js-slider">
             <?php foreach ($products as $product) { ?>

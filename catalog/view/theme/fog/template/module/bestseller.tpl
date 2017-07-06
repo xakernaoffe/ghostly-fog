@@ -1,5 +1,8 @@
 <div class="module">
-    <div class="module__title"><?php echo $heading_title; ?></div>
+    <div class="module__header">
+        <div class="module__title"><?php echo $heading_title; ?></div>
+        <hr class="module__header__line">
+    </div>
     <div class="row">
         <div class="bestseller js-slider">
             <?php foreach ($products as $product) { ?>

@@ -1,8 +1,11 @@
 <div class="module">
-    <?php if($show_title) { ?>
-    <div class="module__title"><?php echo $show_icon ? '<i class="fa fa-newspaper-o fa-3x"></i>&nbsp;' : ''; ?><?php echo $heading_title; ?></div>
-    <?php } ?>
-    <a class="module__link" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
+    <div class="module__header">
+        <?php if($show_title) { ?>
+            <div class="module__title"><?php echo $show_icon ? '<i class="fa fa-newspaper-o fa-3x"></i>&nbsp;' : ''; ?><?php echo $heading_title; ?></div>
+        <?php } ?>
+        <a class="module__link" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
+        <hr class="module__header__line">
+    </div>
     <div class="row">
         <div class="news">
             <?php foreach ($news as $news_item) { ?>

@@ -44,7 +44,8 @@ header {
     header .callback__link {
       display: block;
       color: #32a0ed;
-      padding-bottom: 2px; }
+      padding-bottom: 2px;
+      text-decoration: underline; }
   header .phones {
     padding-top: 40px; }
     header .phones__icon {
@@ -338,8 +339,21 @@ body {
   overflow-x: hidden; }
 
 .module {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-top: 40px; }
+  .module__header {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #e2e2e2;
+    position: relative;
+    margin-bottom: 30px; }
+    .module__header__line {
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      width: 45px;
+      height: 3px;
+      background: #32a0ed;
+      margin: 0;
+      border: none; }
   .module__title {
     display: inline-block;
     vertical-align: middle;
@@ -366,21 +380,17 @@ body {
       width: 14px;
       height: 8px;
       background: url("./img/arrowRight.png") no-repeat; }
-  .module .latest {
-    margin-top: 13px; }
-    .module .latest .status-icon {
-      width: 43px;
-      height: 21px;
-      background: url("./img/newIcon.png") no-repeat; }
-  .module .bestseller {
-    margin-top: 13px; }
-    .module .bestseller .status-icon {
-      width: 43px;
-      height: 21px;
-      background: url("./img/hitIcon.png") no-repeat; }
+  .module .latest .status-icon {
+    width: 43px;
+    height: 21px;
+    background: url("./img/newIcon.png") no-repeat; }
+  .module .bestseller .status-icon {
+    width: 43px;
+    height: 21px;
+    background: url("./img/hitIcon.png") no-repeat; }
   .module .slick-arrow {
     position: absolute;
-    top: -40px;
+    top: -70px;
     width: 25px;
     height: 25px;
     font-size: 0;
@@ -395,34 +405,71 @@ body {
       background: #007cd2 url("./img/slick-next.png") center no-repeat;
       right: 15px; }
 
-.pvr-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  margin-top: 13px;
-  flex-wrap: wrap; }
-  .pvr-list .pvr-video-item {
-    width: 30%; }
+.video-wrap {
+  margin-top: 40px;
+  width: 100vw;
+  margin-left: calc((-100vw + 1140px)/2);
+  background: url("./img/videoBg.png") no-repeat; }
+  .video-wrap .module__title {
+    color: #fff; }
+  .video-wrap .video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center; }
+    .video-wrap .video__wrap {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+    .video-wrap .video__item {
+      position: relative;
+      margin-bottom: 30px; }
+      .video-wrap .video__item.first {
+        margin-bottom: 0; }
+        .video-wrap .video__item.first .video__item__title {
+          font: 18px/20px "OpenSans Regular"; }
+      .video-wrap .video__item__link {
+        display: block;
+        position: relative; }
+      .video-wrap .video__item__overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        background: rgba(0, 0, 0, 0.5) url("./img/playIcon.png") center no-repeat; }
+        .video-wrap .video__item__overlay:hover {
+          background: rgba(0, 0, 0, 0.2) url("./img/playIconHover.png") center no-repeat; }
+      .video-wrap .video__item__title {
+        position: absolute;
+        bottom: 12px;
+        left: 25px;
+        border-left: 3px solid #32a0ed;
+        font: 16px/18px "OpenSans Regular";
+        color: #fff;
+        padding-left: 8px; }
 
-.news {
-  margin-top: 13px; }
-  .news__thumb {
-    background: #fff; }
-  .news__caption {
-    padding: 10px 20px 0; }
-  .news__title {
-    font: 16px/18px "Roboto Medium";
-    color: #4e4e4e; }
-  .news__descr {
-    font: 14px/18px "Roboto Light";
-    color: #4d4d4d;
-    margin: 16px 0; }
-  .news__info {
-    border-top: 1px solid #f4f4f4;
-    padding: 10px 20px;
-    font: 13px/15px "Roboto Light";
-    color: #b6b6b6; }
+.news__thumb {
+  background: #fff; }
+.news__caption {
+  padding: 10px 20px 0; }
+.news__title {
+  font: 16px/18px "Roboto Medium";
+  color: #4e4e4e; }
+.news__descr {
+  font: 14px/18px "Roboto Light";
+  color: #4d4d4d;
+  margin: 16px 0; }
+.news__info {
+  border-top: 1px solid #f4f4f4;
+  padding: 10px 20px;
+  font: 13px/15px "Roboto Light";
+  color: #b6b6b6; }
 
 .module .owl-carousel {
   margin-bottom: 50px;
