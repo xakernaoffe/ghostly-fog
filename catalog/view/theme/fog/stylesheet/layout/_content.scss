@@ -2,3 +2,45 @@ body {
   background: $bg;
   overflow-x: hidden;
 }
+.breadcrumb {
+  list-style-type:none;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  align-content: center;
+  margin-top: 38px;
+  margin-bottom: 0;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  border: none;
+  &__item {
+    text-shadow: none;
+    &:last-child {
+      .breadcrumb__link {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  &__link {
+    font: 13px/15px "MyriadPro Regular";
+    color: #dedede;
+    position: relative;
+    &:hover {
+      color: #dedede;
+      text-decoration: underline;
+    }
+    &:after {
+      position: absolute;
+      top: 3px;
+      right: -25px;
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 10px;
+      background: url("./img/slick-next.png") no-repeat;
+    }
+  }
+}

@@ -121,7 +121,9 @@
                                         <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
                                             <ul class="sub-menu__list">
                                                 <?php foreach ($children as $child) { ?>
-                                                    <li class="sub-menu__item"><a href="<?php echo $child['href']; ?>" class="sub-menu__link"><?php echo $child['name']; ?></a></li>
+                                                    <li class="sub-menu__item">
+                                                        <a href="<?php echo $child['href']; ?>" class="sub-menu__link"><?php echo $child['name']; ?></a>
+                                                    </li>
                                                 <?php } ?>
                                             </ul>
                                         <?php } ?>
@@ -132,6 +134,17 @@
                             <li class="navbar__item"><a href="<?php echo $category['href']; ?>" class="navbar__link"><?php echo $category['name']; ?></a></li>
                         <?php } ?>
                     <?php } ?>
+                </ul>
+                <ul class="navbar__container">
+                    <li class="navbar__item">
+                        <a href="<?php echo $latest; ?>" class="navbar__link"><?php echo $text_latest; ?></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="<?php echo $pvr_view_all_link; ?>" class="navbar__link"><?php echo $text_video; ?></a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="<?php echo $news_link; ?>" class="navbar__link"><?php echo $text_news; ?></a>
+                    </li>
                 </ul>
             </nav>
             <div class="search col-sm-4"><?php echo $search; ?></div>

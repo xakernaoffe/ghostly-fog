@@ -59,6 +59,9 @@ a:hover, a:active,a:focus {
   text-decoration: none;
   color: inherit;
 }
+button:focus, button:active {
+  outline: none;
+}
 //
 //table {
 //  border-collapse: collapse;

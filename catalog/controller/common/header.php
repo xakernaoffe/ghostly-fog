@@ -89,6 +89,8 @@ class ControllerCommonHeader extends Controller {
 		$data['text_page'] = $this->language->get('text_page');
 		$data['text_category'] = $this->language->get('text_category');
 		$data['text_all'] = $this->language->get('text_all');
+		$data['text_video'] = $this->language->get('text_video');
+		$data['text_news'] = $this->language->get('text_news');
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
@@ -104,6 +106,9 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
+
+        $data['latest'] = $this->url->link('product/latest');
+        $data['text_latest'] = $this->language->get('text_latest');
 
 		$status = true;
 
@@ -161,6 +166,11 @@ class ControllerCommonHeader extends Controller {
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
+        $data['news_link'] = $this->url->link('information/news');
+
+        $pvr_ssl = ((int)$_SERVER['SERVER_PORT'] == 443) ? 'SSL' : 'NONSSL';
+        $data['pvr_ssl'] = $pvr_ssl;
+        $data['pvr_view_all_link'] = $this->url->link('videopublisher/index', '', $pvr_ssl);
 
 		// For page specific css
 		if (isset($this->request->get['route'])) {

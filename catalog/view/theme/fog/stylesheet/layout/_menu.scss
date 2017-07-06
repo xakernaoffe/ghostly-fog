@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
     border: none;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    align-items: center;
     &__container {
       list-style-type:none;
       margin: 0;
@@ -15,9 +19,14 @@
       align-items: center;
     }
     &__item {
-      padding:0 13px;
+      padding:0 10px;
       position: relative;
       overflow: visible;
+      &:hover {
+        .sub-menu {
+          display: block;
+        }
+      }
       .sub-menu {
         display: none;
         position: absolute;
@@ -25,6 +34,7 @@
         left: 0;
         background: $gray-light;
         z-index: 5;
+        width: 655px;
         height: 200px;
         &__container {
           padding:25px 30px;
@@ -41,6 +51,16 @@
         }
         &__item {
           width: 25%;
+          margin-bottom: 20px;
+        }
+        &__link {
+          font: 14px/16px "MyriadPro Regular";
+          color: #b8b8b8;
+          text-transform: uppercase;
+          white-space: nowrap;
+          &:hover {
+            color: $white;
+          }
         }
       }
     }

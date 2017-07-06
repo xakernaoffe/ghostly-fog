@@ -1,0 +1,118 @@
+.category {
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+  }
+  &__sort {
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #adadad;
+    margin:0 15px;
+    &__select {
+      &__title {
+        display: inline-block;
+        vertical-align: middle;
+        font: 14px/16px "MyriadPro Regular";
+        color: #2a2a2a;
+        margin-right: 14px;
+        margin-bottom: 0;
+      }
+      &__field {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+      }
+    }
+    &__buttons {
+      width: 68px;
+      height: 32px;
+      border: 1px solid #adadad;
+      margin-left: 50px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      align-content: center;
+      &__item {
+        width: 50%;
+        background: none;
+        color: #211f20;
+        border: none;
+        &.active {
+          color: $blue;
+        }
+      }
+    }
+  }
+  .product {
+    &.product-list {
+      .product__thumb {
+        display: flex;
+        justify-content:flex-start;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 27px;
+        &__image {
+          width: 25%;
+        }
+        &__caption {
+          width: 75%;
+          padding:15px 30px;
+        }
+      }
+      .product__name {
+        text-align: left;
+        min-height: 30px;
+        &:after {
+          left: 0;
+          right:auto;
+        }
+      }
+      .product__price {
+        text-align: left;
+        margin:15px 0;
+      }
+      .product__attribute {
+        margin:5px 0;
+        &__item {
+          font: 13px/20px "OpenSans Regular";
+          color: #3a3a3a;
+        }
+      }
+      .product__btn {
+        padding: 0;
+        margin-top: 25px;
+        justify-content:flex-start;
+        margin-bottom: 0;
+        &__button {
+          margin-left: 15px;
+          &:hover {
+            color: $white;
+          }
+          &__icon {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+    &.product-grid {
+      margin-bottom: 30px;
+      .product__attribute {
+        display: none;
+      }
+      .product__btn {
+        padding: 0;
+      }
+    }
+  }
+}
