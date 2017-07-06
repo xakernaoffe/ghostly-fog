@@ -1,0 +1,51 @@
+.slideshow {
+  width: 100vw;
+  margin-left: calc((-100vw + 1140px)/2);
+  background: url("./img/vaperBanner.png") 50% 100% no-repeat;
+  .owl-carousel {
+    background: transparent;
+    .owl-wrapper-outer {
+      border: none;
+      box-shadow: none;
+      .productAdvt {
+        position: relative;
+        display: block;
+        &__btn {
+          position: absolute;
+          bottom: 145px;
+          left: 185px;
+          width: 110px;
+          height: 35px;
+          border: 2px solid $white;
+          border-radius: 20px;
+          padding-left: 11px;
+          cursor: pointer;
+          transition-duration: 0.3s;
+          &:hover {
+            background: $white;
+            .productAdvt__btn__icon {
+              background: url("./img/productCartIcon.png") no-repeat;
+            }
+            .productAdvt__btn__text {
+              color: $black;
+            }
+          }
+          &__icon {
+            width: 17px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 3px;
+            background: url("./img/productCartIconHover.png") no-repeat;
+          }
+          &__text {
+            display: inline-block;
+            vertical-align: middle;
+            font: 16px/30px "OpenSans Regular";
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

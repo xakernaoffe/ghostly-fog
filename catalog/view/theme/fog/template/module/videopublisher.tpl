@@ -1,7 +1,6 @@
 <div class="module">
     <div class="module__title"><?php echo $heading_title; ?></div>
     <a class="module__link" href="<?php echo $pvr_view_all_link; ?>"><?php echo $button_view_all; ?></a>
-<!--	<div class="js-slider">-->
         <div class="box-content">
             <div class="pvr-list pvr-contentLayout">
 
@@ -21,7 +20,7 @@
                     } ?>
                 <?php if ($i == 0) {?>
 <!--FIRST 1-->
-                        <div class="pvr-video-item" style="background: purple;">
+                        <div class="pvr-video-item first" style="background: purple;">
                             <div class="left">
                                 <div class="image">
                                     <a class="pvr-video" rel="pvr-content-video-collection" <?php echo $reviewLink; ?> title="<?php echo $review['title']; ?>" alt="<?php echo $review['title']; ?>">

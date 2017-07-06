@@ -26,6 +26,8 @@
       align-content: center;
       &__icon {
         width: 20%;
+        display: flex;
+        justify-content: center;
         .phones {
           display: block;
           width: 20px;

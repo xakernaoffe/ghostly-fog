@@ -20,7 +20,7 @@
                             <p class="news__descr"><?php echo $news_item['description']; ?></p>
                         </div>
                         <div class="news__info">
-                            <div class="news__info__date">19 august 2016</div>
+                            <div class="news__info__date"><?php echo $news_item['posted']; ?></div>
                         </div>
                     </div>
                 </div>
