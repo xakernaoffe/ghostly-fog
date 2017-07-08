@@ -9,7 +9,7 @@
   </nav>
 </div>
 <div class="panel ocfilter panel-default" id="ocfilter">
-  <div class="panel-heading hidden-xs"><?php echo $heading_title; ?></div>
+<!--  <div class="panel-heading hidden-xs">--><?php //echo $heading_title; ?><!--</div>-->
   <div class="hidden" id="ocfilter-button">
     <button class="btn btn-primary disabled" data-loading-text="<i class='fa fa-refresh fa-spin'></i> Загрузка.."></button>
   </div>
@@ -159,7 +159,7 @@
 							<?php } ?>
 
 							<?php if ($value['selected']) { ?>
-		          <label id="v-<?php echo $value['id']; ?>" class="selected">
+		          <label id="v-<?php echo $value['id']; ?>" class="selected ocfilter-label">
                 <input type="<?php echo $option['type']; ?>" name="ocfilter_filter[<?php echo $option['option_id']; ?>]" value="<?php echo $value['href']; ?>" checked="checked" class="ocf-target" />
                 <a href="<?php echo $value['href']; ?>"><?php echo $value['name']; ?></a>
                 <?php if ($show_counter) { ?>
@@ -167,7 +167,7 @@
                 <?php } ?>
               </label>
 							<?php } elseif ($value['count']) { ?>
-		          <label id="v-<?php echo $value['id']; ?>">
+		          <label id="v-<?php echo $value['id']; ?>" class="ocfilter-label">
                 <input type="<?php echo $option['type']; ?>" name="ocfilter_filter[<?php echo $option['option_id']; ?>]" value="<?php echo $value['href']; ?>" class="ocf-target" />
                 <a href="<?php echo $value['href']; ?>"><?php echo $value['name']; ?></a>
                 <?php if ($show_counter) { ?>
@@ -175,7 +175,7 @@
                 <?php } ?>
               </label>
 							<?php } else { ?>
-		          <label id="v-<?php echo $value['id']; ?>" class="disabled">
+		          <label id="v-<?php echo $value['id']; ?>" class="disabled ocfilter-label">
                 <input type="<?php echo $option['type']; ?>" name="ocfilter_filter[<?php echo $option['option_id']; ?>]" value="" disabled="disabled" class="ocf-target" />
                 <?php echo $value['name']; ?>
                 <?php if ($show_counter) { ?>

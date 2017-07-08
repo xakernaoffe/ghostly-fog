@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_ocfilter-custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/carousel.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/carousel.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocfilter.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocfilter.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +34,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+                <state relative-caret-position="-376">
+                  <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
                   <folding>
                     <marker date="1499449625441" expanded="true" signature="22501:22508" ph="×" />
                     <marker date="1499449625441" expanded="true" signature="23355:23369" ph="..." />
@@ -39,21 +47,73 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
+          <file leaf-file-name="carousel.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/carousel.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_productPage.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_carousel.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ocfilter.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocfilter.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="161" column="90" lean-forward="false" selection-start-line="161" selection-start-column="76" selection-end-line="161" selection-end-column="90" />
+                  <folding>
+                    <element signature="e#1957#3721#0#HTML" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_ocfilter-custom.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_ocfilter-custom.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_content.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="479">
+                  <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="55" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="1" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_productPage.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
@@ -104,10 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>В корзи</find>
-      <find>В корзин</find>
-      <find>В корзину</find>
-      <find>pvr-view-all</find>
       <find>video-publisher-wrapper</find>
       <find>v</find>
       <find>view</find>
@@ -134,6 +190,10 @@
       <find>ratin</find>
       <find>op</find>
       <find>отз</find>
+      <find>ocf-target</find>
+      <find>panel-heading hidden-xs</find>
+      <find>list-group-item ocfilter-option</find>
+      <find>label</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -156,6 +216,7 @@
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\template</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\default</dir>
       <dir>C:\OpenServer\domains\ghostly-fog</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\template\module</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -164,8 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/developers/readme.md" />
-        <option value="$PROJECT_DIR$/catalog/controller/module/latest.php" />
         <option value="$PROJECT_DIR$/catalog/language/russian/module/bestseller.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/utils/_variables.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_product.scss" />
@@ -176,8 +235,6 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/news_archive.tpl" />
         <option value="$PROJECT_DIR$/catalog/controller/module/news_archive.php" />
         <option value="$PROJECT_DIR$/catalog/language/russian/module/news.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/carousel.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss" />
         <option value="$PROJECT_DIR$/catalog/language/russian/common/footer.php" />
         <option value="$PROJECT_DIR$/catalog/controller/common/footer.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl" />
@@ -201,13 +258,11 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_menu.scss" />
         <option value="$PROJECT_DIR$/catalog/language/russian/russian.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/stylesheet.css" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_reset.scss" />
         <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_category.scss" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
         <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
         <option value="$PROJECT_DIR$/catalog/language/russian/product/product.php" />
@@ -215,6 +270,12 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/featured.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/carousel.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocfilter.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_ocfilter-custom.scss" />
       </list>
     </option>
   </component>
@@ -337,6 +398,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,19 +682,19 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\ghostly-fog\system\storage\modification\catalog\view\theme\fog\template\product" />
-      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\view\template\extension\theme" />
-      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\language\ru-ru\extension\theme" />
-      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\language\en-gb\extension\theme" />
-      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\controller\extension\theme" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\template\module" />
       <recent name="C:\OpenServer\domains\ghostly-fog\catalog\view\javascript\mf" />
       <recent name="C:\OpenServer\domains\ghostly-fog\admin\language\english\module" />
       <recent name="C:\OpenServer\domains\ghostly-fog\admin\controller\module" />
       <recent name="C:\OpenServer\domains\ghostly-fog\admin\view\template\extension\module" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\stylesheet\layout" />
+      <recent name="C:\OpenServer\domains\ghostly-fog\system\storage\modification\catalog\view\theme\fog\template\product" />
+      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\view\template\extension\theme" />
+      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\language\ru-ru\extension\theme" />
+      <recent name="C:\OpenServer\domains\localhost\ghostly-fog\admin\language\en-gb\extension\theme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -701,12 +796,12 @@
       <workItem from="1498333842317" duration="3827000" />
       <workItem from="1498515472352" duration="13133000" />
       <workItem from="1498824629700" duration="131000000" />
-      <workItem from="1499422034994" duration="22371000" />
+      <workItem from="1499422034994" duration="28278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182057000" />
+    <option name="totallyTimeSpent" value="187964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,6 +821,7 @@
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3590568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07073955" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -737,7 +833,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3590568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -772,30 +867,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/russian/common/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <marker date="1499259996322" expanded="true" signature="791:797" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/common/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -1010,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
@@ -1049,26 +1112,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocfilter.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1875">
-          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/filter.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1112,14 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1174,12 +1213,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+        <state relative-caret-position="-376">
+          <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
           <folding>
             <marker date="1499449625441" expanded="true" signature="22501:22508" ph="×" />
             <marker date="1499449625441" expanded="true" signature="23355:23369" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/carousel.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/ocfilter.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="161" column="90" lean-forward="false" selection-start-line="161" selection-start-column="76" selection-end-line="161" selection-end-column="90" />
+          <folding>
+            <element signature="e#1957#3721#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="55" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_ocfilter-custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

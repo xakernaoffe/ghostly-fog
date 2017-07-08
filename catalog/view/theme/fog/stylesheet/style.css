@@ -392,6 +392,39 @@ body {
       height: 10px;
       background: url("./img/slick-next.png") no-repeat; }
 
+input[type="checkbox"] {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #2a2a2a;
+  border-radius: 2px;
+  background: transparent;
+  -webkit-appearance: none;
+  position: relative; }
+
+input[type="checkbox"]:checked {
+  background: #32a0ed;
+  border-color: #32a0ed; }
+  input[type="checkbox"]:checked::after {
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    display: block;
+    transform: rotate(45deg);
+    background: #fff;
+    width: 4px;
+    height: 2px;
+    content: ''; }
+  input[type="checkbox"]:checked:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    display: block;
+    transform: rotate(-45deg);
+    background: #fff;
+    width: 7px;
+    height: 2px; }
+
 .module {
   margin-top: 40px; }
   .module__header {
@@ -531,6 +564,9 @@ body {
   background: #f4f4f4;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc; }
+  .module .owl-carousel .item {
+    display: flex;
+    justify-content: center; }
   .module .owl-carousel .owl-wrapper-outer {
     border: none;
     box-shadow: none;
@@ -931,6 +967,48 @@ body {
       content: '';
       background: #32a0ed;
       border: 1px solid #32a0ed; }
+
+.ocfilter {
+  background: transparent;
+  border: none;
+  box-shadow: none; }
+  .ocfilter .ocfilter-option {
+    background: transparent;
+    border: none;
+    margin-bottom: 10px; }
+    .ocfilter .ocfilter-option .option-name {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 16px;
+      font-family: 'MyriadPro Regular';
+      padding-bottom: 10px;
+      border-bottom: 1px solid #2a2a2a;
+      margin-bottom: 20px; }
+    .ocfilter .ocfilter-option label.ocfilter-label {
+      font-size: 14px;
+      font-family: 'MyriadPro Regular';
+      display: flex;
+      align-items: center;
+      min-height: 30px; }
+      .ocfilter .ocfilter-option label.ocfilter-label input {
+        m: 12px; }
+        .ocfilter .ocfilter-option label.ocfilter-label input[type="checkbox"]:checked + a {
+          color: #32a0ed; }
+      .ocfilter .ocfilter-option label.ocfilter-label a {
+        color: #2a2a2a;
+        margin-left: 5px; }
+      .ocfilter .ocfilter-option label.ocfilter-label small {
+        background: #2a2a2a;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-family: 'OpenSans Semibold';
+        margin-left: auto;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        padding: 0;
+        overflow: hidden; }
 
 /* Slider */
 .slick-slider {

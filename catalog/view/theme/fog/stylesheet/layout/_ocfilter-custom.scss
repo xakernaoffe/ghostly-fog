@@ -1,0 +1,50 @@
+.ocfilter{
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  .ocfilter-option{
+    background: transparent;
+    border: none;
+    margin-bottom: 10px;
+    .option-name{
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 16px;
+      font-family: 'MyriadPro Regular';
+      padding-bottom: 10px;
+      border-bottom: 1px solid #2a2a2a;
+      margin-bottom: 20px;
+    }
+    label.ocfilter-label{
+      font-size: 14px;
+      font-family: 'MyriadPro Regular';
+      display: flex;
+      align-items: center;
+      min-height: 30px;
+
+      input{
+        margin-right: 12px;
+        &[type="checkbox"]:checked + a{
+          color: $blue;
+        }
+      }
+      a{
+        color: #2a2a2a;
+        margin-left: 5px;
+      }
+      small {
+        background: #2a2a2a;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-family: 'OpenSans Semibold';
+        margin-left: auto;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        padding: 0;
+        overflow: hidden;
+      }
+    }
+  }
+}
