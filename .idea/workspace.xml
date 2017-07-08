@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/product/product.php" afterPath="$PROJECT_DIR$/catalog/language/russian/product/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/featured.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/featured.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,24 +26,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="featured.tpl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/featured.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
+          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+                <state relative-caret-position="44">
+                  <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
                   <folding>
-                    <marker date="1499446871950" expanded="true" signature="23921:23928" ph="×" />
-                    <marker date="1499446871950" expanded="true" signature="24775:24789" ph="..." />
+                    <marker date="1499449625441" expanded="true" signature="22501:22508" ph="×" />
+                    <marker date="1499449625441" expanded="true" signature="23355:23369" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -73,7 +53,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_productPage.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_productPage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
@@ -107,16 +87,6 @@
                     <marker date="1499356520076" expanded="true" signature="14288:14294" ph=" " />
                     <marker date="1499356520076" expanded="true" signature="14294:14300" ph=" " />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="latest.tpl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="91" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -242,9 +212,9 @@
         <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
         <option value="$PROJECT_DIR$/catalog/language/russian/product/product.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/latest.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/featured.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
       </list>
     </option>
   </component>
@@ -731,12 +701,12 @@
       <workItem from="1498333842317" duration="3827000" />
       <workItem from="1498515472352" duration="13133000" />
       <workItem from="1498824629700" duration="131000000" />
-      <workItem from="1499422034994" duration="19643000" />
+      <workItem from="1499422034994" duration="22371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179329000" />
+    <option name="totallyTimeSpent" value="182057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1138,22 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="174" column="25" lean-forward="false" selection-start-line="172" selection-start-column="8" selection-end-line="174" selection-end-column="25" />
-          <folding>
-            <marker date="1499356520076" expanded="true" signature="5652:5659" ph="×" />
-            <marker date="1499356520076" expanded="true" signature="9717:9724" ph="×" />
-            <marker date="1499356520076" expanded="true" signature="10563:10570" ph="×" />
-            <marker date="1499356520076" expanded="true" signature="11439:11446" ph="×" />
-            <marker date="1499356520076" expanded="true" signature="14282:14288" ph=" " />
-            <marker date="1499356520076" expanded="true" signature="14288:14294" ph=" " />
-            <marker date="1499356520076" expanded="true" signature="14294:14300" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/russian/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1162,37 +1116,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="112" column="22" lean-forward="false" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/base/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <marker date="1499446871950" expanded="true" signature="23921:23928" ph="×" />
-            <marker date="1499446871950" expanded="true" signature="24775:24789" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1210,6 +1137,49 @@
         <state relative-caret-position="255">
           <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="112" column="22" lean-forward="false" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="174" column="25" lean-forward="false" selection-start-line="172" selection-start-column="8" selection-end-line="174" selection-end-column="25" />
+          <folding>
+            <marker date="1499356520076" expanded="true" signature="5652:5659" ph="×" />
+            <marker date="1499356520076" expanded="true" signature="9717:9724" ph="×" />
+            <marker date="1499356520076" expanded="true" signature="10563:10570" ph="×" />
+            <marker date="1499356520076" expanded="true" signature="11439:11446" ph="×" />
+            <marker date="1499356520076" expanded="true" signature="14282:14288" ph=" " />
+            <marker date="1499356520076" expanded="true" signature="14288:14294" ph=" " />
+            <marker date="1499356520076" expanded="true" signature="14294:14300" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+          <folding>
+            <marker date="1499449625441" expanded="true" signature="22501:22508" ph="×" />
+            <marker date="1499449625441" expanded="true" signature="23355:23369" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
