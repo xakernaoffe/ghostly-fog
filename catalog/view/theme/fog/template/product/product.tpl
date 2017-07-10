@@ -62,14 +62,9 @@
                                 <div class="productPage__info__rating">
                                     <?php for ($i = 1; $i <= 5; $i++) { ?>
                                         <?php if ($rating < $i) { ?>
-                                            <span class="fa fa-stack">
-                                                <i class="fa fa-star-o fa-stack-1x"></i>
-                                            </span>
+                                            <span class="productPage__info__star"></span>
                                         <?php } else { ?>
-                                            <span class="fa fa-stack">
-                                                <i class="fa fa-star fa-stack-1x"></i>
-                                                <i class="fa fa-star-o fa-stack-1x"></i>
-                                            </span>
+                                            <span class="productPage__info__star_yellow"></span>
                                         <?php } ?>
                                     <?php } ?>
                                     <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;" class="productPage__info__rating__link"><?php echo $reviews; ?></a>
@@ -107,25 +102,25 @@
                                 <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
                             <?php } ?>
                         </div>
+                        <?php if ($options) { ?>
                         <div class="productPage__info__item">
-                            <?php if ($options) { ?>
-                                <?php foreach ($options as $option) { ?>
-                                    <?php if ($option['type'] == 'radio') { ?>
-                                        <div class="productPage__options form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
-                                            <label class="productPage__options__title control-label"><?php echo $option['name']; ?></label>
-                                            <div class="productPage__options__wrap" id="input-option<?php echo $option['product_option_id']; ?>">
-                                                <?php foreach ($option['product_option_value'] as $option_value) { ?>
-                                                    <div class="productPage__options__item">
-                                                            <input class="productPage__options__item__field" type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
-                                                        <label class="productPage__options__item__name"><?php echo $option_value['name']; ?></label>
-                                                    </div>
-                                                <?php } ?>
-                                            </div>
+                            <?php foreach ($options as $option) { ?>
+                                <?php if ($option['type'] == 'radio') { ?>
+                                    <div class="productPage__options form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
+                                        <label class="productPage__options__title control-label"><?php echo $option['name']; ?></label>
+                                        <div class="productPage__options__wrap" id="input-option<?php echo $option['product_option_id']; ?>">
+                                            <?php foreach ($option['product_option_value'] as $option_value) { ?>
+                                                <div class="productPage__options__item">
+                                                        <input class="productPage__options__item__field" type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
+                                                    <label class="productPage__options__item__name"><?php echo $option_value['name']; ?></label>
+                                                </div>
+                                            <?php } ?>
                                         </div>
-                                    <?php } ?>
+                                    </div>
                                 <?php } ?>
                             <?php } ?>
                         </div>
+                        <?php } ?>
                         <div class="productPage__info__item">
                             <div class="productPage__info__item__header">
                                 <?php echo $text_attribute; ?>
@@ -148,14 +143,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="productPage__navigation row">
+                <div class="productPage__navigation">
                     <ul class="productPage__navigation__list">
                         <li class="productPage__navigation__item active">
-                            <a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a>
+                            <a href="#tab-description" data-toggle="tab" class="productPage__navigation__item__link"><?php echo $tab_description; ?></a>
                         </li>
                         <?php if ($review_status) { ?>
                             <li class="productPage__navigation__item">
-                                <a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a>
+                                <a href="#tab-review" data-toggle="tab" class="productPage__navigation__item__link"><?php echo $tab_review; ?></a>
                             </li>
                         <?php } ?>
                     </ul>
@@ -165,44 +160,37 @@
                         </div>
                         <?php if ($review_status) { ?>
                             <div class="productPage__reviews tab-pane" id="tab-review">
-                                <form class="form-horizontal" id="form-review">
-                                    <div id="review"></div>
-                                    <h2><?php echo $text_write; ?></h2>
+                                <form class="form-horizontal reviews__form" id="form-review">
+                                    <div class="reviews__form__item">
+                                        <label class="reviews__form__item__name"><?php echo $entry_rating; ?></label>
+                                        <input type="radio" name="rating" value="1" id="star1" class="reviews__form__item__star-field" />
+                                        <label for="star1" class="reviews__form__item__star"></label>
+                                        <input type="radio" name="rating" value="2" id="star2" class="reviews__form__item__star-field" />
+                                        <label for="star2" class="reviews__form__item__star"></label>
+                                        <input type="radio" name="rating" value="3" id="star3" class="reviews__form__item__star-field" />
+                                        <label for="star3" class="reviews__form__item__star"></label>
+                                        <input type="radio" name="rating" value="4" id="star4" class="reviews__form__item__star-field" />
+                                        <label for="star4" class="reviews__form__item__star"></label>
+                                        <input type="radio" name="rating" value="5" id="star5" class="reviews__form__item__star-field" />
+                                        <label for="star5" class="reviews__form__item__star"></label>
+                                    </div>
+<!--                                    <div id="review"></div>-->
                                     <?php if ($review_guest) { ?>
-                                        <div class="form-group required">
-                                            <div class="col-sm-12">
-                                                <label class="control-label" for="input-name"><?php echo $entry_name; ?></label>
-                                                <input type="text" name="name" value="" id="input-name" class="form-control" />
+                                            <div class="reviews__form__item">
+                                                <label class="reviews__form__item__name" for="input-review"><?php echo $entry_review; ?></label>
+                                                <textarea name="text" rows="5" id="input-review" class="reviews__form__item__text"></textarea>
                                             </div>
-                                        </div>
-                                        <div class="form-group required">
-                                            <div class="col-sm-12">
-                                                <label class="control-label" for="input-review"><?php echo $entry_review; ?></label>
-                                                <textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
-                                                <div class="help-block"><?php echo $text_note; ?></div>
+                                            <div class="reviews__form__wrap">
+                                                <div class="reviews__form__wrap__item">
+                                                    <input type="text" name="name" value="" id="input-name" class="reviews__form__wrap__item__field" placeholder="<?php echo $entry_name; ?>" />
+                                                </div>
+                                                <div class="reviews__form__wrap__item">
+                                                    <input type="text" name="email" value="" id="input-email" class="reviews__form__wrap__item__field" placeholder="<?php echo $entry_email; ?>"/>
+                                                </div>
+                                                <?php echo $captcha; ?>
+                                                <button type="button" id="button-review" data-loading-text="<?php echo $text_loading; ?>" class="reviews__form__btn"><?php echo $send_btn; ?></button>
                                             </div>
-                                        </div>
-                                        <div class="form-group required">
-                                            <div class="col-sm-12">
-                                                <label class="control-label"><?php echo $entry_rating; ?></label>
-                                                &nbsp;&nbsp;&nbsp; <?php echo $entry_bad; ?>&nbsp;
-                                                <input type="radio" name="rating" value="1" />
-                                                &nbsp;
-                                                <input type="radio" name="rating" value="2" />
-                                                &nbsp;
-                                                <input type="radio" name="rating" value="3" />
-                                                &nbsp;
-                                                <input type="radio" name="rating" value="4" />
-                                                &nbsp;
-                                                <input type="radio" name="rating" value="5" />
-                                                &nbsp;<?php echo $entry_good; ?></div>
-                                        </div>
-                                        <?php echo $captcha; ?>
-                                        <div class="buttons clearfix">
-                                            <div class="pull-right">
-                                                <button type="button" id="button-review" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><?php echo $button_continue; ?></button>
-                                            </div>
-                                        </div>
+
                                     <?php } else { ?>
                                         <?php echo $text_login; ?>
                                     <?php } ?>

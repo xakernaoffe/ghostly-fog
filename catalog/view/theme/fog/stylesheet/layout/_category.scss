@@ -32,22 +32,27 @@
         display: inline-block;
         vertical-align: middle;
         width: auto;
+        border-radius: 0;
+        background: transparent;
+        border: 1px solid #adadad;
       }
     }
     &__buttons {
       width: 68px;
-      height: 32px;
+      height: 34px;
       border: 1px solid #adadad;
       margin-left: 50px;
       display: flex;
       justify-content:center;
       align-items: center;
       align-content: center;
+      padding: 0 3px;
       &__item {
         width: 50%;
         background: none;
         color: #211f20;
         border: none;
+        font-size: 17px;
         &.active {
           color: $blue;
         }

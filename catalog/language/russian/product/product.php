@@ -33,16 +33,18 @@ $_['text_year']                               = 'год';
 
 // Entry
 $_['entry_qty']                               = 'Кол-во';
-$_['entry_name']                              = 'Ваше имя:';
-$_['entry_review']                            = 'Ваш отзыв';
-$_['entry_rating']                            = 'Рейтинг';
+$_['entry_name']                              = 'Ваше имя*';
+$_['entry_email']                             = 'Email*';
+$_['entry_review']                            = 'Комментарий';
+$_['entry_rating']                            = 'Оценка';
 $_['entry_good']                              = 'Хорошо';
 $_['entry_bad']                               = 'Плохо';
+$_['send_btn']                                = 'Отправить';
 
 // Tabs
 $_['tab_description']                         = 'Описание';
 $_['tab_attribute']                           = 'Характеристики';
-$_['tab_review']                              = 'Отзывы (%s)';
+$_['tab_review']                              = 'Отзыв о товаре';
 
 // Error
 $_['error_name']                              = 'Имя должно быть от 3 до 25 символов!';
