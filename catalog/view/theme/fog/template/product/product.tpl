@@ -161,6 +161,7 @@
                         <?php if ($review_status) { ?>
                             <div class="productPage__reviews tab-pane" id="tab-review">
                                 <form class="form-horizontal reviews__form" id="form-review">
+                                    <div id="review"></div>
                                     <div class="reviews__form__item">
                                         <label class="reviews__form__item__name"><?php echo $entry_rating; ?></label>
                                         <input type="radio" name="rating" value="1" id="star1" class="reviews__form__item__star-field" />
@@ -174,7 +175,6 @@
                                         <input type="radio" name="rating" value="5" id="star5" class="reviews__form__item__star-field" />
                                         <label for="star5" class="reviews__form__item__star"></label>
                                     </div>
-<!--                                    <div id="review"></div>-->
                                     <?php if ($review_guest) { ?>
                                             <div class="reviews__form__item">
                                                 <label class="reviews__form__item__name" for="input-review"><?php echo $entry_review; ?></label>
