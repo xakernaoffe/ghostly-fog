@@ -8,6 +8,10 @@ class ControllerModuleOcmodpcart extends Controller {
 
 		$data['button_shopping'] = $this->language->get('button_shopping');
 		$data['button_checkout'] = $this->language->get('button_checkout');
+		$data['text_photo'] = $this->language->get('text_photo');
+		$data['text_info'] = $this->language->get('text_info');
+		$data['text_quantity'] = $this->language->get('text_quantity');
+		$data['text_sum'] = $this->language->get('text_sum');
 		$data['heading_cartpopup_title_empty'] = $this->language->get('heading_cartpopup_title_empty');
 		$data['text_cartpopup_empty'] = $this->language->get('text_cartpopup_empty');
 

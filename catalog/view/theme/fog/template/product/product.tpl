@@ -30,14 +30,18 @@
                     <?php } ?>
                     <div class="<?php echo $class; ?> productPage__thumbnails">
                         <?php if ($thumb || $images) { ?>
+                            <ul class="productPage__thumbnails__list js-popup">
                                 <?php if ($thumb) { ?>
-                                <a class="productPage__thumbnails__image js-popup" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>">
-                                    <img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
-                                    <span class="productPage__thumbnails__icon">
+                                    <li class="productPage__thumbnails__item" >
+                                        <a class="productPage__thumbnails__image js-popup" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>">
+                                            <img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
+                                            <span class="productPage__thumbnails__icon">
                                         <i class="fa fa-expand fa-lg" aria-hidden="true"></i>
                                     </span>
-                                </a>
+                                        </a>
+                                    </li>
                                 <?php } ?>
+                            </ul>
                                 <?php if ($images) { ?>
                                 <ul class="productPage__thumbnails__list js-slider js-popup">
                                     <?php foreach ($images as $image) { ?>
@@ -111,8 +115,8 @@
                                         <div class="productPage__options__wrap" id="input-option<?php echo $option['product_option_id']; ?>">
                                             <?php foreach ($option['product_option_value'] as $option_value) { ?>
                                                 <div class="productPage__options__item">
-                                                        <input class="productPage__options__item__field" type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
-                                                    <label class="productPage__options__item__name"><?php echo $option_value['name']; ?></label>
+                                                    <input class="productPage__options__item__field" type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" id="<?php echo $option_value['product_option_value_id']; ?>"/>
+                                                    <label for="<?php echo $option_value['product_option_value_id']; ?>" class="productPage__options__item__name"><span><?php echo $option_value['name']; ?></span></label>
                                                 </div>
                                             <?php } ?>
                                         </div>
@@ -137,8 +141,9 @@
                         </div>
                         <div class="productPage__info__item">
                             <!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script>
+                            <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+                            <script src="//yastatic.net/share2/share.js"></script>
+                            <div class="ya-share2" data-services="facebook,twitter,gplus,vkontakte" data-counter=""></div>
                             <!-- AddThis Button END -->
                         </div>
                     </div>

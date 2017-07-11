@@ -23,6 +23,13 @@
     <table class="display-products-cart">
       <tbody>
         <?php foreach ($products as $product) { ?>
+            <tr>
+                <th class="image"><?php echo $text_photo; ?></th>
+                <th class="name"><?php echo $text_info; ?></th>
+                <th class="qt"><?php echo $text_quantity; ?></th>
+                <th class="totals"><?php echo $text_sum; ?></th>
+                <th class="remove"></th>
+            </tr>
         <tr>
           <td class="image">
             <?php if ($product['thumb']) { ?>
@@ -34,16 +41,7 @@
             <?php if (!$product['stock']) { ?>
             <span class="text-danger">***</span>
             <?php } ?>
-            <?php if ($product['option']) { ?>
-            <?php foreach ($product['option'] as $option) { ?>
-            <br />
-            <?php echo $option['name']; ?>: <?php echo $option['value']; ?>
-            <?php } ?>
-            <?php } ?>
-            <?php if ($product['reward']) { ?>
-            <br />
-            <?php echo $product['reward']; ?>
-            <?php } ?>
+             <div class="price"><?php echo $product['price']; ?></div>
           </td>
           <td class="qt">
             <div class="number">
@@ -65,7 +63,7 @@
           </td>
           <td class="totals"><?php echo $product['total']; ?></td>
 		  <td class="remove">
-            <button type="button" onclick="update( this, 'remove' );"><i class="fa fa-trash-o"></i></button>
+            <button type="button" onclick="update( this, 'remove' );"><i class="fa fa-times fa-lg" aria-hidden="true"></i></button>
             <input name="product_key" value="<?php echo $product['key']; ?>" style="display: none;" hidden />           
           </td>
         </tr>
@@ -99,7 +97,7 @@
         <div class="qt">
           <div class="number">
               <input name="product_id" value="<?php echo $product['key']; ?>" style="display: none;" type="hidden" />
-              <div class="frame-change-count">
+              <div class="frame-change-count clearfix">
                 <div class="btn-plus">
                   <button type="button" onclick="$(this).parent().parent().next().val(~~$(this).parent().parent().next().val()+1); update( this, 'update' );">
                     +
@@ -114,7 +112,7 @@
               <input type="text" name="quantity" value="<?php echo $product['quantity']; ?>" class="plus-minus" onchange="update_manual( this, '<?php echo $product['key']; ?>' ); return validate(this);" onkeyup="update_manual( this, '<?php echo $product['key']; ?>' ); return validate(this);" />
             </div>
 			<span class="remove">
-			  <button type="button" onclick="update( this, 'remove' );"><i class="fa fa-trash-o"></i></button>
+			  <button type="button" onclick="update( this, 'remove' );"><i class="fa fa-times" aria-hidden="true"></i></button>
 			  <input name="product_key" value="<?php echo $product['key']; ?>" style="display: none;" hidden />
 			</span>
         </div>

@@ -1,0 +1,153 @@
+.mfp-content {
+  #ocmod-popup-okno {
+    background: $white;
+    padding:60px 40px 40px 55px;
+    box-shadow: none;
+    border-radius: 0;
+    #ocmod-popup-okno-inner {
+      .ocmod-popup-heading {
+        background: none;
+        text-transform: uppercase;
+        font: 30px/42px "MyriadPro Regular";
+        color: #2e2e2e;
+        padding: 0;
+        margin-bottom: 40px;
+      }
+      .ocmod-popup-center {
+        padding: 0;
+        .display-products-cart th {
+          font: 14px/16px "OpenSans Regular";
+          color: #888;
+          padding-bottom: 12px;
+        }
+        .display-products-cart tr {
+          border-bottom: 1px solid #dcdcdc;
+        }
+        .display-products-cart tr td.image {
+          padding:25px 0;
+        }
+        .display-products-cart tr td.image img {
+          border: 1px solid #a5a5a5;
+          border-radius: 0;
+        }
+        .display-products-cart tr td.name {
+          min-width: 110px;
+          padding-left: 0;
+        }
+        .display-products-cart tr td.name a {
+          font: 16px/18px "Roboto Medium";
+          color: #4e4e4e;
+        }
+        .display-products-cart tr td.name .price {
+          font: 16px/18px "OpenSans Regular";
+          color: #4e4e4e;
+        }
+        .display-products-cart tr td.qt {
+          text-align: left;
+        }
+        .display-products-cart .number {
+          border: none;
+        }
+        .display-products-cart .frame-change-count {
+          width: 100px;
+        }
+        .display-products-cart input.plus-minus {
+          width: 45px;
+          height: 33px;
+          border: 1px solid #cfcfcf;
+          font: 14px/33px "OpenSans Semibold";
+          color: #a9a9a9;
+          text-align: center;
+          top: -10px;
+          left: 27px;
+        }
+        .display-products-cart .btn-plus {
+          width: 16px;
+          height: 16px;
+          transition-duration: 0.3s;
+        }
+        .display-products-cart .btn-plus button {
+          width: 16px;
+          height: 16px;
+          background-color: #a5a5a5;
+          border-radius: 2px;
+          color: $white;
+          border: none;
+          line-height: 16px;
+          display: block;
+        }
+        .display-products-cart .btn-plus button:hover,
+        .display-products-cart .btn-minus button:hover {
+          background: $blue;
+        }
+        .display-products-cart .btn-minus {
+          width: 16px;
+          height: 16px;
+          transition-duration: 0.3s;
+        }
+        .display-products-cart .btn-minus button {
+          width: 16px;
+          height: 16px;
+          background-color: #a5a5a5;
+          border-radius: 2px;
+          color: $white;
+          border: none;
+          line-height: 16px;
+          display: block;
+        }
+        .display-products-cart tr td.totals {
+          min-width: 80px;
+          text-align: left;
+          font: 16px/18px "Roboto Medium";
+          color: #4e4e4e;
+          padding-left: 0;
+        }
+        .display-products-cart tr td.remove {
+          color: #a5a5a5;
+        }
+        .all-total {
+          font: 18px/20px "OpenSans Semibold";
+          color: $black;
+        }
+      }
+      .ocmod-popup-footer {
+        padding: 0;
+        button {
+          padding: 0;
+          width: 189px;
+          height: 42px;
+          border: 2px solid #2e2e2e;
+          background: $white;
+          text-transform: uppercase;
+          font: 13px/42px "OpenSans Regular";
+          color: #141414;
+          transition-duration: 0.3s;
+          &:hover {
+            background: #2e2e2e;
+            color: $white;
+          }
+        }
+        a {
+          padding: 0;
+          width: 144px;
+          height: 42px;
+          background-color: #2e2e2e;
+          font: 13px/42px "OpenSans Regular";
+          text-transform: uppercase;
+          color: $white;
+        }
+      }
+
+    }
+    .mfp-close {
+      width: 41px;
+      height: 37px;
+      background-color: #2e2e2e;
+      color: $white;
+      font-size: 30px;
+      line-height: 37px;
+      border: none;
+      border-radius: 0;
+    }
+  }
+}

@@ -16,9 +16,10 @@
   &__wrap {
     background: $white;
     border: 1px solid #c2c2c2;
+    margin: 0;
   }
   &__thumbnails {
-    padding:20px 0 0 20px;
+    padding:20px 20px 0 20px;
     &__image {
       display: block;
       border: 1px solid #f4f5f7;
@@ -50,6 +51,7 @@
     &__list {
       padding: 0 10px;
       margin:15px 0;
+      list-style-type: none;
       .slick-arrow {
         position: absolute;
         top: 30%;
@@ -131,7 +133,7 @@
     }
     &__star {
       display: inline-block;
-      margin: 5px;
+      margin: 1px;
       &:before {
         font-size: 1.5em;
         font-family: "FontAwesome";
@@ -140,7 +142,7 @@
       }
       &_yellow {
         display: inline-block;
-        margin: 5px;
+        margin: 1px;
         &:before {
           font-size: 1.5em;
           font-family: "FontAwesome";
@@ -185,10 +187,19 @@
       width: 40px;
       margin-right: 13px;
       &__name {
-        font: 14px/16px "OpenSans Regular";
-        color: $white;
+        width: 100%;
         margin-bottom: 20px;
         position: relative;
+        cursor: pointer;
+        span {
+          position: absolute;
+          font: 14px/16px "OpenSans Regular";
+          color: $black;
+          top: 10px;
+          left: 0;
+          right: 0;
+          text-align: center;
+        }
         &:before {
           content: '';
           width: 38px;
@@ -197,8 +208,9 @@
           border-radius: 50%;
           position: absolute;
           left: 0;
-          bottom: 0;
+          top: 0;
           background: $white;
+          cursor: pointer;
         }
       }
       &__field {
@@ -207,6 +219,9 @@
           content: '';
           background: $blue;
           border: 1px solid $blue;
+        }
+        &:checked + label span {
+          color: $white;
         }
       }
     }
