@@ -359,7 +359,7 @@ body {
   background: #f4f4f4;
   overflow-x: hidden; }
 
-.breadcrumb {
+.container .breadcrumb {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
@@ -371,18 +371,18 @@ body {
   background: none;
   border-radius: 0;
   border: none; }
-  .breadcrumb__item {
+  .container .breadcrumb__item {
     text-shadow: none; }
-    .breadcrumb__item:last-child .breadcrumb__link:after {
+    .container .breadcrumb__item:last-child .breadcrumb__link:after {
       display: none; }
-  .breadcrumb__link {
+  .container .breadcrumb__link {
     font: 13px/15px "MyriadPro Regular";
     color: #dedede;
     position: relative; }
-    .breadcrumb__link:hover {
+    .container .breadcrumb__link:hover {
       color: #dedede;
       text-decoration: underline; }
-    .breadcrumb__link:after {
+    .container .breadcrumb__link:after {
       position: absolute;
       top: 3px;
       right: -25px;
@@ -1395,6 +1395,64 @@ input[type="checkbox"]:checked {
     line-height: 37px;
     border: none;
     border-radius: 0; }
+
+.videoPage__header {
+  min-height: 95px;
+  background: url("./img/categoryBg.png") no-repeat; }
+.videoPage__title {
+  margin-top: 38px;
+  font: 24px/26px "OpenSans Regular";
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 0; }
+.videoPage .pvr-contentLayout .pvr-video-item {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-start;
+  max-height: 240px; }
+.videoPage .pvr-contentLayout .pvr-video-item .left {
+  float: none; }
+.videoPage .pvr-contentLayout .pvr-video-item .right {
+  float: none; }
+.videoPage__review {
+  width: 95%;
+  height: 220px;
+  padding: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  position: relative; }
+  .videoPage__review__title {
+    font: 20px/22px "Roboto Medium";
+    color: #000;
+    text-transform: uppercase; }
+  .videoPage__review .pvr-text {
+    margin: 15px 0;
+    font: 14px/16px "OpenSans Regular"; }
+  .videoPage__review.video {
+    margin-top: 20px;
+    background: none;
+    text-align: center;
+    width: 100%; }
+.videoPage .pvr-contentLayout .pvr-video-item .right .mainProductReviewInfo {
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  right: 10px; }
+.videoPage .pvr-contentLayout .pvr-video-item .right .mainProductReviewInfo .pvr-date {
+  margin-bottom: 10px; }
+.videoPage a.videoReviewMoreBtn {
+  padding: 5px 10px;
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
+  font: 13px/25px "OpenSans Regular";
+  text-align: center;
+  transition-duration: 0.3s;
+  float: none; }
+  .videoPage a.videoReviewMoreBtn:hover {
+    background: #000;
+    color: #fff; }
 
 /* Slider */
 .slick-slider {
