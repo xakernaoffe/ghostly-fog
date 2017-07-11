@@ -1,0 +1,66 @@
+.searchPage {
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+  }
+  &__result {
+    margin:20px 0;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: $black;
+    text-align: center;
+  }
+  .checkbox-wrap {
+    margin-top: 5px;
+  }
+  .checkbox-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 0;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .form-control {
+    border-radius: 0;
+    background: none;
+  }
+  label {
+    font: 14px/16px "MyriadPro Regular";
+    color: #2a2a2a;
+  }
+  input[type="checkbox"] {
+    top: -2px;
+  }
+  &__btn {
+    display: block;
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid $blue;
+    color: $black;
+    font: 13px/32px "OpenSans Regular";
+    background: $white;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    margin:45px auto;
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
+  }
+  &__empty {
+    margin:25px 0;
+    text-align: center;
+    font: 16px/20px "OpenSans Regular";
+  }
+}

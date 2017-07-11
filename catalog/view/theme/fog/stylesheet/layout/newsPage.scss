@@ -1,0 +1,107 @@
+.newsPage {
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+  }
+  &__item {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    &__image {
+      width: 30%;
+      &__link {
+        display: block;
+      }
+    }
+    &__info {
+      width: 70%;
+      &__name {
+        font: 18px/20px "Roboto Medium";
+        color: $black;
+        margin-bottom: 15px;
+        display: block;
+      }
+      &__descr {
+        font: 14px/16px "OpenSans Regular";
+        color: #626262;
+        margin-bottom: 30px;
+      }
+      &__btn {
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid $black;
+        color: $black;
+        font: 13px/25px "OpenSans Regular";
+        background: none;
+        transition-duration: 0.3s;
+        float: right;
+        &:hover {
+          background: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+  &__content {
+    &__img {
+      text-align: center;
+    }
+    &__info {
+      text-align: center;
+      &__name {
+        font: 18px/20px "Roboto Medium";
+        color: $black;
+        margin:20px 0;
+        text-transform: uppercase;
+      }
+      &__description {
+        font: 14px/18px "OpenSans Regular";
+        color: #626262;
+        margin-bottom:20px;
+      }
+      &__posted {
+        font: 14px/18px "OpenSans Regular";
+        color: #626262;
+        text-align: right;
+      }
+      &__viewed {
+        font: 14px/18px "OpenSans Regular";
+        color: #626262;
+        text-align: right;
+      }
+    }
+    &__buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content:space-between;
+      align-content: center;
+      align-items: center;
+      &__item {
+        display: block;
+        width: 210px;
+        height: 40px;
+        text-align: center;
+        border: 2px solid $black;
+        color: $black;
+        font: 13px/32px "OpenSans Regular";
+        background: none;
+        transition-duration: 0.3s;
+        &:hover {
+          background: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}

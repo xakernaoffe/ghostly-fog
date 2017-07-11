@@ -4,7 +4,7 @@ $_['heading_title']     = 'Поиск';
 $_['heading_tag']		= 'Тег - ';
 
 // Text
-$_['text_search']       = 'Товары, соответствующие критериям поиска';
+$_['text_result']       = 'Результат поиска';
 $_['text_keyword']      = 'Ключевые слова';
 $_['text_category']     = 'Все категории';
 $_['text_sub_category'] = 'Искать в подкатегориях';
@@ -28,6 +28,7 @@ $_['text_rating_desc']  = 'По Рейтингу (возрастанию)';
 $_['text_model_asc']    = 'По Модели (А - Я)';
 $_['text_model_desc']   = 'По Модели (Я - А)';
 $_['text_limit']        = 'Показывать:';
+$_['text_search']       = 'Поиск';
 
 // Entry
 $_['entry_search']      = 'Критерии поиска';

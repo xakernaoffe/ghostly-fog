@@ -143,6 +143,8 @@ class ControllerProductSearch extends Controller {
 		$data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 		$data['text_sort'] = $this->language->get('text_sort');
 		$data['text_limit'] = $this->language->get('text_limit');
+		$data['text_search'] = $this->language->get('text_search');
+		$data['text_result'] = $this->language->get('text_result');
 
 		$data['entry_search'] = $this->language->get('entry_search');
 		$data['entry_description'] = $this->language->get('entry_description');
@@ -249,6 +251,7 @@ class ControllerProductSearch extends Controller {
 					'thumb'       => $image,
 					'name'        => $result['name'],
 					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
+                    'attribute_groups' => $this->model_catalog_product->getProductAttributes($result['product_id']),
 					'price'       => $price,
 					'special'     => $special,
 					'tax'         => $tax,
