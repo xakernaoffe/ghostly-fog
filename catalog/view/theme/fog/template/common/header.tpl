@@ -61,7 +61,7 @@
               <a href="<?php echo $contact; ?>" class="navigation__links__item"><?php echo $text_contact; ?></a>
           </div>
           <div class="navigation__links login col-sm-2">
-              <a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="navigation__links__item"><span class="navigation__links__icon"></span> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span></a>
+              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><span class="navigation__links__icon"></span> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span></a>
           </div>
       </div>
   </div>
