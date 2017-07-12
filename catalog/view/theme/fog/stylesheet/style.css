@@ -1592,6 +1592,89 @@ input[type="checkbox"]:checked {
   text-align: center;
   font: 16px/20px "OpenSans Regular"; }
 
+.informationPage__header {
+  min-height: 95px;
+  background: url("./img/categoryBg.png") center no-repeat;
+  margin-bottom: 30px; }
+.informationPage__title {
+  margin-top: 38px;
+  font: 24px/26px "OpenSans Regular";
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 0; }
+.informationPage__content {
+  font: 14px/22px "OpenSans Regular"; }
+
+.contactPage__header {
+  min-height: 95px;
+  background: url("./img/categoryBg.png") center no-repeat;
+  margin-bottom: 30px; }
+.contactPage__title {
+  margin-top: 38px;
+  font: 24px/26px "OpenSans Regular";
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 0; }
+.contactPage__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 25px; }
+  .contactPage__item__icon {
+    width: 15%;
+    text-align: center; }
+    .contactPage__item__icon .phone {
+      display: inline-block;
+      width: 20px;
+      height: 32px;
+      background: url("./img/contactPhone.png") no-repeat; }
+    .contactPage__item__icon .email {
+      display: inline-block;
+      width: 32px;
+      height: 24px;
+      background: url("./img/contactEmail.png") no-repeat; }
+    .contactPage__item__icon .work {
+      display: inline-block;
+      width: 32px;
+      height: 30px;
+      background: url("./img/contactWork.png") no-repeat; }
+  .contactPage__item__text {
+    width: 85%; }
+    .contactPage__item__text__title {
+      font: 14px/18px "Roboto Medium"; }
+    .contactPage__item__text__link {
+      display: block;
+      font: 14px/18px "OpenSans Regular";
+      color: #141414; }
+.contactPage__shopForm__title {
+  font: 18px/20px "OpenSans Regular";
+  padding: 0;
+  color: #141414;
+  border: none; }
+.contactPage__shopForm label.control-label {
+  display: block;
+  font: 13px/25px "OpenSans Regular";
+  color: #2a2a2a;
+  text-align: left;
+  padding: 0; }
+.contactPage__shopForm__item.form-group {
+  margin-right: 0;
+  margin-left: 0; }
+.contactPage__shopForm__item .form-control {
+  border-radius: 0;
+  background-color: #e9e9e9;
+  border: 1px solid #c2c2c2; }
+.contactPage__shopForm__btn {
+  width: 100px;
+  height: 42px;
+  background-color: #2a2a2a;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font: 13px/42px "MyriadPro Regular";
+  text-transform: uppercase; }
+
 /* Slider */
 .slick-slider {
   position: relative;

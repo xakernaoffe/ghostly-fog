@@ -39,8 +39,8 @@
                     <span class="phones"></span>
                 </div>
                 <div class="footer__item__info__wrap">
-                    <a href="tel:+380934484918" class="footer__item__info__link"><?php echo $telephone; ?></a>
-                    <a href="tel:+380957089879" class="footer__item__info__link"><?php echo $telephone2; ?></a>
+                    <a href="tel:<?php echo $telephone; ?>" class="footer__item__info__link"><?php echo $telephone; ?></a>
+                    <a href="tel:<?php echo $telephone2; ?>" class="footer__item__info__link"><?php echo $telephone2; ?></a>
                 </div>
             </div>
             <div class="footer__item__info">
