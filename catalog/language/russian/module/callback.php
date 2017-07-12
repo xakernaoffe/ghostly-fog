@@ -1,17 +1,17 @@
 <?php
 // Text 
-$_['text_callback_title']  		= 'Заказать звонок';
+$_['text_callback_title']  		= 'Обратный звонок';
 $_['text_callback_submit']		= 'Отправить';
-$_['text_callback_text']		= 'Закажите обратный звонок и наш менеджер перезвонит в удобное для Вас время.';
+$_['text_callback_text']		= 'Введите ваше имя и контактный телефон и мы вам перезвоним в течении 10 минут.';
 $_['text_success']				= 'Запрос звонка успешно отправлен!';
 $_['text_callback_sms_title']  	= 'Заказ обратного звонка';
 
 // Entry
 $_['entry_callback_title']		= 'Тема';
-$_['entry_callback_name']		= 'Имя';
+$_['entry_callback_name']		= 'Введите Имя';
 $_['entry_callback_email']		= 'E-mail';
 $_['entry_callback_time']		= 'Время звонка';
-$_['entry_callback_phone']		= 'Телефон';
+$_['entry_callback_phone']		= 'Введите номер телефона';
 $_['entry_callback_text']		= 'Сообщение';
 $_['entry_callback_url']		= 'Сайт';
 

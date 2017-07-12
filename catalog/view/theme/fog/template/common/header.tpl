@@ -90,7 +90,7 @@
               <div class="callback__icon"></div>
               <div class="callback__info">
                   <?php echo $open; ?>
-                  <a href="#" class="callback__link">Обратный звонок</a>
+                  <a href="#" class="callback__link show-callback">Обратный звонок</a>
               </div>
           </div>
           <div class="phones col-sm-3">
