@@ -45,15 +45,18 @@ header{
   }
   .cart {
     padding-top: 40px;
+    cursor: pointer;
     .cart-wrap {
-      position: relative;
-      display: flex;
-      justify-content:center;
-      align-content: center;
-      align-items: center;
-      border: 1px solid $blue;
-      border-radius: 5px;
-      height: 46px;
+      &__content {
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        border: 1px solid $blue;
+        border-radius: 5px;
+        height: 46px;
+      }
       &__icon {
         width: 35%;
         height: 46px;

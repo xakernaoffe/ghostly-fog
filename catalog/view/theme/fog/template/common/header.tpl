@@ -100,7 +100,7 @@
                   <a href="+380957089879" class="phones__links__item"><?php echo $telephone2; ?></a>
               </div>
           </div>
-          <div class="col-sm-2 cart"><?php echo $cart; ?></div>
+          <div class="col-sm-2 cart js-addToCart"><?php echo $cart; ?></div>
       </div>
   </div>
 </header>

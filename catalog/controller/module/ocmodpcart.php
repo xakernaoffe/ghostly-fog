@@ -15,6 +15,7 @@ class ControllerModuleOcmodpcart extends Controller {
 		$data['heading_cartpopup_title_empty'] = $this->language->get('heading_cartpopup_title_empty');
 		$data['text_cartpopup_empty'] = $this->language->get('text_cartpopup_empty');
 
+
 		if ( isset( $this->request->request['remove'] ) ) {
 			$this->cart->remove( $this->request->request['remove'] );
 			unset( $this->session->data['vouchers'][$this->request->request['remove']] );
