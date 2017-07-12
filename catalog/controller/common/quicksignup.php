@@ -20,6 +20,8 @@ class ControllerCommonQuicksignup extends Controller {
 		$data['logout'] = $this->url->link('account/logout', '', 'SSL');
 
 		$data['text_loading'] = $this->language->get('text_loading');
+		$data['text_registration'] = $this->language->get('text_registration');
+		$data['text_registration_title'] = $this->language->get('text_registration_title');
 		$data['text_details'] = $this->language->get('text_details');
 		$data['text_signin_register'] = $this->language->get('text_signin_register');
 		$data['text_new_customer'] = $this->language->get('text_new_customer');

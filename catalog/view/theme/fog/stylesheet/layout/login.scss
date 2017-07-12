@@ -1,0 +1,148 @@
+.login-wrap {
+  .modal-dialog {
+    width: 456px;
+    background: $white;
+    margin-top: 120px;
+  }
+  .modal-content {
+    border-radius: 0;
+    padding:0; 
+  }
+  .modal-body {
+    position: relative;
+    padding:60px 50px 25px;
+  }
+  .login {
+    &__close {
+      width: 41px;
+      height: 37px;
+      background-color: #2e2e2e;
+      color: $white;
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 25px;
+      line-height: 33px;
+    }
+    &__title {
+      font: 30px/42px "MyriadPro Regular";
+      color: #2e2e2e;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    &__form {
+      .form-group {
+        margin: 0;
+        a {
+          text-decoration: underline;
+          color: #5b9ddb;
+          font: 13px/20px "MyriadPro Regular";
+        }
+      }
+      .form-control {
+        border-radius: 0;
+        border: none;
+        height: 42px;
+        background-color: #e8e8e8;
+        font: 13px/42px "MyriadPro Regular";
+        color: $black;
+        margin-bottom: 20px;
+      }
+      .loginaccount {
+        width: 115px;
+        height: 42px;
+        background-color: #2e2e2e;
+        border-radius: 0;
+        border: none;
+        margin:20px 0;
+        font: 13px/42px "MyriadPro Regular";
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .createaccount {
+        width: 115px;
+        height: 42px;
+        background-color: #2e2e2e;
+        border-radius: 0;
+        border: none;
+        margin:20px 0;
+        font: 13px/42px "MyriadPro Regular";
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+    &__toRegistration {
+      text-decoration: underline;
+      display: block;
+      text-align: center;
+      font: 14px/45px "MyriadPro Regular";
+      color: #5b9ddb;
+      cursor: pointer;
+    }
+  }
+  #quick-register {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

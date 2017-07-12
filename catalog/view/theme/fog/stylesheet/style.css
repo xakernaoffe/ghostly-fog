@@ -1727,6 +1727,79 @@ input[type="checkbox"]:checked {
   color: #fff;
   text-transform: uppercase; }
 
+.login-wrap .modal-dialog {
+  width: 456px;
+  background: #fff;
+  margin-top: 120px; }
+.login-wrap .modal-content {
+  border-radius: 0;
+  padding: 0; }
+.login-wrap .modal-body {
+  position: relative;
+  padding: 60px 50px 25px; }
+.login-wrap .login__close {
+  width: 41px;
+  height: 37px;
+  background-color: #2e2e2e;
+  color: #fff;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  line-height: 33px; }
+.login-wrap .login__title {
+  font: 30px/42px "MyriadPro Regular";
+  color: #2e2e2e;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+.login-wrap .login__form .form-group {
+  margin: 0; }
+  .login-wrap .login__form .form-group a {
+    text-decoration: underline;
+    color: #5b9ddb;
+    font: 13px/20px "MyriadPro Regular"; }
+.login-wrap .login__form .form-control {
+  border-radius: 0;
+  border: none;
+  height: 42px;
+  background-color: #e8e8e8;
+  font: 13px/42px "MyriadPro Regular";
+  color: #000;
+  margin-bottom: 20px; }
+.login-wrap .login__form .loginaccount {
+  width: 115px;
+  height: 42px;
+  background-color: #2e2e2e;
+  border-radius: 0;
+  border: none;
+  margin: 20px 0;
+  font: 13px/42px "MyriadPro Regular";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase; }
+.login-wrap .login__form .createaccount {
+  width: 115px;
+  height: 42px;
+  background-color: #2e2e2e;
+  border-radius: 0;
+  border: none;
+  margin: 20px 0;
+  font: 13px/42px "MyriadPro Regular";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase; }
+.login-wrap .login__toRegistration {
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  font: 14px/45px "MyriadPro Regular";
+  color: #5b9ddb;
+  cursor: pointer; }
+.login-wrap #quick-register {
+  display: none; }
+
 /* Slider */
 .slick-slider {
   position: relative;
