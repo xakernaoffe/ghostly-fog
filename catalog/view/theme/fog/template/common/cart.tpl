@@ -1,11 +1,11 @@
 <div id="cart" class="cart-wrap">
-    <div class="cart-wrap__content">
-        <div class="cart-wrap__icon"></div>
-        <div class="cart-wrap__sum">
+    <button class="cart-wrap__content">
+        <span class="cart-wrap__icon"></span>
+        <span class="cart-wrap__sum">
             <?php echo $text_items_sum; ?>
-        </div>
-        <div id="cart-total" class="cart-wrap__total"><?php echo $text_items; ?></div>
-    </div>
+        </span>
+        <span id="cart-total" class="cart-wrap__total"><?php echo $text_items; ?></span>
+    </button>
   <ul class="dropdown-menu pull-right">
     <?php if ($products || $vouchers) { ?>
     <li>

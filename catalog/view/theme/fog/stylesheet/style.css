@@ -79,7 +79,10 @@ header {
       align-items: center;
       border: 1px solid #32a0ed;
       border-radius: 5px;
-      height: 46px; }
+      height: 46px;
+      background: none;
+      padding: 0;
+      width: 100%; }
     header .cart .cart-wrap__icon {
       width: 35%;
       height: 46px;
