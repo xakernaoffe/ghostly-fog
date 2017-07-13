@@ -83,6 +83,14 @@
       color: #5b9ddb;
       cursor: pointer;
     }
+    .registration__toLogin {
+      text-decoration: underline;
+      display: block;
+      text-align: center;
+      font: 14px/45px "MyriadPro Regular";
+      color: #5b9ddb;
+      cursor: pointer;
+    }
   }
   #quick-register {
     display: none;

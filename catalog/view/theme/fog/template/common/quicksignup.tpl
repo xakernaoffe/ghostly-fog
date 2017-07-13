@@ -46,6 +46,7 @@
                                 <button type="button" class="createaccount" data-loading-text="<?php echo $text_loading; ?>" ><?php echo $button_continue; ?></button>
                             </div>
                         <?php } ?>
+                        <a class="registration__toLogin"><?php echo $text_toLogin; ?></a>
                     </div>
                 </div>
             </div>
@@ -168,6 +169,10 @@ $('#quick-login .loginaccount').click(function() {
 $('.login__toRegistration').on('click', function(){
     $('#quick-login').hide();
     $('#quick-register').show();
+    });
+    $('.registration__toLogin').on('click', function(){
+        $('#quick-register ').hide();
+        $('#quick-login').show();
     });
 //--></script>
 <script type="text/javascript"><!--

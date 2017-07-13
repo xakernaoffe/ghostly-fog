@@ -12,7 +12,8 @@ $_['entry_password']          = 'Введите пароль';
 $_['entry_telephone']         = 'Введите телефон';
 $_['text_forgotten']          = 'Забыли пароль?';
 $_['text_registration_title'] = 'Регистрация';
-$_['text_registration']          = 'Регистрация для новых пользователей';
+$_['text_registration']       = 'Регистрация для новых пользователей';
+$_['text_toLogin']            = 'Я уже зарегистрирован';
 $_['text_agree']              = 'I have read and agree to the <a href="%s" class="agree"><b>%s</b></a>';
 
 

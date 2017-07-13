@@ -1,0 +1,23 @@
+.latestPage {
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+  }
+  .module {
+    margin-top: 0;
+    &__header {
+      display: none;
+    }
+  }
+  .product {
+    margin-bottom: 30px;
+  }
+}

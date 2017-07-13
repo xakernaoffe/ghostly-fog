@@ -1814,8 +1814,32 @@ input[type="checkbox"]:checked {
   font: 14px/45px "MyriadPro Regular";
   color: #5b9ddb;
   cursor: pointer; }
+.login-wrap .login .registration__toLogin {
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  font: 14px/45px "MyriadPro Regular";
+  color: #5b9ddb;
+  cursor: pointer; }
 .login-wrap #quick-register {
   display: none; }
+
+.latestPage__header {
+  min-height: 95px;
+  background: url("./img/categoryBg.png") center no-repeat;
+  margin-bottom: 30px; }
+.latestPage__title {
+  margin-top: 38px;
+  font: 24px/26px "OpenSans Regular";
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 0; }
+.latestPage .module {
+  margin-top: 0; }
+  .latestPage .module__header {
+    display: none; }
+.latestPage .product {
+  margin-bottom: 30px; }
 
 /* Slider */
 .slick-slider {

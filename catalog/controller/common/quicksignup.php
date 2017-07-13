@@ -26,6 +26,7 @@ class ControllerCommonQuicksignup extends Controller {
 		$data['text_signin_register'] = $this->language->get('text_signin_register');
 		$data['text_new_customer'] = $this->language->get('text_new_customer');
 		$data['text_returning'] = $this->language->get('text_returning');
+		$data['text_toLogin'] = $this->language->get('text_toLogin');
 		$data['text_returning_customer'] = $this->language->get('text_returning_customer');
 		
 		
