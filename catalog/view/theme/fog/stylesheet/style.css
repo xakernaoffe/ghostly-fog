@@ -195,6 +195,7 @@ header {
           .menu .navbar__item .sub-menu__link:hover {
             color: #fff; }
     .menu .navbar__link {
+      display: block;
       font: 16px/55px "RobotoCondensed Regular";
       text-transform: uppercase;
       color: #fff; }
@@ -1685,7 +1686,8 @@ input[type="checkbox"]:checked {
   padding: 60px 50px 45px; }
 #callback-box .modal-header {
   padding: 0;
-  border: none; }
+  border: none;
+  margin-bottom: 20px; }
   #callback-box .modal-header .close {
     position: absolute;
     top: 2px;
@@ -1706,7 +1708,7 @@ input[type="checkbox"]:checked {
 #callback-box .modal-body {
   padding: 0; }
 #callback-box .form-group {
-  margin: 0 0 24px; }
+  margin: 0 0 20px; }
   #callback-box .form-group input {
     height: 40px;
     border: none;
@@ -1725,7 +1727,19 @@ input[type="checkbox"]:checked {
   border: 0;
   font: 13px/42px "MyriadPro Regular";
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-shadow: none;
+  padding: 0;
+  background-image: none;
+  border: none;
+  border-radius: 0; }
+  #callback-box .add-callback i {
+    display: none; }
+#callback-box .col-sm-4 {
+  display: none; }
+#callback-box .col-sm-8 {
+  width: 100%;
+  padding: 0; }
 
 .login-wrap .modal-dialog {
   width: 456px;
