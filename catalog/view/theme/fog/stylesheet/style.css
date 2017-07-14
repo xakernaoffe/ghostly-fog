@@ -1871,7 +1871,8 @@ input[type="checkbox"]:checked {
 .accountPage #column-right {
   width: 80%;
   padding: 0;
-  float: right; }
+  float: right;
+  margin-top: 40px; }
 .accountPage .accountModule {
   border: 1px solid #adadad;
   padding: 0 10px; }
@@ -1884,6 +1885,39 @@ input[type="checkbox"]:checked {
     .accountPage .accountModule__link:last-child {
       border: none;
       font-weight: bold; }
+.accountPage .form-horizontal {
+  margin-top: 40px; }
+.accountPage .control-label {
+  font: 12px/24px "Open Sans";
+  color: #3a3a3a; }
+.accountPage .form-control {
+  border-radius: 0;
+  background-color: #e9e9e9;
+  border: 1px solid #c2c2c2; }
+.accountPage__back {
+  display: block;
+  width: 100px;
+  height: 42px;
+  background-color: #2a2a2a;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font: 13px/42px "MyriadPro Regular";
+  text-transform: uppercase; }
+  .accountPage__back:hover {
+    color: #fff; }
+.accountPage__continue {
+  display: block;
+  width: 100px;
+  height: 42px;
+  background-color: #32a0ed;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font: 13px/42px "MyriadPro Regular";
+  text-transform: uppercase; }
+  .accountPage__continue:hover {
+    color: #fff; }
 
 /* Slider */
 .slick-slider {
