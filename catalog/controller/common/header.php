@@ -107,7 +107,7 @@ class ControllerCommonHeader extends Controller {
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
 
-        $data['latest'] = $this->url->link('product/latest');
+        $data['latest'] = $this->url->link('latest/latest');
         $data['text_latest'] = $this->language->get('text_latest');
 
 		$status = true;

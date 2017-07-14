@@ -1,0 +1,55 @@
+.accountPage {
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+  }
+  &__item {
+    &__title {
+      font: 20px/22px "Roboto Light";
+      color: #3a3a3a;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    &__list {
+      margin: 0;
+      padding: 0;
+      list-style-type:none;
+      &__link {
+        font: 14px/24px "Open Sans";
+        color: $blue;
+        &:hover {
+          text-decoration: underline;
+          color: $blue;
+        }
+      }
+    }
+  }
+  #column-right {
+    width: 80%;
+    padding: 0;
+    float: right;
+  }
+  .accountModule {
+    border: 1px solid #adadad;
+    padding: 0 10px;
+    &__link {
+      display: block;
+      padding:5px 10px;
+      font: 12px/24px "Open Sans";
+      color: #3a3a3a;
+      border-bottom: 1px solid #adadad;
+      &:last-child {
+        border: none;
+        font-weight:bold;
+      }
+    }
+  }
+}

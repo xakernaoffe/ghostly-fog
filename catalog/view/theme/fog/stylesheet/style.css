@@ -237,6 +237,8 @@ header {
 
 .product {
   position: relative; }
+  .product:focus {
+    outline: none; }
   .product .status-icon {
     position: absolute;
     left: 0;
@@ -1840,6 +1842,48 @@ input[type="checkbox"]:checked {
     display: none; }
 .latestPage .product {
   margin-bottom: 30px; }
+
+.accountPage__header {
+  min-height: 95px;
+  background: url("./img/categoryBg.png") center no-repeat;
+  margin-bottom: 30px; }
+.accountPage__title {
+  margin-top: 38px;
+  font: 24px/26px "OpenSans Regular";
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 0; }
+.accountPage__item__title {
+  font: 20px/22px "Roboto Light";
+  color: #3a3a3a;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+.accountPage__item__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .accountPage__item__list__link {
+    font: 14px/24px "Open Sans";
+    color: #32a0ed; }
+    .accountPage__item__list__link:hover {
+      text-decoration: underline;
+      color: #32a0ed; }
+.accountPage #column-right {
+  width: 80%;
+  padding: 0;
+  float: right; }
+.accountPage .accountModule {
+  border: 1px solid #adadad;
+  padding: 0 10px; }
+  .accountPage .accountModule__link {
+    display: block;
+    padding: 5px 10px;
+    font: 12px/24px "Open Sans";
+    color: #3a3a3a;
+    border-bottom: 1px solid #adadad; }
+    .accountPage .accountModule__link:last-child {
+      border: none;
+      font-weight: bold; }
 
 /* Slider */
 .slick-slider {

@@ -96,8 +96,8 @@
           <div class="phones col-sm-3">
               <div class="phones__icon"></div>
               <div class="phones__links">
-                  <a href="tel:+380934484918" class="phones__links__item"><?php echo $telephone; ?></a>
-                  <a href="+380957089879" class="phones__links__item"><?php echo $telephone2; ?></a>
+                  <a href="tel:<?php echo $telephone; ?>" class="phones__links__item"><?php echo $telephone; ?></a>
+                  <a href="tel:<?php echo $telephone; ?>" class="phones__links__item"><?php echo $telephone2; ?></a>
               </div>
           </div>
           <div class="col-sm-2 cart js-addToCart"><?php echo $cart; ?></div>
