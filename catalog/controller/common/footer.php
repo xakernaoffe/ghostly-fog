@@ -35,7 +35,7 @@ class ControllerCommonFooter extends Controller {
 				);
 			}
 		}
-
+        $data['logged'] = $this->customer->isLogged();
 		$data['contact'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', 'SSL');
 		$data['sitemap'] = $this->url->link('information/sitemap');

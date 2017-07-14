@@ -19,3 +19,4 @@ $_['text_contact']       = 'Контакты';
 $_['text_latest']        = 'Новинки';
 $_['text_video']         = 'Видеообзоры';
 $_['text_news']          = 'Новости';
+$_['text_logout']        = 'Выход';

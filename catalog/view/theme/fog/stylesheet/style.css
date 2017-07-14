@@ -124,7 +124,8 @@ header {
     font: 13px "MyriadPro Regular";
     line-height: 15px;
     color: #fff;
-    padding: 10px 15px; }
+    padding: 10px 15px;
+    cursor: pointer; }
     .navigation__links__item:hover {
       color: #fff;
       text-decoration: underline; }
@@ -1918,6 +1919,13 @@ input[type="checkbox"]:checked {
   text-transform: uppercase; }
   .accountPage__continue:hover {
     color: #fff; }
+.accountPage__note__title {
+  font: 20px/22px "Roboto Light";
+  color: #3a3a3a;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+.accountPage__note__text {
+  font: 14px/24px "Open Sans"; }
 
 /* Slider */
 .slick-slider {

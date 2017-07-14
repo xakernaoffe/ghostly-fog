@@ -91,6 +91,7 @@ class ControllerCommonHeader extends Controller {
 		$data['text_all'] = $this->language->get('text_all');
 		$data['text_video'] = $this->language->get('text_video');
 		$data['text_news'] = $this->language->get('text_news');
+		$data['text_logout'] = $this->language->get('text_logout');
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');

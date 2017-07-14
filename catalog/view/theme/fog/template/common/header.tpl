@@ -61,7 +61,12 @@
               <a href="<?php echo $contact; ?>" class="navigation__links__item"><?php echo $text_contact; ?></a>
           </div>
           <div class="navigation__links login col-sm-2">
+              <?php if (!$logged) { ?>
               <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><span class="navigation__links__icon"></span> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span></a>
+              <?php } ?>
+              <?php if ($logged) { ?>
+              <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_logout; ?></span></a>
+              <?php } ?>
           </div>
       </div>
   </div>

@@ -15,10 +15,22 @@
         <?php } ?>
         <div class="footer__item col-sm-3">
             <div class="footer__item__title"><?php echo $text_account; ?></div>
+            <?php if (!$logged) { ?>
             <ul class="footer__item__list">
-                <li><a  class="footer__item__link quick_signup"><?php echo $text_room; ?></a></li>
+                <li>
+                    <a  class="footer__item__link quick_signup"><?php echo $text_room; ?></a>
+                </li>
+                <li><a class="footer__item__link quick_signup"><?php echo $text_order; ?></a></li>
+            </ul>
+            <?php } ?>
+            <?php if ($logged) { ?>
+            <ul class="footer__item__list">
+                <li>
+                    <a  href="<?php echo $account; ?>" class="footer__item__link"><?php echo $text_room; ?></a>
+                </li>
                 <li><a href="<?php echo $order; ?>" class="footer__item__link"><?php echo $text_order; ?></a></li>
             </ul>
+            <?php } ?>
         </div>
         <?php if ($informations) { ?>
             <div class="footer__item col-sm-3">
