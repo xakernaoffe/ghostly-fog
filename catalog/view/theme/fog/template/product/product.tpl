@@ -102,9 +102,6 @@
                                     <span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>
                                 </button>
                             </div>
-                            <?php if ($minimum > 1) { ?>
-                                <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
-                            <?php } ?>
                         </div>
                         <?php if ($options) { ?>
                         <div class="productPage__info__item">

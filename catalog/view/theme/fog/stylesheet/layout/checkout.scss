@@ -1,0 +1,12 @@
+.qc-step {
+  .btn-primary {
+    &.active {
+      background-color: $blue;
+    }
+  }
+  label {
+    &.btn {
+      border-radius: 0;
+    }
+  }
+}

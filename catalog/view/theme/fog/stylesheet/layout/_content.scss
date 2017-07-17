@@ -45,6 +45,46 @@ body {
       }
     }
   }
+  .pagination {
+    &>li {
+      a {
+        padding:10px 6px;
+        border-radius: 0;
+        color: $black;
+        border: none;
+        background: none;
+        font: 16px/18px "Open Sans";
+      }
+      &:first-child {
+        a {
+          padding:10px 6px;
+          border-radius: 0;
+          background: $black;
+          color: $white;
+          margin-right: 5px;
+        }
+      }
+      &:last-child {
+        a {
+          padding:10px 6px;
+          border-radius: 0;
+          background: $black;
+          color: $white;
+          margin-left: 5px;
+        }
+      }
+    }
+    .active {
+      span {
+        padding:10px 6px;
+        border-radius: 0;
+        color: $blue;
+        border: none;
+        background: none;
+        font: 16px/18px "Open Sans";
+      }
+    }
+  }
 }
 
 input[type="checkbox"]{

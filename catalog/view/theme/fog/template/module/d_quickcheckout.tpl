@@ -55,7 +55,7 @@ $(function() {
 	
 	$('.qc-step').each(function(){
 		$(this).appendTo('.qc-col-' + $(this).attr('data-col'));	
-	})
+	});
 	$('.qc-step').tsort({attr:'data-row'});
 <?php if($config['design']['only_quickcheckout']){ ?>
 	$('body').prepend($('#d_quickcheckout'));

@@ -22,14 +22,14 @@
     <?php } ?>
     <table class="display-products-cart">
       <tbody>
+      <tr>
+          <th class="image"><?php echo $text_photo; ?></th>
+          <th class="name"><?php echo $text_info; ?></th>
+          <th class="qt"><?php echo $text_quantity; ?></th>
+          <th class="totals"><?php echo $text_sum; ?></th>
+          <th class="remove"></th>
+      </tr>
         <?php foreach ($products as $product) { ?>
-            <tr>
-                <th class="image"><?php echo $text_photo; ?></th>
-                <th class="name"><?php echo $text_info; ?></th>
-                <th class="qt"><?php echo $text_quantity; ?></th>
-                <th class="totals"><?php echo $text_sum; ?></th>
-                <th class="remove"></th>
-            </tr>
         <tr>
           <td class="image">
             <?php if ($product['thumb']) { ?>

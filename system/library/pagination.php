@@ -34,7 +34,6 @@ class Pagination {
 
 		if ($page > 1) {
 			$tmp_url = str_replace('&amp;', '&', $this->url);
-			$output .= '<li><a href="' . str_replace('&', '&amp;', rtrim( str_replace('page={page}', '', $tmp_url), '?&')) . '">' . $this->text_first . '</a></li>';
 			if ($page == 2){
 				$output .= '<li><a href="' . str_replace('&', '&amp;', rtrim( str_replace('page={page}', '', $tmp_url), '?&')) . '">' . $this->text_prev . '</a></li>';
 			}else{
@@ -76,7 +75,6 @@ class Pagination {
 
 		if ($page < $num_pages) {
 			$output .= '<li><a href="' . str_replace('{page}', $page + 1, $this->url) . '">' . $this->text_next . '</a></li>';
-			$output .= '<li><a href="' . str_replace('{page}', $num_pages, $this->url) . '">' . $this->text_last . '</a></li>';
 		}
 
 		$output .= '</ul>';
