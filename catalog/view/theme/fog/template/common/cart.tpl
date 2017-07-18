@@ -1,11 +1,5 @@
 <div id="cart" class="cart-wrap">
-    <button class="cart-wrap__content">
-        <span class="cart-wrap__icon"></span>
-        <span class="cart-wrap__sum">
-            <?php echo $text_items_sum; ?>
-        </span>
-        <span id="cart-total" class="cart-wrap__total"><?php echo $text_items; ?></span>
-    </button>
+    <button type="button" data-toggle="dropdown" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total"><?php echo $text_items; ?></span></button>
   <ul class="dropdown-menu pull-right">
     <?php if ($products || $vouchers) { ?>
     <li>

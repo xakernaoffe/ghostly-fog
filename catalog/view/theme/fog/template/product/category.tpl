@@ -82,7 +82,7 @@
                                                 </div>
                                                 <input type="text" name="quantity" value="1" size="2" class="product__btn__field js-input-quantity" />
                                             </div>
-                                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="product__btn__button js-addToCart"><span class="product__btn__button__icon"></span><span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+                                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="product__btn__button "><span class="product__btn__button__icon"></span><span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
                                         </div>
                                     </div>
                                 </div>

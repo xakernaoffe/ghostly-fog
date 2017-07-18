@@ -162,11 +162,11 @@ $(document).ready(function() {
         quantity.val(val);
 
     });
-    $('.js-addToCart').on('click', function () {
-        var val = $(this).prev('.js-quantity').find('.js-input-quantity').val();
-        var id = $(this).data('id');
-        get_ocmodpcart(id,'catalog', val);
-    });
+    // $('.js-addToCart').on('click', function () {
+    //     var val = $(this).prev('.js-quantity').find('.js-input-quantity').val();
+    //     var id = $(this).data('id');
+    //     get_ocmodpcart(id,'catalog', val);
+    // });
 
     // slick slider
     $('.js-slider').slick({
