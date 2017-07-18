@@ -47,6 +47,8 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+
+    <script src="//ulogin.ru/js/ulogin.js"></script>
 </head>
 <body class="<?php echo $class; ?>">
 <nav class="navigation">

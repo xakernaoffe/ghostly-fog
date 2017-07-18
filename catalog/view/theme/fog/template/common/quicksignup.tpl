@@ -39,6 +39,9 @@
                         <div class="form-group required">
                             <input type="password" name="password" value="" id="input-password" class="form-control" placeholder="<?php echo $entry_password; ?>"/>
                         </div>
+                        <div class="social">
+                            <?php echo $ulogin_form_marker;?>
+                        </div>
                         <?php if ($text_agree) { ?>
                             <div class="buttons">
                                 <input type="checkbox" name="agree" value="1" />&nbsp;<?php echo $text_agree; ?>
