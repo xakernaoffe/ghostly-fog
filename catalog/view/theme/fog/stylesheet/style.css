@@ -585,7 +585,10 @@ input[type="checkbox"]:checked {
 .news__descr {
   font: 14px/18px "Roboto Light";
   color: #4d4d4d;
-  margin: 16px 0; }
+  margin: 16px 0;
+  max-height: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 .news__info {
   border-top: 1px solid #f4f4f4;
   padding: 10px 20px;

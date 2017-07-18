@@ -18,6 +18,9 @@
                         <div class="form-group">
                             <button type="button" class="loginaccount"  data-loading-text="<?php echo $text_loading; ?>"><?php echo $button_login ?></button>
                         </div>
+                        <div class="social-wrap">
+                            <?php echo $ulogin_form_marker;?>
+                        </div>
                         <a class="login__toRegistration"><?php echo $text_registration; ?></a>
                     </div>
                 </div>

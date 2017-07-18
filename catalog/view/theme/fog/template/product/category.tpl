@@ -45,7 +45,7 @@
                     <div class="row">
                         <?php foreach ($products as $product) { ?>
                             <div class="product product-list col-xs-12">
-                                <div class="status-icon"></div>
+                                <div class="status-icon statuses"></div>
                                 <div class="product__thumb">
                                     <div class="product__thumb__image">
                                         <a href="<?php echo $product['href']; ?>">

@@ -1,7 +1,8 @@
 <?php
 class ControllerCommonQuicksignup extends Controller {
 	public function index() {
-		$this->load->language('common/quicksignup');
+        $data['ulogin_form_marker'] = $this->load->controller('module/ulogin');
+        $this->load->language('common/quicksignup');
 
 		$data['text_account'] = $this->language->get('text_account');
 		$data['text_register'] = $this->language->get('text_register');
