@@ -83,6 +83,10 @@ header {
       background: none;
       padding: 0;
       width: 100%; }
+      header .cart .cart-wrap__content__item {
+        width: 65%;
+        font: 16px/46px "OpenSans Regular";
+        color: #fff; }
     header .cart .cart-wrap__icon {
       width: 35%;
       height: 46px;
@@ -101,7 +105,7 @@ header {
         height: 21px;
         background: url("./img/cartIcon.png") no-repeat; }
     header .cart .cart-wrap__sum {
-      width: 65%;
+      width: 100%;
       text-align: center;
       font: 16px/46px "OpenSans Regular";
       color: #fff; }
@@ -585,10 +589,7 @@ input[type="checkbox"]:checked {
 .news__descr {
   font: 14px/18px "Roboto Light";
   color: #4d4d4d;
-  margin: 16px 0;
-  max-height: 90px;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+  margin: 16px 0; }
 .news__info {
   border-top: 1px solid #f4f4f4;
   padding: 10px 20px;
