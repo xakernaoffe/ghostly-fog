@@ -3,6 +3,12 @@
   width: 100vw;
   margin-left: calc((-100vw + 1140px)/2);
   background: url("./img/videoBg.png") no-repeat;
+  @media screen and (max-width: 1200px){
+    margin-left: calc((-100vw + 940px)/2);
+  }
+  @media screen and (max-width: 990px){
+    margin-left: calc((-100vw + 720px)/2);
+  }
   .module__title {
     color: $white;
   }
@@ -22,8 +28,15 @@
     &__item {
       position: relative;
       margin-bottom: 30px;
+      @media screen and (max-width: 1200px){
+        width: 45%;
+        margin-bottom: 40px;
+      }
       &.first {
         margin-bottom: 0;
+        @media screen and (max-width: 1200px){
+          width: 100%;
+        }
         .video__item__title {
           font: 18px/20px "OpenSans Regular";
         }
@@ -31,6 +44,11 @@
       &__link {
         display: block;
         position: relative;
+        img {
+          @media screen and (max-width: 1200px){
+            width: 100%;
+          }
+        }
       }
       &__overlay {
         position: absolute;

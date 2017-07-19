@@ -33,8 +33,15 @@ button:focus, button:active {
   src: url("./fonts/fontawesome-webfont.ttf"); }
 header {
   background: #211f20; }
+  @media screen and (max-width: 1170px) {
+    header .logo-wrap {
+      padding-top: 20px; } }
   header .callback {
     padding-top: 40px; }
+    @media screen and (max-width: 1170px) {
+      header .callback {
+        padding-top: 20px;
+        margin-bottom: 10px; } }
     header .callback__icon {
       width: 41px;
       height: 50px;
@@ -42,18 +49,36 @@ header {
       vertical-align: middle;
       margin-right: 16px;
       background: url("./img/callbackIcon.png") no-repeat; }
+      @media screen and (max-width: 1170px) {
+        header .callback__icon {
+          display: block;
+          margin: 0 auto 10px; } }
     header .callback__info {
       display: inline-block;
       vertical-align: middle;
       font: 16px/20px "OpenSans Regular";
       color: #fff; }
+      @media screen and (max-width: 1170px) {
+        header .callback__info {
+          display: block;
+          margin: 0 auto;
+          text-align: center; } }
+      @media screen and (max-width: 1170px) {
+        header .callback__info__time {
+          display: none; } }
     header .callback__link {
       display: block;
       color: #32a0ed;
       padding-bottom: 2px;
       text-decoration: underline; }
+      @media screen and (max-width: 1170px) {
+        header .callback__link {
+          text-align: center; } }
   header .phones {
     padding-top: 40px; }
+    @media screen and (max-width: 1170px) {
+      header .phones {
+        padding-top: 20px; } }
     header .phones__icon {
       width: 39px;
       height: 50px;
@@ -61,13 +86,24 @@ header {
       vertical-align: middle;
       margin-right: 16px;
       background: url("./img/phonesIcon.png") no-repeat; }
+      @media screen and (max-width: 1170px) {
+        header .phones__icon {
+          display: block;
+          margin: 0 auto 10px; } }
     header .phones__links {
       display: inline-block;
       vertical-align: middle; }
+      @media screen and (max-width: 1170px) {
+        header .phones__links {
+          display: block;
+          margin: 0 auto; } }
       header .phones__links__item {
         display: block;
         font: 16px/20px "Roboto Medium";
         color: #fff; }
+        @media screen and (max-width: 1170px) {
+          header .phones__links__item {
+            text-align: center; } }
   header .cart {
     padding-top: 40px;
     cursor: pointer; }
@@ -215,6 +251,7 @@ header {
   padding: 0;
   margin-bottom: 0; }
   .search__container {
+    position: relative;
     width: 320px;
     height: 35px;
     border: 1px solid #d5d5d5;
@@ -223,6 +260,20 @@ header {
     justify-content: flex-start;
     align-items: center;
     align-content: center; }
+    .search__container__link {
+      display: none; }
+      @media screen and (max-width: 1170px) {
+        .search__container__link {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: block; } }
+    @media screen and (max-width: 1170px) {
+      .search__container {
+        width: 35px;
+        border-radius: 50%; } }
   .search__field {
     width: 85%;
     background: none;
@@ -232,6 +283,9 @@ header {
     color: #a4a4a4; }
     .search__field:focus {
       outline: none; }
+    @media screen and (max-width: 1170px) {
+      .search__field {
+        display: none; } }
   .search__btn {
     width: 15%;
     height: 30px;
@@ -239,6 +293,10 @@ header {
     background: url("./img/searchIcon.png") center no-repeat; }
     .search__btn:focus {
       outline: none; }
+    @media screen and (max-width: 1170px) {
+      .search__btn {
+        width: 100%;
+        text-align: center; } }
 
 .product {
   position: relative; }
@@ -463,6 +521,13 @@ input[type="checkbox"]:checked {
     width: 7px;
     height: 2px; }
 
+#ocmod-popup-okno .alert {
+  margin-bottom: 25px !important;
+  border-radius: 0; }
+
+.panel.panel-default.ulogin_panel {
+  display: none; }
+
 .module {
   margin-top: 40px; }
   .module__header {
@@ -529,12 +594,20 @@ input[type="checkbox"]:checked {
     .module .slick-arrow.slick-next {
       background: #007cd2 url("./img/slick-next.png") center no-repeat;
       right: 15px; }
+  .module .product {
+    padding: 0 10px; }
 
 .video-wrap {
   margin-top: 40px;
   width: 100vw;
   margin-left: calc((-100vw + 1140px)/2);
   background: url("./img/videoBg.png") no-repeat; }
+  @media screen and (max-width: 1200px) {
+    .video-wrap {
+      margin-left: calc((-100vw + 940px)/2); } }
+  @media screen and (max-width: 990px) {
+    .video-wrap {
+      margin-left: calc((-100vw + 720px)/2); } }
   .video-wrap .module__title {
     color: #fff; }
   .video-wrap .video {
@@ -552,13 +625,23 @@ input[type="checkbox"]:checked {
     .video-wrap .video__item {
       position: relative;
       margin-bottom: 30px; }
+      @media screen and (max-width: 1200px) {
+        .video-wrap .video__item {
+          width: 45%;
+          margin-bottom: 40px; } }
       .video-wrap .video__item.first {
         margin-bottom: 0; }
+        @media screen and (max-width: 1200px) {
+          .video-wrap .video__item.first {
+            width: 100%; } }
         .video-wrap .video__item.first .video__item__title {
           font: 18px/20px "OpenSans Regular"; }
       .video-wrap .video__item__link {
         display: block;
         position: relative; }
+        @media screen and (max-width: 1200px) {
+          .video-wrap .video__item__link img {
+            width: 100%; } }
       .video-wrap .video__item__overlay {
         position: absolute;
         left: 0;
@@ -589,7 +672,9 @@ input[type="checkbox"]:checked {
 .news__descr {
   font: 14px/18px "Roboto Light";
   color: #4d4d4d;
-  margin: 16px 0; }
+  margin: 16px 0;
+  height: 126px;
+  overflow: hidden; }
 .news__info {
   border-top: 1px solid #f4f4f4;
   padding: 10px 20px;
@@ -670,6 +755,9 @@ input[type="checkbox"]:checked {
       width: 20%;
       display: flex;
       justify-content: center; }
+      @media screen and (max-width: 1170px) {
+        .footer__item__info__icon {
+          display: none; } }
       .footer__item__info__icon .phones {
         display: block;
         width: 20px;
@@ -706,6 +794,10 @@ input[type="checkbox"]:checked {
   padding: 20px 0; }
   .copyright__text {
     padding: 0; }
+    @media screen and (max-width: 1200px) {
+      .copyright__text__content {
+        display: inline-block;
+        vertical-align: middle; } }
     .copyright__text__link {
       font: 13px/18px "OpenSans Regular";
       color: #a9a9a9; }
@@ -729,6 +821,12 @@ input[type="checkbox"]:checked {
   width: 100vw;
   margin-left: calc((-100vw + 1140px)/2);
   background: url("./img/vaperBanner.png") 50% 100% no-repeat; }
+  @media screen and (max-width: 1200px) {
+    .slideshow {
+      margin-left: calc((-100vw + 940px)/2); } }
+  @media screen and (max-width: 990px) {
+    .slideshow {
+      margin-left: calc((-100vw + 720px)/2); } }
   .slideshow .owl-carousel {
     background: transparent; }
     .slideshow .owl-carousel .owl-wrapper-outer {

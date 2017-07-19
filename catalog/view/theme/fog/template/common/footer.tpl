@@ -87,12 +87,12 @@
 </footer>
 <div class="copyright">
     <div class="container">
-        <div class="copyright__text col-sm-9">
+        <div class="copyright__text col-lg-9 col-md-12">
             <?php echo $powered; ?>
             <a href="<?php echo $home; ?>" class="copyright__text__link"><?php echo $site_name; ?></a>
             <div class="copyright__text__content"><?php echo $site_descr; ?></div>
         </div>
-        <div class="warning col-sm-3">
+        <div class="warning col-lg-3 col-md-12">
             <div class="warning__text"><?php echo $text_warning; ?></div>
             <div class="warning__icon"></div>
         </div>

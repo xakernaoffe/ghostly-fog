@@ -167,12 +167,41 @@ $(document).ready(function() {
         var id = $(this).data('id');
         get_ocmodpcart(id,'catalog', val);
     });
+    // $('.js-addToCart').on('click', function () {
+    //     var val = $(this).prev('.js-quantity').find('.js-input-quantity').val();
+    //     var id = $(this).data('id');
+    //     get_ocmodpcart(id,'product', val);
+    // });
 
     // slick slider
     $('.js-slider').slick({
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 });
 

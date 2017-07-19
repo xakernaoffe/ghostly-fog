@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?></title>
 <base href="<?php echo $base; ?>" />
@@ -64,10 +64,10 @@
           </div>
           <div class="navigation__links login col-sm-2">
               <?php if (!$logged) { ?>
-              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><span class="navigation__links__icon"></span> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span></a>
+              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><span class="navigation__links__icon"></span> <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
               <?php } ?>
               <?php if ($logged) { ?>
-              <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_logout; ?></span></a>
+              <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_logout; ?></span></a>
               <?php } ?>
           </div>
       </div>
@@ -76,7 +76,7 @@
 <header>
   <div class="container">
       <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 logo-wrap">
               <div id="logo">
                   <?php if ($logo) { ?>
                       <?php if ($home == $og_url) { ?>
@@ -96,7 +96,7 @@
           <div class="callback col-sm-3">
               <div class="callback__icon"></div>
               <div class="callback__info">
-                  <?php echo $open; ?>
+                  <span class="callback__info__time"><?php echo $open; ?></span>
                   <a href="#" class="callback__link show-callback">Обратный звонок</a>
               </div>
           </div>
@@ -114,47 +114,51 @@
 <div class="menu">
     <?php if ($categories) { ?>
         <div class="container">
-            <nav id="menu" class="navbar col-sm-8">
-                <div class="navbar__header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
-                    <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
-                </div>
-                <ul class="navbar__container">
-                    <?php foreach ($categories as $category) { ?>
-                        <?php if ($category['children']) { ?>
-                            <li class="navbar__item">
-                                <a href="<?php echo $category['href']; ?>" class="navbar__link"><?php echo $category['name']; ?></a>
-                                <div class="sub-menu">
-                                    <div class="sub-menu__container">
-                                        <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
-                                            <ul class="sub-menu__list">
-                                                <?php foreach ($children as $child) { ?>
-                                                    <li class="sub-menu__item">
-                                                        <a href="<?php echo $child['href']; ?>" class="sub-menu__link"><?php echo $child['name']; ?></a>
-                                                    </li>
-                                                <?php } ?>
-                                            </ul>
-                                        <?php } ?>
+            <div class="row">
+                <nav id="menu" class="navbar col-lg-8 col-md-10">
+                    <div class="navbar__header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+                        <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+                    </div>
+                    <ul class="navbar__container">
+                        <?php foreach ($categories as $category) { ?>
+                            <?php if ($category['children']) { ?>
+                                <li class="navbar__item">
+                                    <a href="<?php echo $category['href']; ?>" class="navbar__link"><?php echo $category['name']; ?></a>
+                                    <div class="sub-menu">
+                                        <div class="sub-menu__container">
+                                            <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+                                                <ul class="sub-menu__list">
+                                                    <?php foreach ($children as $child) { ?>
+                                                        <li class="sub-menu__item">
+                                                            <a href="<?php echo $child['href']; ?>" class="sub-menu__link"><?php echo $child['name']; ?></a>
+                                                        </li>
+                                                    <?php } ?>
+                                                </ul>
+                                            <?php } ?>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        <?php } else { ?>
-                            <li class="navbar__item"><a href="<?php echo $category['href']; ?>" class="navbar__link"><?php echo $category['name']; ?></a></li>
+                                </li>
+                            <?php } else { ?>
+                                <li class="navbar__item"><a href="<?php echo $category['href']; ?>" class="navbar__link"><?php echo $category['name']; ?></a></li>
+                            <?php } ?>
                         <?php } ?>
-                    <?php } ?>
-                </ul>
-                <ul class="navbar__container">
-                    <li class="navbar__item">
-                        <a href="<?php echo $latest; ?>" class="navbar__link"><?php echo $text_latest; ?></a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="<?php echo $pvr_view_all_link; ?>" class="navbar__link"><?php echo $text_video; ?></a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="<?php echo $news_link; ?>" class="navbar__link"><?php echo $text_news; ?></a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="search col-sm-4"><?php echo $search; ?></div>
+                    </ul>
+                    <ul class="navbar__container">
+                        <li class="navbar__item">
+                            <a href="<?php echo $latest; ?>" class="navbar__link"><?php echo $text_latest; ?></a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="<?php echo $pvr_view_all_link; ?>" class="navbar__link"><?php echo $text_video; ?></a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="<?php echo $news_link; ?>" class="navbar__link"><?php echo $text_news; ?></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search col-lg-4 col-md-2">
+                    <?php echo $search; ?>
+                </div>
+            </div>
         </div>
     <?php } ?>
 </div>

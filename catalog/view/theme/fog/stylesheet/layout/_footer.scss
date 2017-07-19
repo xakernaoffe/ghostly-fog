@@ -28,6 +28,9 @@
         width: 20%;
         display: flex;
         justify-content: center;
+        @media screen and (max-width: 1170px){
+          display: none;
+        }
         .phones {
           display: block;
           width: 20px;
@@ -74,6 +77,12 @@
   padding: 20px 0;
   &__text {
     padding: 0;
+    &__content {
+      @media screen and (max-width: 1200px){
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
     &__link {
       font: 13px/18px "OpenSans Regular";
       color: #a9a9a9;

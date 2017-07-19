@@ -5,6 +5,7 @@
   padding: 0;
   margin-bottom:0;
   &__container {
+    position: relative;
     width: 320px;
     height: 35px;
     border: 1px solid #d5d5d5;
@@ -13,6 +14,21 @@
     justify-content:flex-start;
     align-items: center;
     align-content: center;
+    &__link {
+      display: none;
+      @media screen and (max-width: 1170px){
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+      }
+    }
+    @media screen and (max-width: 1170px){
+      width: 35px;
+      border-radius: 50%;
+    }
   }
   &__field {
     width: 85%;
@@ -24,6 +40,9 @@
     &:focus {
       outline: none;
     }
+    @media screen and (max-width: 1170px){
+      display: none;
+    }
   }
   &__btn {
     width: 15%;
@@ -32,6 +51,10 @@
     background: url("./img/searchIcon.png") center no-repeat;
     &:focus {
       outline: none;
+    }
+    @media screen and (max-width: 1170px){
+      width: 100%;
+      text-align: center;
     }
   }
 }

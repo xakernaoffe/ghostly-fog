@@ -7,7 +7,7 @@
     <div class="row">
         <div class="latest js-slider">
             <?php foreach ($products as $product) { ?>
-                <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="product">
 <!--                    <div class="status-icon"></div>-->
                     <div class="product__thumb transition">
                         <div class="product__thumb__image">

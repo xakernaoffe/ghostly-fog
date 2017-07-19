@@ -2,6 +2,12 @@
   width: 100vw;
   margin-left: calc((-100vw + 1140px)/2);
   background: url("./img/vaperBanner.png") 50% 100% no-repeat;
+  @media screen and (max-width: 1200px){
+    margin-left: calc((-100vw + 940px)/2);
+  }
+  @media screen and (max-width: 990px){
+    margin-left: calc((-100vw + 720px)/2);
+  }
   .owl-carousel {
     background: transparent;
     .owl-wrapper-outer {

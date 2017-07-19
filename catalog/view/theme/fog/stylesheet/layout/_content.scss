@@ -122,3 +122,11 @@ input[type="checkbox"]:checked{
     height: 2px;
   }
 }
+#ocmod-popup-okno .alert {
+  margin-bottom:25px !important;
+  border-radius: 0;
+}
+
+.panel.panel-default.ulogin_panel{
+  display: none;
+}
