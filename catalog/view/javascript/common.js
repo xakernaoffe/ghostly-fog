@@ -211,10 +211,14 @@ $(document).ready(function() {
         ]
     });
 
-    // burger button
+    // burger button// mobile menu
     $('.burger_btn').click(function(){
         $(this).toggleClass('open');
+        $('.menu__mobile').toggleClass('show');
     });
+    $('.menu__mobile__item').on('click', function(){
+    	$(this).toggleClass('open');
+	});
 });
 
 // Cart add remove functions

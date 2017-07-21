@@ -1,6 +1,7 @@
 body {
   background: $bg;
   overflow-x: hidden;
+  position: relative;
 }
 .container {
   .breadcrumb {

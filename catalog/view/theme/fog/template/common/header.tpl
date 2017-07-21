@@ -84,7 +84,15 @@
               <span></span>
               <span></span>
           </div>
-          <div class="cart js-addToCart"><?php echo $cart; ?></div>
+          <div class="header__mobile__info">
+              <?php if (!$logged) { ?>
+                  <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-user fa-3x" aria-hidden="true"></i></a>
+              <?php } ?>
+              <?php if ($logged) { ?>
+                  <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out fa-3x " aria-hidden="true"></i></a>
+              <?php } ?>
+              <div class="cart js-addToCart"><?php echo $cart; ?></div>
+          </div>
       </div>
       <div class="row hidden-sm">
           <div class="col-sm-4 logo-wrap">
@@ -122,6 +130,7 @@
       </div>
   </div>
 </header>
+<div class="header__separator hidden-lg hidden-md"></div>
 <div class="menu hidden-sm">
     <?php if ($categories) { ?>
         <div class="container">
@@ -172,5 +181,38 @@
             </div>
         </div>
     <?php } ?>
+</div>
+<div class="menu__mobile hidden-lg hidden-md">
+    <?php if ($categories) { ?>
+    <div id="accordion">
+        <?php foreach ($categories as $category) { ?>
+            <div class="panel">
+                <?php if ($category['children']) { ?>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $category['name']; ?>" class="menu__mobile__item"><span class="arrow"></span>
+                        <?php echo $category['name']; ?>
+                    </a>
+                    <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+                        <div id="<?php echo $category['name']; ?>" class="panel-collapse collapse">
+                            <?php foreach ($children as $child) { ?>
+                                <a href="<?php echo $child['href']; ?>" class="menu__mobile__link"><?php echo $child['name']; ?></a>
+                            <?php } ?>
+                        </div>
+                    <?php } ?>
+                <?php } else { ?>
+                    <a href="<?php echo $category['href']; ?>" class="menu__mobile__item"><?php echo $category['name']; ?></a>
+                <?php } ?>
+            </div>
+        <?php } ?>
+    </div>
+    <?php } ?>
+    <a href="<?php echo $latest; ?>" class="menu__mobile__item"><?php echo $text_latest; ?></a>
+    <a href="<?php echo $pvr_view_all_link; ?>" class="menu__mobile__item"><?php echo $text_video; ?></a>
+    <a href="<?php echo $news_link; ?>" class="menu__mobile__item"><?php echo $text_news; ?></a> <hr>
+    <?php if ($informations) { ?>
+        <?php foreach ($informations as $information) { ?>
+            <a href="<?php echo $information['href']; ?>" class="menu__mobile__item"><?php echo $information['title']; ?></a>
+        <?php } ?>
+    <?php } ?>
+    <a href="<?php echo $contact; ?>" class="menu__mobile__item"><?php echo $text_contact; ?></a>
 </div>
 
