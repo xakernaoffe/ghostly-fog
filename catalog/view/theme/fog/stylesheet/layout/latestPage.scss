@@ -17,7 +17,18 @@
       display: none;
     }
   }
-  .product {
-    margin-bottom: 30px;
+  .latest {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    .product {
+      width: 33%;
+      margin-bottom: 30px;
+      @media screen and (max-width: 992px){
+        width: 50%;
+      }
+    }
   }
 }

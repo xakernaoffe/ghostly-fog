@@ -19,6 +19,9 @@
     margin-bottom: 20px;
     &__image {
       width: 30%;
+      @media screen and (max-width: 992px){
+        width: 25%;
+      }
       &__link {
         display: block;
       }

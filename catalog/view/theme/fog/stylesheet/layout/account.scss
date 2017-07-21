@@ -12,6 +12,9 @@
     padding: 0;
   }
   &__item {
+    @media screen and (max-width: 992px){
+      text-align: center;
+    }
     &__title {
       font: 20px/22px "Roboto Light";
       color: #3a3a3a;
@@ -37,6 +40,10 @@
     padding: 0;
     float: right;
     margin-top: 40px;
+    @media screen and (max-width: 992px){
+      float: none;
+      margin:40px auto 0;
+    }
   }
   .accountModule {
     border: 1px solid #adadad;
@@ -103,5 +110,28 @@
     &__text {
       font: 14px/24px "Open Sans";
     }
+  }
+  .table-bordered {
+    margin-top: 40px;
+    border: 1px solid #adadad;
+    td {
+      border: 1px solid #adadad;
+      a {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+  &__edit {
+    text-align: center;
+    text-decoration: underline;
+    margin:15px 0;
+  }
+  &__delete {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .ulogin_profile {
+    display: none; 
   }
 }

@@ -142,9 +142,9 @@ div.required .control-label:before {
 	text-shadow: 0 1px 0 #FFF;
 }
 /* cart */
-#cart {
-	margin-bottom: 10px;
-}
+/*#cart {*/
+	/*margin-bottom: 10px;*/
+/*}*/
 #cart > .btn {
 	font-size: 12px;
 	line-height: 18px;
@@ -306,6 +306,11 @@ div.required .control-label:before {
 /* content */
 #content {
 	min-height: 600px;
+}
+@media screen and (max-width: 992px){
+	#content {
+		min-height: auto;
+	}
 }
 /* footer */
 footer {

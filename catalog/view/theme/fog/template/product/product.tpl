@@ -246,7 +246,7 @@
                                             class="product__btn__button"
                                             data-id="<?php echo $product_id; ?>">
                                         <span class="product__btn__button__icon"></span>
-                                        <span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>
+                                        <span class="product__btn__button__text hidden-xs hidden-sm"><?php echo $button_cart; ?></span>
                                     </button>
                                 </div>
                             </div>
@@ -276,9 +276,9 @@
                         <?php } ?>
                         <div class="productPage__info__item">
                             <!-- AddThis Button BEGIN -->
-<!--                            <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>-->
-<!--                            <script src="//yastatic.net/share2/share.js"></script>-->
-<!--                            <div class="ya-share2" data-services="facebook,twitter,gplus,vkontakte" data-counter=""></div>-->
+                            <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+                            <script src="//yastatic.net/share2/share.js"></script>
+                            <div class="ya-share2" data-services="facebook,twitter,gplus,vkontakte" data-counter=""></div>
                             <!-- AddThis Button END -->
                         </div>
                     </div>

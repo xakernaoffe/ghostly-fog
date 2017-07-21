@@ -1,4 +1,7 @@
 .news {
+  &__wrap {
+    padding:0 10px;
+  }
   &__thumb {
     background: $white;
   }

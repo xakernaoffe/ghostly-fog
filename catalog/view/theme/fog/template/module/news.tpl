@@ -3,13 +3,13 @@
         <?php if($show_title) { ?>
             <div class="module__title"><?php echo $show_icon ? '<i class="fa fa-newspaper-o fa-3x"></i>&nbsp;' : ''; ?><?php echo $heading_title; ?></div>
         <?php } ?>
-        <a class="module__link" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
-        <hr class="module__header__line">
+        <a class="module__link hidden-sm" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
+        <hr class="module__header__line hidden-sm">
     </div>
     <div class="row">
         <div class="news">
             <?php foreach ($news as $news_item) { ?>
-                <div class="news__wrap col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="news__wrap">
                     <div class="news__thumb transition">
                         <?php if($news_item['thumb']) { ?>
                             <div class="news__image">

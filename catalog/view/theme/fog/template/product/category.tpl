@@ -17,7 +17,7 @@
             <?php if ($column_left && $column_right) { ?>
                 <?php $class = 'col-sm-6'; ?>
             <?php } elseif ($column_left || $column_right) { ?>
-                <?php $class = 'col-sm-9'; ?>
+                <?php $class = 'col-lg-9 col-md-8'; ?>
             <?php } else { ?>
                 <?php $class = 'col-sm-12'; ?>
             <?php } ?>
@@ -82,7 +82,7 @@
                                                 </div>
                                                 <input type="text" name="quantity" value="1" size="2" class="product__btn__field js-input-quantity" />
                                             </div>
-                                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="product__btn__button js-addToCart"><span class="product__btn__button__icon"></span><span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+                                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="product__btn__button js-addToCart"><span class="product__btn__button__icon"></span><span class="product__btn__button__text hidden-xs"><?php echo $button_cart; ?></span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -94,9 +94,9 @@
                     </div>
                 <?php } ?>
                 <?php if (!$categories && !$products) { ?>
-                    <p><?php echo $text_empty; ?></p>
+                    <p class="category__empty"><?php echo $text_empty; ?></p>
                     <div class="buttons">
-                        <div class="pull-right"><a href="<?php echo $continue; ?>" class="btn btn-primary"><?php echo $button_continue; ?></a></div>
+                        <a href="<?php echo $continue; ?>" class="category__continue"><?php echo $button_continue; ?></a>
                     </div>
                 <?php } ?>
                 <?php echo $content_bottom; ?></div>

@@ -25,7 +25,7 @@
                 <?php $class = 'col-sm-12'; ?>
             <?php } ?>
             <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-                <div class="accountPage__item col-sm-4">
+                <div class="accountPage__item col-sm-6 col-md-4">
                     <div class="accountPage__item__title"><?php echo $text_my_account; ?></div>
                     <ul class="accountPage__item__list">
                         <li><a href="<?php echo $edit; ?>" class="accountPage__item__list__link"><?php echo $text_edit; ?></a></li>
@@ -33,13 +33,13 @@
                         <li><a href="<?php echo $address; ?>" class="accountPage__item__list__link"><?php echo $text_address; ?></a></li>
                     </ul>
                 </div>
-                <div class="accountPage__item col-sm-4">
+                <div class="accountPage__item col-sm-6 col-md-4">
                     <div class="accountPage__item__title"><?php echo $text_my_orders; ?></div>
                     <ul class="accountPage__item__list">
                         <li><a href="<?php echo $order; ?>" class="accountPage__item__list__link"><?php echo $text_order; ?></a></li>
                     </ul>
                 </div>
-                <div class="accountPage__item col-sm-4">
+                <div class="accountPage__item col-sm-12 col-md-4">
                     <?php echo $column_right; ?>
                 </div>
                 <?php echo $content_bottom; ?>

@@ -23,18 +23,17 @@
             <?php if ($column_left && $column_right) { ?>
                 <?php $class = 'col-sm-6'; ?>
             <?php } elseif ($column_left || $column_right) { ?>
-                <?php $class = 'col-sm-8'; ?>
+                <?php $class = 'col-sm-12 col-md-8'; ?>
             <?php } else { ?>
                 <?php $class = 'col-sm-12'; ?>
             <?php } ?>
             <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-                <h2><?php echo $text_address_book; ?></h2>
                 <?php if ($addresses) { ?>
                     <table class="table table-bordered table-hover">
                         <?php foreach ($addresses as $result) { ?>
                             <tr>
                                 <td class="text-left"><?php echo $result['address']; ?></td>
-                                <td class="text-right"><a href="<?php echo $result['update']; ?>" class="btn btn-info"><?php echo $button_edit; ?></a> &nbsp; <a href="<?php echo $result['delete']; ?>" class="btn btn-danger"><?php echo $button_delete; ?></a></td>
+                                <td class="text-right"><a href="<?php echo $result['update']; ?>" class="accountPage__edit"><?php echo $button_edit; ?></a><a href="<?php echo $result['delete']; ?>" class="accountPage__delete"><?php echo $button_delete; ?></a></td>
                             </tr>
                         <?php } ?>
                     </table>
@@ -46,7 +45,7 @@
                     <div class="pull-right"><a href="<?php echo $add; ?>" class="accountPage__continue"><?php echo $button_new_address; ?></a></div>
                 </div>
                 <?php echo $content_bottom; ?></div>
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <?php echo $column_right; ?>
             </div>
             </div>

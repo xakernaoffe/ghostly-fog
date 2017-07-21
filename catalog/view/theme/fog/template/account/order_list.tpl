@@ -17,7 +17,7 @@
             <?php if ($column_left && $column_right) { ?>
                 <?php $class = 'col-sm-6'; ?>
             <?php } elseif ($column_left || $column_right) { ?>
-                <?php $class = 'col-sm-8'; ?>
+                <?php $class = 'col-sm-12 col-md-8'; ?>
             <?php } else { ?>
                 <?php $class = 'col-sm-12'; ?>
             <?php } ?>
@@ -45,7 +45,7 @@
                                     <td class="text-right"><?php echo $order['products']; ?></td>
                                     <td class="text-left"><?php echo $order['name']; ?></td>
                                     <td class="text-right"><?php echo $order['total']; ?></td>
-                                    <td class="text-right"><a href="<?php echo $order['href']; ?>" data-toggle="tooltip" title="<?php echo $button_view; ?>" class="btn btn-info"><i class="fa fa-eye"></i></a></td>
+                                    <td class="text-right"><a href="<?php echo $order['href']; ?>" data-toggle="tooltip" title="<?php echo $button_view; ?>" class=""><i class="fa fa-eye"></i></a></td>
                                 </tr>
                             <?php } ?>
                             </tbody>
@@ -59,7 +59,7 @@
                     <div class="pull-right"><a href="<?php echo $continue; ?>" class="accountPage__continue"><?php echo $button_continue; ?></a></div>
                 </div>
                 <?php echo $content_bottom; ?></div>
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <?php echo $column_right; ?>
             </div>
             </div>

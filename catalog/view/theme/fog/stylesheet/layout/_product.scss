@@ -18,6 +18,9 @@
     }
     &__image {
       text-align: center;
+      img {
+        margin:0 auto;
+      }
     }
     &__caption {
       padding:0 30px;
@@ -68,6 +71,9 @@
     align-content: center;
     align-items: center;
     padding:0 40px;
+    @media screen and (max-width: 992px){
+      padding:0 70px;
+    }
     &__quantity {
       width: 70px;
       position: relative;

@@ -1,8 +1,8 @@
 <div class="module">
     <div class="module__header">
         <div class="module__title"><?php echo $heading_title; ?></div>
-        <a class="module__link" href="<?php echo $latest; ?>"><?php echo $text_link; ?></a>
-        <hr class="module__header__line">
+        <a class="module__link hidden-sm" href="<?php echo $latest; ?>"><?php echo $text_link; ?></a>
+        <hr class="module__header__line hidden-sm">
     </div>
     <div class="row">
         <div class="latest js-slider">
@@ -38,7 +38,7 @@
                             </div>
                             <button type="button" class="product__btn__button js-addToCart" data-id="<?php echo $product['product_id']; ?>">
                                 <span class="product__btn__button__icon"></span>
-                                <span class="product__btn__button__text hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>
+                                <span class="product__btn__button__text hidden-xs"><?php echo $button_cart; ?></span>
                             </button>
                         </div>
                     </div>

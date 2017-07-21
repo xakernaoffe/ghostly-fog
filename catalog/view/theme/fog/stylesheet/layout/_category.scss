@@ -19,6 +19,9 @@
     padding-bottom: 15px;
     border-bottom: 1px solid #adadad;
     margin:0 15px;
+    @media screen and (max-width: 992px){
+      justify-content:space-between;
+    }
     &__select {
       &__title {
         display: inline-block;
@@ -117,7 +120,26 @@
       }
       .product__btn {
         padding: 0;
+        @media screen and (max-width: 992px){
+          padding:0 40px;
+        }
       }
     }
+  }
+  &__empty {
+    font: 16px/20px "OpenSans Regular";
+    text-align: center;
+  }
+  &__continue {
+    display: block;
+    width: 100px;
+    height: 42px;
+    background-color: #32a0ed;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font: 13px/42px "MyriadPro Regular";
+    text-transform: uppercase;
+    margin:20px auto 0;
   }
 }

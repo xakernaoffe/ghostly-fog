@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <?php if ($categories) { ?>
-            <div class="footer__item col-sm-3">
+            <div class="footer__item col-md-3 hidden-sm">
                 <div class="footer__item__title"><?php echo $text_catrgories ?></div>
                 <ul class="footer__item__list">
                     <?php foreach ($categories as $category) { ?>
@@ -13,7 +13,7 @@
                 </ul>
             </div>
         <?php } ?>
-        <div class="footer__item col-sm-3">
+        <div class="footer__item col-md-3 hidden-sm">
             <div class="footer__item__title"><?php echo $text_account; ?></div>
             <?php if (!$logged) { ?>
             <ul class="footer__item__list">
@@ -33,7 +33,7 @@
             <?php } ?>
         </div>
         <?php if ($informations) { ?>
-            <div class="footer__item col-sm-3">
+            <div class="footer__item col-md-3 hidden-sm">
                 <div class="footer__item__title"><?php echo $text_information; ?></div>
                 <ul class="footer__item__list">
                     <?php foreach ($informations as $information) { ?>
@@ -43,44 +43,46 @@
                 <a href="<?php echo $contact; ?>" class="footer__item__link"><?php echo $text_contact; ?></a>
             </div>
         <?php } ?>
-        <div class="footer__item col-sm-3">
-            <div class="footer__item__title"><?php echo $text_contact; ?></div>
-            <div class="footer__item__info">
-                <div class="footer__item__info__icon">
-                    <span class="phones"></span>
+        <div class="footer__item col-md-3 col-sm-12">
+            <div class="footer__item__title hidden-sm"><?php echo $text_contact; ?></div>
+            <div class="footer__item__wrap">
+                <div class="footer__item__info">
+                    <div class="footer__item__info__icon">
+                        <span class="phones"></span>
+                    </div>
+                    <div class="footer__item__info__wrap">
+                        <a href="tel:<?php echo $telephone; ?>" class="footer__item__info__link"><?php echo $telephone; ?></a>
+                        <a href="tel:<?php echo $telephone2; ?>" class="footer__item__info__link"><?php echo $telephone2; ?></a>
+                    </div>
                 </div>
-                <div class="footer__item__info__wrap">
-                    <a href="tel:<?php echo $telephone; ?>" class="footer__item__info__link"><?php echo $telephone; ?></a>
-                    <a href="tel:<?php echo $telephone2; ?>" class="footer__item__info__link"><?php echo $telephone2; ?></a>
+                <div class="footer__item__info">
+                    <div class="footer__item__info__icon">
+                        <span class="work-time"></span>
+                    </div>
+                    <div class="footer__item__info__wrap">
+                        <?php echo $open; ?>
+                    </div>
                 </div>
-            </div>
-            <div class="footer__item__info">
-                <div class="footer__item__info__icon">
-                    <span class="work-time"></span>
+                <div class="footer__item__info">
+                    <div class="footer__item__info__icon">
+                        <span class="mail"></span>
+                    </div>
+                    <div class="footer__item__info__wrap"><?php echo $email; ?></div>
                 </div>
-                <div class="footer__item__info__wrap">
-                    <?php echo $open; ?>
+                <div class="footer__item__info social">
+                    <a href="#" class="footer__item__socLink">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer__item__socLink">
+                        <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer__item__socLink">
+                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer__item__socLink">
+                        <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+                    </a>
                 </div>
-            </div>
-            <div class="footer__item__info">
-                <div class="footer__item__info__icon">
-                    <span class="mail"></span>
-                </div>
-                <div class="footer__item__info__wrap"><?php echo $email; ?></div>
-            </div>
-            <div class="footer__item__info social">
-                <a href="#" class="footer__item__socLink">
-                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                </a>
-                <a href="#" class="footer__item__socLink">
-                    <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
-                </a>
-                <a href="#" class="footer__item__socLink">
-                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                </a>
-                <a href="#" class="footer__item__socLink">
-                    <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
-                </a>
             </div>
         </div>
     </div>

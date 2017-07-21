@@ -51,7 +51,7 @@
     <script src="//ulogin.ru/js/ulogin.js"></script>
 </head>
 <body class="<?php echo $class; ?>">
-<nav class="navigation">
+<nav class="navigation hidden-sm">
   <div class="container">
       <div class="row">
           <div class="navigation__links col-sm-10">
@@ -73,9 +73,20 @@
       </div>
   </div>
 </nav>
-<header>
+<header class="header">
   <div class="container">
-      <div class="row">
+      <div class="header__mobile hidden-lg hidden-md">
+          <div class="burger_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="cart js-addToCart"><?php echo $cart; ?></div>
+      </div>
+      <div class="row hidden-sm">
           <div class="col-sm-4 logo-wrap">
               <div id="logo">
                   <?php if ($logo) { ?>
@@ -97,7 +108,7 @@
               <div class="callback__icon"></div>
               <div class="callback__info">
                   <span class="callback__info__time"><?php echo $open; ?></span>
-                  <a href="#" class="callback__link show-callback">Обратный звонок</a>
+                  <a class="callback__link show-callback">Обратный звонок</a>
               </div>
           </div>
           <div class="phones col-sm-3">
@@ -111,7 +122,7 @@
       </div>
   </div>
 </header>
-<div class="menu">
+<div class="menu hidden-sm">
     <?php if ($categories) { ?>
         <div class="container">
             <div class="row">

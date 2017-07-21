@@ -3,8 +3,8 @@
         <div class="module">
             <div class="module__header">
                 <div class="module__title"><?php echo $heading_title; ?></div>
-                <a class="module__link" href="<?php echo $pvr_view_all_link; ?>"><?php echo $button_view_all; ?></a>
-                <hr class="module__header__line">
+                <a class="module__link hidden-sm" href="<?php echo $pvr_view_all_link; ?>"><?php echo $button_view_all; ?></a>
+                <hr class="module__header__line hidden-sm">
             </div>
             <div class="box-content">
                 <div class="video pvr-contentLayout">

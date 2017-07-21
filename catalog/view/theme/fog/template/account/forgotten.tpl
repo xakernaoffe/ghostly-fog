@@ -20,7 +20,7 @@
             <?php if ($column_left && $column_right) { ?>
                 <?php $class = 'col-sm-6'; ?>
             <?php } elseif ($column_left || $column_right) { ?>
-                <?php $class = 'col-sm-8'; ?>
+                <?php $class = 'col-sm-12 col-md-8'; ?>
             <?php } else { ?>
                 <?php $class = 'col-sm-12'; ?>
             <?php } ?>
@@ -44,7 +44,7 @@
                     </div>
                 </form>
                 <?php echo $content_bottom; ?></div>
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <?php echo $column_right; ?>
             </div>
             </div>
