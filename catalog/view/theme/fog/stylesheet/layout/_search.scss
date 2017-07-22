@@ -16,7 +16,7 @@
     align-content: center;
     &__link {
       display: none;
-      @media screen and (max-width: 1170px){
+      @media screen and (max-width: 1200px){
         position: absolute;
         top: 0;
         bottom: 0;
@@ -25,7 +25,7 @@
         display: block;
       }
     }
-    @media screen and (max-width: 1170px){
+    @media screen and (max-width: 1200px){
       width: 35px;
       border-radius: 50%;
     }
@@ -40,7 +40,7 @@
     &:focus {
       outline: none;
     }
-    @media screen and (max-width: 1170px){
+    @media screen and (max-width: 1200px){
       display: none;
     }
   }
@@ -52,7 +52,7 @@
     &:focus {
       outline: none;
     }
-    @media screen and (max-width: 1170px){
+    @media screen and (max-width: 1200px){
       width: 100%;
       text-align: center;
     }

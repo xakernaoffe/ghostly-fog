@@ -97,7 +97,7 @@
         <div class="qt">
           <div class="number">
               <input name="product_id" value="<?php echo $product['key']; ?>" style="display: none;" type="hidden" />
-              <div class="frame-change-count clearfix">
+              <div class="frame-change-count">
                 <div class="btn-plus">
                   <button type="button" onclick="$(this).parent().parent().next().val(~~$(this).parent().parent().next().val()+1); update( this, 'update' );">
                     +

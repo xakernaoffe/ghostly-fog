@@ -3,7 +3,7 @@
     <div class="category__header">
         <div class="container">
             <div class="contactPage__title col-sm-8"><?php echo $heading_title; ?></div>
-            <ul class="breadcrumb col-sm-4">
+            <ul class="breadcrumb col-sm-4 hidden-xs">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">
                         <a href="<?php echo $breadcrumb['href']; ?>" class="breadcrumb__link"><?php echo $breadcrumb['text']; ?></a>
@@ -23,7 +23,7 @@
             <?php } ?>
             <div id="content" class="<?php echo $class; ?> col-sm-12"><?php echo $content_top; ?>
 
-                <div class="contactPage__shopInfo col-sm-6">
+                <div class="contactPage__shopInfo col-sm-6 col-xs-12">
                     <div class="contactPage__item">
                         <div class="contactPage__item__icon">
                             <span class="phone"></span>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contactPage__shopForm col-sm-6">
+                <div class="contactPage__shopForm col-sm-6 col-xs-12">
                     <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
                         <fieldset>
                             <legend class="contactPage__shopForm__title"><?php echo $text_contact; ?></legend>

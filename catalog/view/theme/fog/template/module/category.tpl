@@ -1,6 +1,7 @@
 <div class="category-sidebar">
     <div class="category-sidebar__title">
-        Категории
+        <?php echo $heading_title; ?>
+        <div class="close_btn hidden-lg hidden-md"></div>
     </div>
     <ul class="category-sidebar__list">
         <?php foreach ($categories as $category) { ?>

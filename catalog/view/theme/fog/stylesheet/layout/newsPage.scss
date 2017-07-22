@@ -17,17 +17,34 @@
     align-items: center;
     align-content: center;
     margin-bottom: 20px;
+    @media screen and (max-width: 768px){
+      flex-wrap: wrap;
+    }
     &__image {
       width: 30%;
       @media screen and (max-width: 992px){
         width: 25%;
       }
+      @media screen and (max-width: 768px){
+        width: 80%;
+        margin:0 auto;
+        text-align: center;
+      }
       &__link {
         display: block;
+        img {
+          @media screen and (max-width: 768px){
+            margin:0 auto;
+          }
+        }
       }
     }
     &__info {
       width: 70%;
+      @media screen and (max-width: 768px){
+        width: 80%;
+        margin:0 auto;
+      }
       &__name {
         font: 18px/20px "Roboto Medium";
         color: $black;
@@ -90,6 +107,9 @@
       justify-content:space-between;
       align-content: center;
       align-items: center;
+      @media screen and (max-width: 480px){
+        flex-wrap: wrap;
+      }
       &__item {
         display: block;
         width: 210px;
@@ -100,6 +120,10 @@
         font: 13px/32px "OpenSans Regular";
         background: none;
         transition-duration: 0.3s;
+        @media screen and (max-width: 480px){
+          display: block;
+          margin:0 auto 10px;
+        }
         &:hover {
           background: $black;
           color: $white;

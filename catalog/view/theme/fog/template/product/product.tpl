@@ -2,8 +2,8 @@
 <div class="productPage">
     <div class="productPage__header">
         <div class="container">
-            <div class="productPage__title col-sm-8"><?php echo $heading_title; ?></div>
-            <ul class="breadcrumb col-sm-4">
+            <div class="productPage__title col-sm-8 col-xs-8"><?php echo $heading_title; ?></div>
+            <ul class="breadcrumb col-sm-4 col-xs-4 hidden-xs ">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">
                         <a href="<?php echo $breadcrumb['href']; ?>" class="breadcrumb__link"><?php echo $breadcrumb['text']; ?></a>
@@ -43,7 +43,7 @@
                                 <?php } ?>
                             </ul>
                                 <?php if ($images) { ?>
-                                <ul class="productPage__thumbnails__list js-slider js-popup">
+                                <ul class="productPage__thumbnails__list slider js-popup">
                                     <?php foreach ($images as $image) { ?>
                                         <li class="productPage__thumbnails__item additional">
                                             <a class="productPage__thumbnails__link" href="<?php echo $image['popup']; ?>" title="<?php echo $heading_title; ?>">
@@ -92,7 +92,7 @@
 
 
 
-                        <div id="product">
+                        <div id="product" class="productPage__info__item">
                             <?php if ($options) { ?>
 <!--                                <h3>--><?php //echo $text_option; ?><!--</h3>-->
                                 <?php foreach ($options as $option) { ?>
@@ -539,6 +539,44 @@ $(document).ready(function() {
 			enabled:true
 		}
 	});
+
+    // slick slider
+    $('.productPage .slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 510,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
 });
 //--></script>
 <?php echo $footer; ?>

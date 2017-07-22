@@ -51,10 +51,10 @@
     <script src="//ulogin.ru/js/ulogin.js"></script>
 </head>
 <body class="<?php echo $class; ?>">
-<nav class="navigation hidden-sm">
+<nav class="navigation">
   <div class="container">
       <div class="row">
-          <div class="navigation__links col-sm-10">
+          <div class="navigation__links col-md-10 hidden-sm hidden-xs">
               <?php if ($informations) { ?>
                   <?php foreach ($informations as $information) { ?>
                       <a href="<?php echo $information['href']; ?>" class="navigation__links__item"><?php echo $information['title']; ?></a>
@@ -62,9 +62,9 @@
               <?php } ?>
               <a href="<?php echo $contact; ?>" class="navigation__links__item"><?php echo $text_contact; ?></a>
           </div>
-          <div class="navigation__links login col-sm-2">
+          <div class="navigation__links login col-md-2">
               <?php if (!$logged) { ?>
-              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><span class="navigation__links__icon"></span> <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
+              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-key" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
               <?php } ?>
               <?php if ($logged) { ?>
               <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_logout; ?></span></a>
@@ -85,16 +85,10 @@
               <span></span>
           </div>
           <div class="header__mobile__info">
-              <?php if (!$logged) { ?>
-                  <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-user fa-3x" aria-hidden="true"></i></a>
-              <?php } ?>
-              <?php if ($logged) { ?>
-                  <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out fa-3x " aria-hidden="true"></i></a>
-              <?php } ?>
               <div class="cart js-addToCart"><?php echo $cart; ?></div>
           </div>
       </div>
-      <div class="row hidden-sm">
+      <div class="row hidden-sm hidden-xs">
           <div class="col-sm-4 logo-wrap">
               <div id="logo">
                   <?php if ($logo) { ?>
@@ -131,7 +125,7 @@
   </div>
 </header>
 <div class="header__separator hidden-lg hidden-md"></div>
-<div class="menu hidden-sm">
+<div class="menu hidden-sm hidden-xs">
     <?php if ($categories) { ?>
         <div class="container">
             <div class="row">
@@ -214,5 +208,9 @@
         <?php } ?>
     <?php } ?>
     <a href="<?php echo $contact; ?>" class="menu__mobile__item"><?php echo $text_contact; ?></a>
+    <?php if ($logged) { ?>
+        <hr>
+        <a  href="<?php echo $account; ?>" class="menu__mobile__item"><?php echo $text_room; ?></a>
+    <?php } ?>
 </div>
 

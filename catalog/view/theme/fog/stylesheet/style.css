@@ -39,12 +39,12 @@ button:focus, button:active {
       left: 0;
       right: 0;
       z-index: 50; } }
-  @media screen and (max-width: 1170px) {
+  @media screen and (max-width: 1200px) {
     .header .logo-wrap {
       padding-top: 20px; } }
   .header .callback {
     padding-top: 40px; }
-    @media screen and (max-width: 1170px) {
+    @media screen and (max-width: 1200px) {
       .header .callback {
         padding-top: 20px;
         margin-bottom: 10px; } }
@@ -55,7 +55,7 @@ button:focus, button:active {
       vertical-align: middle;
       margin-right: 16px;
       background: url("./img/callbackIcon.png") no-repeat; }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .header .callback__icon {
           display: block;
           margin: 0 auto 10px; } }
@@ -64,12 +64,12 @@ button:focus, button:active {
       vertical-align: middle;
       font: 16px/20px "OpenSans Regular";
       color: #fff; }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .header .callback__info {
           display: block;
           margin: 0 auto;
           text-align: center; } }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .header .callback__info__time {
           display: none; } }
     .header .callback__link {
@@ -77,12 +77,12 @@ button:focus, button:active {
       color: #32a0ed;
       padding-bottom: 2px;
       text-decoration: underline; }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .header .callback__link {
           text-align: center; } }
   .header .phones {
     padding-top: 40px; }
-    @media screen and (max-width: 1170px) {
+    @media screen and (max-width: 1200px) {
       .header .phones {
         padding-top: 20px; } }
     .header .phones__icon {
@@ -92,14 +92,14 @@ button:focus, button:active {
       vertical-align: middle;
       margin-right: 16px;
       background: url("./img/phonesIcon.png") no-repeat; }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .header .phones__icon {
           display: block;
           margin: 0 auto 10px; } }
     .header .phones__links {
       display: inline-block;
       vertical-align: middle; }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .header .phones__links {
           display: block;
           margin: 0 auto; } }
@@ -107,7 +107,7 @@ button:focus, button:active {
         display: block;
         font: 16px/20px "Roboto Medium";
         color: #fff; }
-        @media screen and (max-width: 1170px) {
+        @media screen and (max-width: 1200px) {
           .header .phones__links__item {
             text-align: center; } }
   .header .cart {
@@ -292,6 +292,21 @@ button:focus, button:active {
 
 .navigation {
   background: #363636; }
+  @media screen and (max-width: 992px) {
+    .navigation__links {
+      position: fixed;
+      top: 11px;
+      right: 20%;
+      z-index: 150; } }
+  @media screen and (max-width: 768px) {
+    .navigation__links {
+      right: 10%; } }
+  @media screen and (max-width: 480px) {
+    .navigation__links {
+      right: 15%; } }
+  @media screen and (max-width: 992px) {
+    .navigation__links i {
+      font-size: 3em; } }
   .navigation__links__item {
     display: inline-block;
     font: 13px "MyriadPro Regular";
@@ -304,13 +319,6 @@ button:focus, button:active {
       text-decoration: underline; }
     .navigation__links__item:first-child {
       padding-left: 0; }
-  .navigation__links__icon {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 6px;
-    width: 9px;
-    height: 17px;
-    background: url("./img/loginIcon.png") no-repeat; }
   .navigation__links.login {
     text-align: right; }
     .navigation__links.login__item {
@@ -385,6 +393,10 @@ button:focus, button:active {
     color: #fff;
     width: 480px;
     z-index: 100; }
+    @media screen and (max-width: 768px) {
+      .menu__mobile {
+        width: 100%;
+        left: -100%; } }
     .menu__mobile.show {
       left: 0;
       box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8); }
@@ -393,7 +405,8 @@ button:focus, button:active {
       border: none;
       background: #141414;
       box-shadow: none;
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 0; }
     .menu__mobile .panel-collapse {
       padding-left: 125px;
       background: #232323; }
@@ -402,7 +415,7 @@ button:focus, button:active {
       font: 22px/24px "RobotoCondensed Regular";
       text-transform: uppercase;
       color: #fff;
-      padding: 30px 0 30px 110px;
+      padding: 20px 0 20px 110px;
       background: #141414;
       position: relative; }
       .menu__mobile__item.open {
@@ -414,7 +427,7 @@ button:focus, button:active {
           background: url("./img/arrowMenuAct.png") no-repeat; }
       .menu__mobile__item .arrow {
         position: absolute;
-        top: 35px;
+        top: 15px;
         right: 40px;
         width: 10px;
         height: 18px;
@@ -431,6 +444,9 @@ button:focus, button:active {
       background: #272727;
       display: block;
       margin: 0 auto; }
+      @media screen and (max-width: 768px) {
+        .menu__mobile hr {
+          width: 100%; } }
 
 .search {
   margin-top: 10px;
@@ -450,7 +466,7 @@ button:focus, button:active {
     align-content: center; }
     .search__container__link {
       display: none; }
-      @media screen and (max-width: 1170px) {
+      @media screen and (max-width: 1200px) {
         .search__container__link {
           position: absolute;
           top: 0;
@@ -458,7 +474,7 @@ button:focus, button:active {
           left: 0;
           right: 0;
           display: block; } }
-    @media screen and (max-width: 1170px) {
+    @media screen and (max-width: 1200px) {
       .search__container {
         width: 35px;
         border-radius: 50%; } }
@@ -471,7 +487,7 @@ button:focus, button:active {
     color: #a4a4a4; }
     .search__field:focus {
       outline: none; }
-    @media screen and (max-width: 1170px) {
+    @media screen and (max-width: 1200px) {
       .search__field {
         display: none; } }
   .search__btn {
@@ -481,7 +497,7 @@ button:focus, button:active {
     background: url("./img/searchIcon.png") center no-repeat; }
     .search__btn:focus {
       outline: none; }
-    @media screen and (max-width: 1170px) {
+    @media screen and (max-width: 1200px) {
       .search__btn {
         width: 100%;
         text-align: center; } }
@@ -617,6 +633,9 @@ button:focus, button:active {
         vertical-align: middle;
         font: 14px/24px "Open Sans";
         color: #2a2a2a; }
+      @media screen and (max-width: 768px) {
+        .product__btn__button {
+          margin: 0 auto; } }
 
 body {
   background: #f4f4f4;
@@ -751,6 +770,10 @@ input[type="checkbox"]:checked {
       .module__title {
         display: block;
         text-align: center; } }
+    @media screen and (max-width: 480px) {
+      .module__title {
+        width: 70%;
+        margin: 0 auto; } }
   .module__link {
     display: inline-block;
     vertical-align: middle;
@@ -811,6 +834,9 @@ input[type="checkbox"]:checked {
       margin-left: calc((-100vw + 720px)/2);
       -webkit-background-size: cover;
       background-size: cover; } }
+  @media screen and (max-width: 768px) {
+    .video-wrap {
+      margin-left: calc((-100vw + 480px)/2); } }
   .video-wrap .module__title {
     color: #fff; }
   .video-wrap .video {
@@ -876,6 +902,12 @@ input[type="checkbox"]:checked {
 
 .news__wrap {
   padding: 0 10px; }
+  @media screen and (max-width: 510px) {
+    .news__wrap {
+      padding: 0 70px; } }
+  @media screen and (max-width: 400px) {
+    .news__wrap {
+      padding: 0 35px; } }
 .news__thumb {
   background: #fff; }
 .news__caption {
@@ -963,6 +995,13 @@ input[type="checkbox"]:checked {
     .footer__item__wrap {
       width: 35%;
       margin: 0 auto; } }
+  @media screen and (max-width: 768px) {
+    .footer__item__wrap {
+      width: 60%;
+      margin: 0 auto; } }
+  @media screen and (max-width: 480px) {
+    .footer__item__wrap {
+      width: 100%; } }
   .footer__item__info {
     margin: 8px 0 12px;
     display: flex;
@@ -1040,16 +1079,30 @@ input[type="checkbox"]:checked {
     @media screen and (max-width: 992px) {
       .copyright .warning {
         justify-content: center; } }
+    @media screen and (max-width: 480px) {
+      .copyright .warning {
+        flex-wrap: wrap;
+        text-align: center; } }
     .copyright .warning__text {
       width: 80%; }
       @media screen and (max-width: 992px) {
         .copyright .warning__text {
           width: 60%; } }
+      @media screen and (max-width: 768px) {
+        .copyright .warning__text {
+          width: 90%; } }
+      @media screen and (max-width: 480px) {
+        .copyright .warning__text {
+          order: 2; } }
     .copyright .warning__icon {
       display: block;
       width: 38px;
       height: 38px;
       background: url("./img/warningIcon.png") no-repeat; }
+      @media screen and (max-width: 480px) {
+        .copyright .warning__icon {
+          order: 1;
+          margin-bottom: 5px; } }
 
 .slideshow {
   width: 100vw;
@@ -1061,6 +1114,12 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 990px) {
     .slideshow {
       margin-left: calc((-100vw + 720px)/2); } }
+  @media screen and (max-width: 768px) {
+    .slideshow {
+      margin-left: calc((-100vw + 480px)/2); } }
+  @media screen and (max-width: 480px) {
+    .slideshow {
+      margin-left: calc((-100vw + 320px)/2); } }
   .slideshow .owl-carousel {
     background: transparent; }
     .slideshow .owl-carousel .owl-wrapper-outer {
@@ -1128,6 +1187,10 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 992px) {
     .category__sort {
       justify-content: space-between; } }
+  @media screen and (max-width: 480px) {
+    .category__sort {
+      align-content: flex-end;
+      align-items: flex-end; } }
   .category__sort__select__title {
     display: inline-block;
     vertical-align: middle;
@@ -1152,6 +1215,9 @@ input[type="checkbox"]:checked {
     align-items: center;
     align-content: center;
     padding: 0 3px; }
+    @media screen and (max-width: 480px) {
+      .category__sort__buttons {
+        margin-left: 10px; } }
     .category__sort__buttons__item {
       width: 50%;
       background: none;
@@ -1219,6 +1285,31 @@ input[type="checkbox"]:checked {
   font: 13px/42px "MyriadPro Regular";
   text-transform: uppercase;
   margin: 20px auto 0; }
+@media screen and (max-width: 992px) {
+  .category .category-filter {
+    position: absolute;
+    top: 76px;
+    right: -480px;
+    transition: right ease 0.2s;
+    background: #fff;
+    color: #000;
+    width: 480px;
+    z-index: 100; } }
+  @media screen and (max-width: 992px) and (max-width: 768px) {
+    .category .category-filter {
+      width: 100%;
+      right: -100%; } }
+@media screen and (max-width: 992px) {
+    .category .category-filter.show {
+      padding-top: 30px;
+      right: 0;
+      box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.8); } }
+.category .filter_btn {
+  display: inline-block;
+  margin-top: 38px;
+  width: 28px;
+  height: 30px;
+  background: url("./img/filterBtn.png") no-repeat; }
 
 .productPage__header {
   min-height: 343px;
@@ -1297,10 +1388,16 @@ input[type="checkbox"]:checked {
     padding: 20px 0; }
     .productPage__info__item:first-child {
       padding-top: 0; }
+    @media screen and (max-width: 768px) {
+      .productPage__info__item {
+        text-align: center; } }
     .productPage__info__item .product__btn {
       margin-bottom: 0;
       justify-content: flex-start;
       padding: 0; }
+      @media screen and (max-width: 768px) {
+        .productPage__info__item .product__btn {
+          justify-content: center; } }
       .productPage__info__item .product__btn__button {
         margin-left: 13px; }
     .productPage__info__item__header {
@@ -1321,6 +1418,9 @@ input[type="checkbox"]:checked {
     justify-content: flex-start;
     align-items: center;
     align-content: center; }
+    @media screen and (max-width: 768px) {
+      .productPage__info__rating {
+        justify-content: center; } }
     .productPage__info__rating__link {
       font: 12px/14px "OpenSans Regular";
       color: #676767;
@@ -1348,6 +1448,9 @@ input[type="checkbox"]:checked {
     justify-content: flex-start;
     align-content: center;
     align-items: center; }
+    @media screen and (max-width: 768px) {
+      .productPage__info__price {
+        justify-content: center; } }
     .productPage__info__price_old {
       font: 22px/24px "OpenSans Regular";
       color: #939393;
@@ -1367,6 +1470,9 @@ input[type="checkbox"]:checked {
   justify-content: flex-start;
   align-items: center;
   align-content: center; }
+  @media screen and (max-width: 768px) {
+    .productPage__options__wrap {
+      justify-content: center; } }
 .productPage__options__item {
   position: relative;
   width: 40px;
@@ -1415,6 +1521,9 @@ input[type="checkbox"]:checked {
     width: 325px;
     background: #fff;
     margin-bottom: -1px; }
+    @media screen and (max-width: 480px) {
+      .productPage__navigation__list {
+        width: 100%; } }
   .productPage__navigation__item {
     width: 50%;
     border: 1px solid #c2c2c2;
@@ -1471,9 +1580,20 @@ input[type="checkbox"]:checked {
     align-content: center;
     align-items: center;
     margin-top: 30px; }
+    @media screen and (max-width: 768px) {
+      .productPage__reviews .reviews__form__wrap {
+        flex-wrap: wrap;
+        justify-content: center; } }
     .productPage__reviews .reviews__form__wrap__item {
       width: 40%;
       height: 50px; }
+      @media screen and (max-width: 768px) {
+        .productPage__reviews .reviews__form__wrap__item {
+          width: 50%;
+          margin-bottom: 20px; } }
+      @media screen and (max-width: 480px) {
+        .productPage__reviews .reviews__form__wrap__item {
+          width: 100%; } }
       .productPage__reviews .reviews__form__wrap__item__field {
         width: 95%;
         height: 100%;
@@ -1481,6 +1601,9 @@ input[type="checkbox"]:checked {
         font: 14px/50px "OpenSans Regular";
         color: #676767;
         padding: 0 15px; }
+        @media screen and (max-width: 480px) {
+          .productPage__reviews .reviews__form__wrap__item__field {
+            width: 100%; } }
   .productPage__reviews .reviews__form__btn {
     width: 20%;
     border: none;
@@ -1489,6 +1612,9 @@ input[type="checkbox"]:checked {
     text-transform: uppercase;
     font: 14px/50px "OpenSans Regular";
     text-align: center; }
+    @media screen and (max-width: 480px) {
+      .productPage__reviews .reviews__form__btn {
+        width: 100%; } }
 .productPage__description {
   padding: 30px 35px;
   border: 1px solid #c2c2c2;
@@ -1585,7 +1711,15 @@ input[type="checkbox"]:checked {
   font-family: 'MyriadPro Regular';
   padding-bottom: 30px;
   border-bottom: 1px solid #2a2a2a;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
+  .category-sidebar__title .close_btn {
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    width: 32px;
+    height: 32px;
+    background: url("./img/closeBtn.png") no-repeat; }
 .category-sidebar__list {
   display: flex;
   justify-content: space-between;
@@ -1679,6 +1813,9 @@ input[type="checkbox"]:checked {
   padding: 60px 40px 40px 55px;
   box-shadow: none;
   border-radius: 0; }
+  @media screen and (max-width: 480px) {
+    .mfp-content #ocmod-popup-okno {
+      padding: 40px 15px 40px 15px; } }
   .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-heading {
     background: none;
     text-transform: uppercase;
@@ -1686,6 +1823,14 @@ input[type="checkbox"]:checked {
     color: #2e2e2e;
     padding: 0;
     margin-bottom: 40px; }
+    @media screen and (max-width: 768px) {
+      .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-heading {
+        text-align: center; } }
+    @media screen and (max-width: 480px) {
+      .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-heading {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px; } }
   .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center {
     padding: 0; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart th {
@@ -1763,6 +1908,31 @@ input[type="checkbox"]:checked {
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total {
       font: 18px/20px "OpenSans Semibold";
       color: #000; }
+      @media screen and (max-width: 480px) {
+        .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total {
+          float: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          align-content: center;
+          flex-wrap: wrap; } }
+      @media screen and (max-width: 480px) {
+        .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total .clear-total {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          align-content: center; } }
+      @media screen and (max-width: 480px) {
+        .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total .totals-right {
+          float: none;
+          order: 2; } }
+      @media screen and (max-width: 480px) {
+        .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total .totals-left {
+          float: none;
+          order: 1;
+          text-align: left;
+          line-height: 20px; } }
   .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-footer {
     padding: 0;
     margin-top: 30px; }
@@ -1775,10 +1945,15 @@ input[type="checkbox"]:checked {
       text-transform: uppercase;
       font: 13px/42px "OpenSans Regular";
       color: #141414;
-      transition-duration: 0.3s; }
+      transition-duration: 0.3s;
+      margin-bottom: 0; }
       .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-footer button:hover {
         background: #2e2e2e;
         color: #fff; }
+      @media screen and (max-width: 480px) {
+        .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-footer button {
+          display: block;
+          margin: 0 auto; } }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-footer a {
       padding: 0;
       width: 144px;
@@ -1786,7 +1961,13 @@ input[type="checkbox"]:checked {
       background-color: #2e2e2e;
       font: 13px/42px "OpenSans Regular";
       text-transform: uppercase;
-      color: #fff; }
+      color: #fff;
+      margin-top: 0; }
+      @media screen and (max-width: 480px) {
+        .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-footer a {
+          display: block;
+          margin: 10px auto 0;
+          float: none; } }
   .mfp-content #ocmod-popup-okno .mfp-close {
     width: 41px;
     height: 37px;
@@ -1875,15 +2056,30 @@ input[type="checkbox"]:checked {
   align-items: center;
   align-content: center;
   margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .newsPage__item {
+      flex-wrap: wrap; } }
   .newsPage__item__image {
     width: 30%; }
     @media screen and (max-width: 992px) {
       .newsPage__item__image {
         width: 25%; } }
+    @media screen and (max-width: 768px) {
+      .newsPage__item__image {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center; } }
     .newsPage__item__image__link {
       display: block; }
+      @media screen and (max-width: 768px) {
+        .newsPage__item__image__link img {
+          margin: 0 auto; } }
   .newsPage__item__info {
     width: 70%; }
+    @media screen and (max-width: 768px) {
+      .newsPage__item__info {
+        width: 80%;
+        margin: 0 auto; } }
     .newsPage__item__info__name {
       font: 18px/20px "Roboto Medium";
       color: #000;
@@ -1933,6 +2129,9 @@ input[type="checkbox"]:checked {
   justify-content: space-between;
   align-content: center;
   align-items: center; }
+  @media screen and (max-width: 480px) {
+    .newsPage__content__buttons {
+      flex-wrap: wrap; } }
   .newsPage__content__buttons__item {
     display: block;
     width: 210px;
@@ -1943,6 +2142,10 @@ input[type="checkbox"]:checked {
     font: 13px/32px "OpenSans Regular";
     background: none;
     transition-duration: 0.3s; }
+    @media screen and (max-width: 480px) {
+      .newsPage__content__buttons__item {
+        display: block;
+        margin: 0 auto 10px; } }
     .newsPage__content__buttons__item:hover {
       background: #000;
       color: #fff; }
@@ -2013,6 +2216,9 @@ input[type="checkbox"]:checked {
 .informationPage__content {
   font: 14px/22px "OpenSans Regular"; }
 
+@media screen and (max-width: 768px) {
+  .contactPage fieldset {
+    width: 100%; } }
 .contactPage__header {
   min-height: 95px;
   background: url("./img/categoryBg.png") center no-repeat;
@@ -2149,13 +2355,19 @@ input[type="checkbox"]:checked {
 .login-wrap .modal-dialog {
   width: 456px;
   background: #fff;
-  margin-top: 120px; }
+  margin: 120px auto 0; }
+  @media screen and (max-width: 480px) {
+    .login-wrap .modal-dialog {
+      width: 90%; } }
 .login-wrap .modal-content {
   border-radius: 0;
   padding: 0; }
 .login-wrap .modal-body {
   position: relative;
   padding: 60px 50px 25px; }
+  @media screen and (max-width: 480px) {
+    .login-wrap .modal-body {
+      padding: 40px 25px 25px; } }
 .login-wrap .login__close {
   width: 41px;
   height: 37px;
@@ -2173,6 +2385,9 @@ input[type="checkbox"]:checked {
   color: #2e2e2e;
   text-transform: uppercase;
   margin-bottom: 30px; }
+  @media screen and (max-width: 480px) {
+    .login-wrap .login__title {
+      text-align: center; } }
 .login-wrap .login__form .form-group {
   margin: 0; }
   .login-wrap .login__form .form-group a {
@@ -2252,6 +2467,10 @@ input[type="checkbox"]:checked {
     @media screen and (max-width: 992px) {
       .latestPage .latest .product {
         width: 50%; } }
+    @media screen and (max-width: 480px) {
+      .latestPage .latest .product {
+        width: 90%;
+        margin: 0 auto 30px; } }
 
 .accountPage__header {
   min-height: 95px;
@@ -2275,6 +2494,9 @@ input[type="checkbox"]:checked {
   margin: 0;
   padding: 0;
   list-style-type: none; }
+  @media screen and (max-width: 480px) {
+    .accountPage__item__list {
+      margin-bottom: 30px; } }
   .accountPage__item__list__link {
     font: 14px/24px "Open Sans";
     color: #32a0ed; }

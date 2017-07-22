@@ -1,6 +1,12 @@
 .news {
   &__wrap {
     padding:0 10px;
+    @media screen and (max-width: 510px){
+      padding:0 70px;
+    }
+    @media screen and (max-width: 400px){
+      padding:0 35px;
+    }
   }
   &__thumb {
     background: $white;

@@ -1,6 +1,23 @@
 .navigation {
   background: $gray-light;
   &__links {
+    @media screen and (max-width: 992px){
+      position: fixed;
+      top: 11px;
+      right: 20%;
+      z-index: 150;
+    }
+    @media screen and (max-width: 768px){
+      right: 10%;
+    }
+    @media screen and (max-width: 480px){
+      right: 15%; 
+    }
+    i {
+      @media screen and (max-width: 992px){
+        font-size: 3em;
+      }
+    }
     &__item {
       display: inline-block;
       font: $base-font $base-font-family;
@@ -15,14 +32,6 @@
       &:first-child {
         padding-left: 0;
       }
-    }
-    &__icon {
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 6px;
-      width: 9px;
-      height: 17px;
-      background: url("./img/loginIcon.png") no-repeat;
     }
     &.login {
       text-align: right;

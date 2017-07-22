@@ -6,7 +6,7 @@ $_['heading_title']            = 'Корзина покупок';
 $_['text_success']             = 'Товар <a href="%s">%s</a> добавлен в Вашу <a href="%s">корзину</a>!';
 $_['text_remove']              = 'Корзина успешно обновлена!';
 $_['text_login']               = 'Вам необходимо <a href="%s">авторизоваться</a> или <a href="%s">создать аккаунт</a> для просмотра цен!';
-$_['text_items']     = '<span class="cart-wrap__total">%s</span><span class="cart-wrap__sum">%s</span>';
+$_['text_items']     = '<span class="cart-wrap__total">%s</span><span class="cart-wrap__sum hidden-sm hidden-xs">%s</span>';
 $_['text_points']              = 'Призовые баллы: %s';
 $_['text_next']                = 'Воспользуйтесь дополнительными возможностями';
 $_['text_next_choice']         = 'Если у вас есть код купона на скидку или бонусные баллы, которые вы хотите использовать, выберите соответствующий пункт. <br>Также, можно (приблизительно) узнать стоимость доставки в ваш регион.';

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <?php if ($categories) { ?>
-            <div class="footer__item col-md-3 hidden-sm">
+            <div class="footer__item col-md-3 hidden-sm hidden-xs">
                 <div class="footer__item__title"><?php echo $text_catrgories ?></div>
                 <ul class="footer__item__list">
                     <?php foreach ($categories as $category) { ?>
@@ -13,7 +13,7 @@
                 </ul>
             </div>
         <?php } ?>
-        <div class="footer__item col-md-3 hidden-sm">
+        <div class="footer__item col-md-3 hidden-sm hidden-xs">
             <div class="footer__item__title"><?php echo $text_account; ?></div>
             <?php if (!$logged) { ?>
             <ul class="footer__item__list">
@@ -33,7 +33,7 @@
             <?php } ?>
         </div>
         <?php if ($informations) { ?>
-            <div class="footer__item col-md-3 hidden-sm">
+            <div class="footer__item col-md-3 hidden-sm hidden-xs">
                 <div class="footer__item__title"><?php echo $text_information; ?></div>
                 <ul class="footer__item__list">
                     <?php foreach ($informations as $information) { ?>
@@ -44,7 +44,7 @@
             </div>
         <?php } ?>
         <div class="footer__item col-md-3 col-sm-12">
-            <div class="footer__item__title hidden-sm"><?php echo $text_contact; ?></div>
+            <div class="footer__item__title hidden-sm hidden-xs"><?php echo $text_contact; ?></div>
             <div class="footer__item__wrap">
                 <div class="footer__item__info">
                     <div class="footer__item__info__icon">

@@ -1,7 +1,7 @@
 <div class="module">
     <div class="module__header">
         <div class="module__title"><?php echo $heading_title; ?></div>
-        <hr class="module__header__line hidden-sm">
+        <hr class="module__header__line hidden-sm hidden-xs">
     </div>
     <div class="row">
         <div class="bestseller js-slider">
@@ -28,7 +28,7 @@
                             <?php } ?>
                         </div>
                         <div class="product__btn">
-                            <div class="product__btn__quantity js-quantity">
+                            <div class="product__btn__quantity js-quantity hidden-xs">
                                 <div class="quantity__buttons ">
                                     <span class="quantity__buttons__up js-plus-qty"></span>
                                     <span class="quantity__buttons__down js-minus-qty"></span>
@@ -37,7 +37,7 @@
                             </div>
                             <button type="button" class="product__btn__button js-addToCart" data-id="<?php echo $product['product_id']; ?>">
                                 <span class="product__btn__button__icon"></span>
-                                <span class="product__btn__button__text hidden-xs"><?php echo $button_cart; ?></span>
+                                <span class="product__btn__button__text"><?php echo $button_cart; ?></span>
                             </button>
                         </div>
                     </div>

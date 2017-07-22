@@ -202,7 +202,7 @@ $(document).ready(function() {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 510,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -219,6 +219,14 @@ $(document).ready(function() {
     $('.menu__mobile__item').on('click', function(){
     	$(this).toggleClass('open');
 	});
+
+    // filter open
+    $('.filter_btn').click(function(){
+        $('.category-filter').toggleClass('show');
+    });
+    $('.close_btn').click(function(){
+        $('.category-filter').removeClass('show');
+    });
 });
 
 // Cart add remove functions

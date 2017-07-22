@@ -7,6 +7,15 @@
     padding-bottom: 30px;
     border-bottom: 1px solid #2a2a2a;
     margin-bottom: 20px;
+    position: relative;
+    .close_btn {
+      position: absolute;
+      top: -5px;
+      right: 25px;
+      width: 32px;
+      height: 32px;
+      background: url("./img/closeBtn.png") no-repeat;
+    }
   }
   &__list{
     display: flex;

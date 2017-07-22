@@ -2,8 +2,8 @@
 <div class="latestPage">
     <div class="latestPage__header">
         <div class="container">
-            <div class="latestPage__title col-sm-8"><?php echo $heading_title; ?></div>
-            <ul class="breadcrumb col-sm-4">
+            <div class="latestPage__title col-sm-8 col-xs-8"><?php echo $heading_title; ?></div>
+            <ul class="breadcrumb col-sm-4 hidden-xs ">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">
                         <a href="<?php echo $breadcrumb['href']; ?>" class="breadcrumb__link"><?php echo $breadcrumb['text']; ?></a>

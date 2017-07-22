@@ -2,7 +2,7 @@
 <div class="newsPage">
     <div class="newsPage__header">
         <div class="container">
-            <ul class="breadcrumb col-sm-offset-8">
+            <ul class="breadcrumb col-sm-offset-8 hidden-xs">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">
                         <a href="<?php echo $breadcrumb['href']; ?>" class="breadcrumb__link"><?php echo $breadcrumb['text']; ?></a>

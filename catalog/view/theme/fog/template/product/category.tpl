@@ -2,14 +2,17 @@
 <div class="category">
     <div class="category__header">
         <div class="container">
-            <div class="category__title col-sm-8"><?php echo $heading_title; ?></div>
-            <ul class="breadcrumb col-sm-4">
+            <div class="category__title col-sm-8 col-xs-8"><?php echo $heading_title; ?></div>
+            <ul class="breadcrumb col-md-4 hidden-sm hidden-xs">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">
                         <a href="<?php echo $breadcrumb['href']; ?>" class="breadcrumb__link"><?php echo $breadcrumb['text']; ?></a>
                     </li>
                 <?php } ?>
             </ul>
+            <div class="col-sm-4 col-xs-4 hidden-lg hidden-md text-right">
+                <span class="filter_btn"></span>
+            </div>
         </div>
     </div>
     <div class="container">
@@ -75,14 +78,14 @@
                                             <?php } ?>
                                         </div>
                                         <div class="product__btn">
-                                            <div class="product__btn__quantity js-quantity">
+                                            <div class="product__btn__quantity js-quantity hidden-xs">
                                                 <div class="quantity__buttons ">
                                                     <span class="quantity__buttons__up js-plus-qty"></span>
                                                     <span class="quantity__buttons__down js-minus-qty"></span>
                                                 </div>
                                                 <input type="text" name="quantity" value="1" size="2" class="product__btn__field js-input-quantity" />
                                             </div>
-                                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="product__btn__button js-addToCart"><span class="product__btn__button__icon"></span><span class="product__btn__button__text hidden-xs"><?php echo $button_cart; ?></span></button>
+                                            <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" class="product__btn__button js-addToCart"><span class="product__btn__button__icon"></span><span class="product__btn__button__text"><?php echo $button_cart; ?></span></button>
                                         </div>
                                     </div>
                                 </div>

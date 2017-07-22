@@ -3,8 +3,8 @@
         <?php if($show_title) { ?>
             <div class="module__title"><?php echo $show_icon ? '<i class="fa fa-newspaper-o fa-3x"></i>&nbsp;' : ''; ?><?php echo $heading_title; ?></div>
         <?php } ?>
-        <a class="module__link hidden-sm" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
-        <hr class="module__header__line hidden-sm">
+        <a class="module__link hidden-sm hidden-xs" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
+        <hr class="module__header__line hidden-sm hidden-xs">
     </div>
     <div class="row">
         <div class="news">
@@ -35,7 +35,38 @@
     $(document).ready(function(){
         $('.news').slick({
             slidesToShow: 3,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 510,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     });
 </script>

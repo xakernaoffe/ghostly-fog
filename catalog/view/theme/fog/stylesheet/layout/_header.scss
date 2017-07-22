@@ -7,13 +7,13 @@
     z-index: 50;
   }
   .logo-wrap {
-    @media screen and (max-width: 1170px){
+    @media screen and (max-width: 1200px){
       padding-top: 20px;
     }
   }
   .callback {
     padding-top: 40px;
-    @media screen and (max-width: 1170px){
+    @media screen and (max-width: 1200px){
       padding-top: 20px;
       margin-bottom: 10px;
     }
@@ -24,7 +24,7 @@
       vertical-align: middle;
       margin-right: 16px;
       background: url("./img/callbackIcon.png") no-repeat;
-      @media screen and (max-width: 1170px){
+      @media screen and (max-width: 1200px){
         display: block;
         margin:0 auto 10px;
       }
@@ -34,13 +34,13 @@
       vertical-align: middle;
       font: 16px/20px "OpenSans Regular";
       color: $white;
-      @media screen and (max-width: 1170px){
+      @media screen and (max-width: 1200px){
         display: block;
         margin:0 auto;
         text-align: center;
       }
       &__time {
-        @media screen and (max-width: 1170px){
+        @media screen and (max-width: 1200px){
           display: none;
         }
       }
@@ -50,14 +50,14 @@
       color: $blue;
       padding-bottom: 2px;
       text-decoration: underline;
-      @media screen and (max-width: 1170px){
+      @media screen and (max-width: 1200px){
         text-align: center;
       }
     }
   }
   .phones {
     padding-top: 40px;
-    @media screen and (max-width: 1170px){
+    @media screen and (max-width: 1200px){
       padding-top: 20px;
     }
     &__icon {
@@ -67,7 +67,7 @@
       vertical-align: middle;
       margin-right: 16px;
       background: url("./img/phonesIcon.png") no-repeat;
-      @media screen and (max-width: 1170px){
+      @media screen and (max-width: 1200px){
         display: block;
         margin:0 auto 10px;
       }
@@ -75,7 +75,7 @@
     &__links {
       display: inline-block;
       vertical-align: middle;
-      @media screen and (max-width: 1170px){
+      @media screen and (max-width: 1200px){
         display: block;
         margin:0 auto;
       }
@@ -83,7 +83,7 @@
         display: block;
         font: 16px/20px "Roboto Medium";
         color: $white;
-        @media screen and (max-width: 1170px){
+        @media screen and (max-width: 1200px){
           text-align: center;
         }
       }
@@ -298,6 +298,6 @@
   }
   &__separator {
     width: 100%;
-    height: 76px;  
+    height: 76px;
   }
 }

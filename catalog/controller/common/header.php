@@ -92,6 +92,7 @@ class ControllerCommonHeader extends Controller {
 		$data['text_video'] = $this->language->get('text_video');
 		$data['text_news'] = $this->language->get('text_news');
 		$data['text_logout'] = $this->language->get('text_logout');
+        $data['text_room'] = $this->language->get('text_room');
 
 		$data['home'] = $this->url->link('common/home');
 		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
@@ -168,6 +169,7 @@ class ControllerCommonHeader extends Controller {
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
         $data['news_link'] = $this->url->link('information/news');
+        $data['account'] = $this->url->link('account/account', '', 'SSL');
 
         $pvr_ssl = ((int)$_SERVER['SERVER_PORT'] == 443) ? 'SSL' : 'NONSSL';
         $data['pvr_ssl'] = $pvr_ssl;

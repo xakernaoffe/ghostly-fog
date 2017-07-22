@@ -1,4 +1,9 @@
 .contactPage {
+  fieldset {
+    @media screen and (max-width: 768px){
+      width: 100%;
+    }
+  }
   &__header {
     min-height: 95px;
     background: url("./img/categoryBg.png") center no-repeat;
