@@ -9,10 +9,8 @@
     margin-left: calc((-100vw + 720px)/2);
   }
   @media screen and (max-width: 768px){
-    margin-left: calc((-100vw + 480px)/2);
-  }
-  @media screen and (max-width: 480px){
-    margin-left: calc((-100vw + 320px)/2);
+    margin-left: -15px;
+    margin-right: -15px;
   }
   .owl-carousel {
     background: transparent;

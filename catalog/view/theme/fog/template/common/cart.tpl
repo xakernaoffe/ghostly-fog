@@ -1,9 +1,5 @@
 <div id="cart" class="cart-wrap">
-    <button class="hidden-lg hidden-md cart-wrap__content">
-        <span id="cart-total" class="cart-wrap__content__item"><?php echo $text_items; ?></span>
-        <span class="cart-wrap__icon"></span>
-    </button>
-    <button class="cart-wrap__content hidden-sm hidden-xs">
+    <button class="cart-wrap__content">
         <span class="cart-wrap__icon"></span>
         <span id="cart-total" class="cart-wrap__content__item"><?php echo $text_items; ?></span>
     </button>

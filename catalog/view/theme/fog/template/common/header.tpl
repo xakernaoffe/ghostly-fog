@@ -84,12 +84,9 @@
               <span></span>
               <span></span>
           </div>
-          <div class="header__mobile__info">
-              <div class="cart js-addToCart"><?php echo $cart; ?></div>
-          </div>
       </div>
-      <div class="row hidden-sm hidden-xs">
-          <div class="col-sm-4 logo-wrap">
+      <div class="row">
+          <div class="col-md-4 logo-wrap hidden-sm hidden-xs">
               <div id="logo">
                   <?php if ($logo) { ?>
                       <?php if ($home == $og_url) { ?>
@@ -106,14 +103,14 @@
                   <?php } ?>
               </div>
           </div>
-          <div class="callback col-sm-3">
+          <div class="callback col-md-3 hidden-sm hidden-xs">
               <div class="callback__icon"></div>
               <div class="callback__info">
                   <span class="callback__info__time"><?php echo $open; ?></span>
                   <a class="callback__link show-callback">Обратный звонок</a>
               </div>
           </div>
-          <div class="phones col-sm-3">
+          <div class="phones col-md-3 hidden-sm hidden-xs">
               <div class="phones__icon"></div>
               <div class="phones__links">
                   <a href="tel:<?php echo $telephone; ?>" class="phones__links__item"><?php echo $telephone; ?></a>

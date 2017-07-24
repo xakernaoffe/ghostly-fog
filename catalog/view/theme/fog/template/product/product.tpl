@@ -87,14 +87,33 @@
                                 </div>
                             <?php } ?>
                         </div>
-
-
-
-
-
                         <div id="product" class="productPage__info__item">
+                            <div class="productPage__info__item">
+                                <div class="product__btn">
+                                    <div class="product__btn__quantity js-quantity">
+                                        <div class="quantity__buttons ">
+                                            <span class="quantity__buttons__up js-plus-qty"></span>
+                                            <span class="quantity__buttons__down js-minus-qty"></span>
+                                        </div>
+                                        <input type="text"
+                                               name="quantity"
+                                               value="<?php echo $minimum; ?>"
+                                               id="input-quantity"
+                                               size="2"
+                                               class="product__btn__field js-input-quantity" />
+                                    </div>
+                                    <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
+                                    <button type="button"
+                                            id="button-cart"
+                                            data-loading-text="<?php echo $text_loading; ?>"
+                                            class="product__btn__button"
+                                            data-id="<?php echo $product_id; ?>">
+                                        <span class="product__btn__button__icon"></span>
+                                        <span class="product__btn__button__text hidden-xs hidden-sm"><?php echo $button_cart; ?></span>
+                                    </button>
+                                </div>
+                            </div>
                             <?php if ($options) { ?>
-<!--                                <h3>--><?php //echo $text_option; ?><!--</h3>-->
                                 <?php foreach ($options as $option) { ?>
                                     <?php if ($option['type'] == 'select') { ?>
                                         <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
@@ -224,33 +243,6 @@
                                     <div class="help-block" id="recurring-description"></div>
                                 </div>
                             <?php } ?>
-
-                            <div class="productPage__info__item">
-                                <div class="product__btn">
-                                    <div class="product__btn__quantity js-quantity">
-                                        <div class="quantity__buttons ">
-                                            <span class="quantity__buttons__up js-plus-qty"></span>
-                                            <span class="quantity__buttons__down js-minus-qty"></span>
-                                        </div>
-                                        <input type="text"
-                                               name="quantity"
-                                               value="<?php echo $minimum; ?>"
-                                               id="input-quantity"
-                                               size="2"
-                                               class="product__btn__field js-input-quantity" />
-                                    </div>
-                                    <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
-                                    <button type="button"
-                                            id="button-cart"
-                                            data-loading-text="<?php echo $text_loading; ?>"
-                                            class="product__btn__button"
-                                            data-id="<?php echo $product_id; ?>">
-                                        <span class="product__btn__button__icon"></span>
-                                        <span class="product__btn__button__text hidden-xs hidden-sm"><?php echo $button_cart; ?></span>
-                                    </button>
-                                </div>
-                            </div>
-
                             <?php if ($minimum > 1) { ?>
                                 <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
                             <?php } ?>
