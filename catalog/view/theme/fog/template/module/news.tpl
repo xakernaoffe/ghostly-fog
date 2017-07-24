@@ -6,7 +6,7 @@
         <a class="module__link hidden-sm hidden-xs" href="<?php echo $news_link; ?>"><?php echo $text_link; ?></a>
         <hr class="module__header__line hidden-sm hidden-xs">
     </div>
-    <div class="row">
+    <div style="margin: 0 -10px;">
         <div class="news">
             <?php foreach ($news as $news_item) { ?>
                 <div class="news__wrap">

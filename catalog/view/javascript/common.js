@@ -216,9 +216,19 @@ $(document).ready(function() {
         $(this).toggleClass('open');
         $('.menu__mobile').toggleClass('show');
     });
-    $('.menu__mobile__item').on('click', function(){
-    	$(this).toggleClass('open');
-	});
+    // $('.menu__mobile__item').on('click', function(){
+    	// $(this).toggleClass('open');
+	// });
+    var allAccordionItems = $('.menu__mobile__item');
+    $('.panel > .menu__mobile__item').on('click', function(){
+        if($(this).hasClass('open')) {
+            $(this).removeClass('open');
+		}else {
+            allAccordionItems.removeClass('open');
+            $(this).addClass('open');
+		}
+    });
+
 
     // filter open
     $('.filter_btn').click(function(){

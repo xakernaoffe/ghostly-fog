@@ -11,6 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?></title>
 <base href="<?php echo $base; ?>" />
+<meta name="theme-color" content="#211f20">
 <?php if ($description) { ?>
 <meta name="description" content="<?php echo $description; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?>" />
 <?php } ?>
@@ -64,7 +65,7 @@
           </div>
           <div class="navigation__links login col-md-2">
               <?php if (!$logged) { ?>
-              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-key" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
+              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
               <?php } ?>
               <?php if ($logged) { ?>
               <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_logout; ?></span></a>
@@ -84,6 +85,12 @@
               <span></span>
               <span></span>
           </div>
+          <?php if ($logo) { ?>
+              <a href="<?php echo $home; ?>" class="header__mobileLogo">
+                  <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>"
+                       class="img-responsive"/>
+              </a>
+          <?php } ?>
       </div>
       <div class="row">
           <div class="col-md-4 logo-wrap hidden-sm hidden-xs">

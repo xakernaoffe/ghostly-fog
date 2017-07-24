@@ -296,16 +296,18 @@
                                     <div id="review"></div>
                                     <div class="reviews__form__item">
                                         <label class="reviews__form__item__name"><?php echo $entry_rating; ?></label>
-                                        <input type="radio" name="rating" value="1" id="star1" class="reviews__form__item__star-field" />
-                                        <label for="star1" class="reviews__form__item__star"></label>
-                                        <input type="radio" name="rating" value="2" id="star2" class="reviews__form__item__star-field" />
-                                        <label for="star2" class="reviews__form__item__star"></label>
-                                        <input type="radio" name="rating" value="3" id="star3" class="reviews__form__item__star-field" />
-                                        <label for="star3" class="reviews__form__item__star"></label>
-                                        <input type="radio" name="rating" value="4" id="star4" class="reviews__form__item__star-field" />
-                                        <label for="star4" class="reviews__form__item__star"></label>
-                                        <input type="radio" name="rating" value="5" id="star5" class="reviews__form__item__star-field" />
-                                        <label for="star5" class="reviews__form__item__star"></label>
+                                        <div class="reviews__form__item__wrap clearfix">
+                                            <input type="radio" name="rating" value="1" id="star1" class="reviews__form__item__star-field" />
+                                            <label for="star1" class="reviews__form__item__star"></label>
+                                            <input type="radio" name="rating" value="2" id="star2" class="reviews__form__item__star-field" />
+                                            <label for="star2" class="reviews__form__item__star"></label>
+                                            <input type="radio" name="rating" value="3" id="star3" class="reviews__form__item__star-field" />
+                                            <label for="star3" class="reviews__form__item__star"></label>
+                                            <input type="radio" name="rating" value="4" id="star4" class="reviews__form__item__star-field" />
+                                            <label for="star4" class="reviews__form__item__star"></label>
+                                            <input type="radio" name="rating" value="5" id="star5" class="reviews__form__item__star-field" />
+                                            <label for="star5" class="reviews__form__item__star"></label>
+                                        </div>
                                     </div>
                                     <?php if ($review_guest) { ?>
                                             <div class="reviews__form__item">

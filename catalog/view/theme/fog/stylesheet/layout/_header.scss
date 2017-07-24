@@ -150,12 +150,16 @@
           height: 21px;
           background: url("./img/cartIcon.png") no-repeat;
           @media screen and (max-width: 992px){
-            background: url("./img/cartMob.png") no-repeat;
-            width: 42px;
-            height: 36px;
-            left:auto;
-            top: 0;
-            z-index: 1;
+            display: none;
+          }
+        }
+        i {
+          @media screen and (max-width: 992px){
+            font-size: 2.5em;
+            color: $white;
+          }
+          @media screen and (max-width: 480px){
+            font-size: 2em;
           }
         }
       }
@@ -186,9 +190,17 @@
       }
     }
   }
+  &__mobileLogo {
+    display: block;
+    height: 50px;
+    margin: -15px 0 -15px 20px;
+    img{
+      height: 100%;
+    }
+  }
   &__mobile {
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items: center;
     align-content: center;
     padding:15px 0;

@@ -26,6 +26,7 @@ if(!is_object($inWidget->data)) die('<b style="color:red;">Cache file contains p
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta http-equiv="content-language" content="<?php echo $inWidget->langName; ?>" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/default.css?r1" media="all" />
 	</head>
 <body>

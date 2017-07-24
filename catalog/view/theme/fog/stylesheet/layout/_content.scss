@@ -131,3 +131,17 @@ input[type="checkbox"]:checked{
 .panel.panel-default.ulogin_panel{
   display: none;
 }
+
+.instagram-wrapper{
+  height: 600px;
+  margin-top: 40px;
+  @media screen and (max-width: 1200px){
+    height: 505px;
+  }
+  @media screen and (max-width: 992px){
+    height: 395px;
+  }
+  @media screen and (max-width: 760px){
+    height: calc(200vw);
+  }
+}

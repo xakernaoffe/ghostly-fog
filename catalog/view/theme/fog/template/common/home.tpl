@@ -12,8 +12,8 @@
         <?php echo $content_top; ?>
 
 
-        <div style="height: 600px; margin-top: 40px">
-            <iframe src='/inwidget/index.php?width=1100&view=8&toolbar=false&preview=large' scrolling='no' frameborder='no' style='border:none;width:100%;height:850px;overflow:hidden;'>
+        <div class="instagram-wrapper" >
+            <iframe src='/inwidget/index.php?width=1100&view=8&toolbar=false&preview=large' scrolling='no' frameborder='no' style='border:none;width:100%;height:100%;overflow:hidden;'>
 
             </iframe>
         </div>

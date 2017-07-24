@@ -1,6 +1,7 @@
 <div id="cart" class="cart-wrap">
     <button class="cart-wrap__content">
-        <span class="cart-wrap__icon"></span>
+
+        <span class="cart-wrap__icon"><i class="fa fa-shopping-basket hidden-lg hidden-md" aria-hidden="true"></i></span>
         <span id="cart-total" class="cart-wrap__content__item"><?php echo $text_items; ?></span>
     </button>
   <ul class="dropdown-menu pull-right">

@@ -10,6 +10,9 @@
     text-transform: uppercase;
     color: #dedede;
     padding: 0;
+    @media screen and (max-width: 480px){
+      font: 20px/22px "OpenSans Regular";
+    }
   }
   &__sort {
     display: flex;
@@ -152,7 +155,7 @@
   .category-filter {
     @media screen and (max-width: 992px){
       position: absolute;
-      top: 76px;
+      top: 60px;
       right: -480px;
       transition: right ease 0.2s;
       background: $white;

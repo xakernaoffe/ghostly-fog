@@ -106,7 +106,7 @@
           justify-content:center;
         }
         &__button {
-          margin-left: 13px;
+          margin: 0 0 0 13px;
         }
       }
       &__header {
@@ -289,6 +289,9 @@
     .reviews__form {
       &__item {
         width: 100%;
+        &__wrap {
+          width: 130px;
+        }
       &__star-field {
         display: none;
         &:checked ~ label {
@@ -304,7 +307,13 @@
         &__star {
           color: #dddddd;
           cursor: pointer;
-          &:before {
+          float: right;
+          &:last-child {
+            &:after {
+              margin-left: 0;
+            }
+          }
+          &:after {
             margin: 5px;
             font-size: 1.5em;
             font-family: "FontAwesome";

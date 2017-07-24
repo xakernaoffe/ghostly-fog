@@ -72,8 +72,8 @@
     }
   }
   &__mobile {
-    position: absolute;
-    top: 76px;
+    position: fixed;
+    top: 60px;
     left: -480px;
     transition: left ease 0.2s;
     background: #141414;
@@ -82,6 +82,8 @@
     z-index: 100;
     @media screen and (max-width: 768px){
       width: 100%;
+      max-height: 100%;
+      overflow: scroll;
       left:-100%;
     }
     &.show {

@@ -2,7 +2,7 @@
 <div class="category">
     <div class="category__header">
         <div class="container">
-            <div class="category__title col-sm-8 col-xs-8"><?php echo $heading_title; ?></div>
+            <div class="category__title col-sm-8 col-xs-10"><?php echo $heading_title; ?></div>
             <ul class="breadcrumb col-md-4 hidden-sm hidden-xs">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">
@@ -10,7 +10,7 @@
                     </li>
                 <?php } ?>
             </ul>
-            <div class="col-sm-4 col-xs-4 hidden-lg hidden-md text-right">
+            <div class="col-sm-4 col-xs-2 hidden-lg hidden-md text-right">
                 <span class="filter_btn"></span>
             </div>
         </div>

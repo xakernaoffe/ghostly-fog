@@ -6,7 +6,7 @@
 $CONFIG = array(
 
 	// Instagram login
-	'LOGIN' => 'ladys_showroom',
+	'LOGIN' => 'vape_cloudmania',
 
 	// Get pictures from WORLDWIDE by hashtags. 
 	// Separate hashtags by comma. For example: girl, man
