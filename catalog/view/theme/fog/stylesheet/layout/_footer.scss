@@ -74,6 +74,13 @@
         display: block;
         font: 14px/16px "Roboto Light";
         color: $white;
+        &.show-callback {
+          display: block;
+          padding-left: 8px;
+          margin-top: 10px;
+          color: $blue;
+          text-decoration: underline;
+        }
       }
       &__wrap {
         font: 14px/16px "Roboto Light";

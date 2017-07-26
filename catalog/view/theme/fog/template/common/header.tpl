@@ -114,7 +114,7 @@
               <div class="callback__icon"></div>
               <div class="callback__info">
                   <span class="callback__info__time"><?php echo $open; ?></span>
-                  <a class="callback__link show-callback">Обратный звонок</a>
+                  <a href="#" class="callback__link show-callback"><?php echo $text_callback; ?></a>
               </div>
           </div>
           <div class="phones col-md-3 hidden-sm hidden-xs">

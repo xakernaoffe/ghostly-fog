@@ -22,6 +22,7 @@ class ControllerCommonFooter extends Controller {
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
 		$data['text_catrgories'] = $this->language->get('text_catrgories');
 		$data['text_warning'] = $this->language->get('text_warning');
+		$data['text_callback'] = $this->language->get('text_callback');
 
 		$this->load->model('catalog/information');
 

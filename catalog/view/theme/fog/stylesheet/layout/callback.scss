@@ -2,10 +2,17 @@
   .modal-dialog {
     width: 455px;
     margin-top: 120px;
+    @media screen and (max-width: 768px){
+      width: 90%;
+      margin: 50px auto 20px;
+    }
   }
   .modal-content {
     border-radius: 0;
     padding:60px 50px 45px;
+    @media screen and (max-width: 480px){
+      padding:25px;
+    }
   }
   .modal-header {
     padding: 0;
@@ -25,6 +32,9 @@
       font: 30px/42px "MyriadPro Regular";
       color: #2e2e2e;
       text-transform: uppercase;
+      @media screen and (max-width: 480px){
+        font-size: 23px;
+      }
     }
     .modal-note {
       font: 14px/20px "MyriadPro Regular";
