@@ -77,7 +77,7 @@
 <header class="header">
   <div class="container">
       <div class="header__mobile hidden-lg hidden-md">
-          <div class="burger_btn">
+          <div class="burger_btn" data-toggle="modal" data-target="#menu-mobile">
               <span></span>
               <span></span>
               <span></span>
@@ -114,7 +114,7 @@
               <div class="callback__icon"></div>
               <div class="callback__info">
                   <span class="callback__info__time"><?php echo $open; ?></span>
-                  <a href="#" class="callback__link show-callback"><?php echo $text_callback; ?></a>
+                  <div class="callback__link show-callback"><?php echo $text_callback; ?></div>
               </div>
           </div>
           <div class="phones col-md-3 hidden-sm hidden-xs">
@@ -166,9 +166,6 @@
                             <a href="<?php echo $latest; ?>" class="navbar__link"><?php echo $text_latest; ?></a>
                         </li>
                         <li class="navbar__item">
-                            <a href="<?php echo $pvr_view_all_link; ?>" class="navbar__link"><?php echo $text_video; ?></a>
-                        </li>
-                        <li class="navbar__item">
                             <a href="<?php echo $news_link; ?>" class="navbar__link"><?php echo $text_news; ?></a>
                         </li>
                     </ul>
@@ -180,41 +177,47 @@
         </div>
     <?php } ?>
 </div>
-<div class="menu__mobile hidden-lg hidden-md">
-    <?php if ($categories) { ?>
-    <div id="accordion">
-        <?php foreach ($categories as $category) { ?>
-            <div class="panel">
-                <?php if ($category['children']) { ?>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $category['name']; ?>" class="menu__mobile__item"><span class="arrow"></span>
-                        <?php echo $category['name']; ?>
-                    </a>
-                    <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
-                        <div id="<?php echo $category['name']; ?>" class="panel-collapse collapse">
-                            <?php foreach ($children as $child) { ?>
-                                <a href="<?php echo $child['href']; ?>" class="menu__mobile__link"><?php echo $child['name']; ?></a>
-                            <?php } ?>
-                        </div>
+
+<div class="modal fade menu__mobile" id="menu-mobile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="menu__mobile__wrap">
+                <?php if ($categories) { ?>
+                    <div id="accordion">
+                        <?php foreach ($categories as $category) { ?>
+                            <div class="panel">
+                                <?php if ($category['children']) { ?>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $category['name']; ?>" class="menu__mobile__item"><span class="arrow"></span>
+                                        <?php echo $category['name']; ?>
+                                    </a>
+                                    <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+                                        <div id="<?php echo $category['name']; ?>" class="panel-collapse collapse">
+                                            <?php foreach ($children as $child) { ?>
+                                                <a href="<?php echo $child['href']; ?>" class="menu__mobile__link"><?php echo $child['name']; ?></a>
+                                            <?php } ?>
+                                        </div>
+                                    <?php } ?>
+                                <?php } else { ?>
+                                    <a href="<?php echo $category['href']; ?>" class="menu__mobile__item"><?php echo $category['name']; ?></a>
+                                <?php } ?>
+                            </div>
+                        <?php } ?>
+                    </div>
+                <?php } ?>
+                <a href="<?php echo $latest; ?>" class="menu__mobile__item"><?php echo $text_latest; ?></a>
+                <a href="<?php echo $news_link; ?>" class="menu__mobile__item"><?php echo $text_news; ?></a> <hr>
+                <?php if ($informations) { ?>
+                    <?php foreach ($informations as $information) { ?>
+                        <a href="<?php echo $information['href']; ?>" class="menu__mobile__item"><?php echo $information['title']; ?></a>
                     <?php } ?>
-                <?php } else { ?>
-                    <a href="<?php echo $category['href']; ?>" class="menu__mobile__item"><?php echo $category['name']; ?></a>
+                <?php } ?>
+                <a href="<?php echo $contact; ?>" class="menu__mobile__item"><?php echo $text_contact; ?></a>
+                <?php if ($logged) { ?>
+                    <hr>
+                    <a  href="<?php echo $account; ?>" class="menu__mobile__item"><?php echo $text_room; ?></a>
                 <?php } ?>
             </div>
-        <?php } ?>
+        </div>
     </div>
-    <?php } ?>
-    <a href="<?php echo $latest; ?>" class="menu__mobile__item"><?php echo $text_latest; ?></a>
-    <a href="<?php echo $pvr_view_all_link; ?>" class="menu__mobile__item"><?php echo $text_video; ?></a>
-    <a href="<?php echo $news_link; ?>" class="menu__mobile__item"><?php echo $text_news; ?></a> <hr>
-    <?php if ($informations) { ?>
-        <?php foreach ($informations as $information) { ?>
-            <a href="<?php echo $information['href']; ?>" class="menu__mobile__item"><?php echo $information['title']; ?></a>
-        <?php } ?>
-    <?php } ?>
-    <a href="<?php echo $contact; ?>" class="menu__mobile__item"><?php echo $text_contact; ?></a>
-    <?php if ($logged) { ?>
-        <hr>
-        <a  href="<?php echo $account; ?>" class="menu__mobile__item"><?php echo $text_room; ?></a>
-    <?php } ?>
 </div>
 

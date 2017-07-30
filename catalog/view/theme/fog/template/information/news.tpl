@@ -38,14 +38,9 @@
                                 <i class="fa fa-clock-o"></i>&nbsp;
                                 <?php echo $posted; ?>
                             </div>
-                            <div class="newsPage__content__info__viewed">
-                                <i class="fa fa-eye"></i>&nbsp;
-                                <?php echo $viewed; ?>
-                            </div>
                         </div>
                         <div class="newsPage__content__buttons">
                             <a class="newsPage__content__buttons__item" href="<?php echo $news_list; ?>"><?php echo $button_news; ?></a>
-                            <a class="newsPage__content__buttons__item" href="<?php echo $continue; ?>"><?php echo $button_continue; ?></a>
                         </div>
                 </div>
                 <?php echo $content_bottom; ?></div>

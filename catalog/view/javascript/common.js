@@ -212,13 +212,16 @@ $(document).ready(function() {
     });
 
     // burger button// mobile menu
-    $('.burger_btn').click(function(){
+    $('.burger_btn').on('click', function(){
         $(this).toggleClass('open');
-        $('.menu__mobile').toggleClass('show');
+		$('.modal-backdrop').css('display', 'none');
+
     });
-    // $('.menu__mobile__item').on('click', function(){
-    	// $(this).toggleClass('open');
-	// });
+
+    $('#menu-mobile').on('shown.bs.modal', function () {
+        $('.modal-backdrop').remove();
+    });
+
     var allAccordionItems = $('.menu__mobile__item');
     $('.panel > .menu__mobile__item').on('click', function(){
         if($(this).hasClass('open')) {
@@ -237,6 +240,8 @@ $(document).ready(function() {
     $('.close_btn').click(function(){
         $('.category-filter').removeClass('show');
     });
+
+
 });
 
 // Cart add remove functions

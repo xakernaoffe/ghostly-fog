@@ -11,11 +11,14 @@
     <div id="content" class="<?php echo $class; ?>">
         <?php echo $content_top; ?>
 
+        <div class="instagram">
+            <div class="container">
+                <div class="instagram-wrapper">
+                    <iframe src='/inwidget/index.php?width=1100&view=8&toolbar=false&preview=large' scrolling='no' frameborder='no' style='border:none;width:100%;height:100%;overflow:hidden;'>
 
-        <div class="instagram-wrapper" >
-            <iframe src='/inwidget/index.php?width=1100&view=8&toolbar=false&preview=large' scrolling='no' frameborder='no' style='border:none;width:100%;height:100%;overflow:hidden;'>
-
-            </iframe>
+                    </iframe>
+                </div>
+            </div>
         </div>
         <?php echo $content_bottom; ?>
     </div>

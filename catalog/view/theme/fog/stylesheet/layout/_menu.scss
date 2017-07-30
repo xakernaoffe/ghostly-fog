@@ -72,23 +72,44 @@
     }
   }
   &__mobile {
-    position: fixed;
-    top: 60px;
-    left: -480px;
-    transition: left ease 0.2s;
     background: #141414;
     color: $white;
-    width: 480px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
     z-index: 100;
+    padding-top: 60px;
     @media screen and (max-width: 768px){
       width: 100%;
       max-height: 100%;
       overflow: scroll;
-      left:-100%;
     }
-    &.show {
-      left: 0;
-      box-shadow: 0px 0px 50px rgba(0,0,0,0.8);
+    &__wrap {
+      width: 100%;
+      height: 100%;
+      background: #141414;
+    }
+    .modal-dialog {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      -webkit-transform: translate3d(0%, 0, 0);
+      -ms-transform: translate3d(0%, 0, 0);
+      -o-transform: translate3d(0%, 0, 0);
+      transform: translate3d(0%, 0, 0);
+    }
+    &.fade {
+      .modal-dialog {
+        -webkit-transition: opacity 0.1s linear, left 0.1s ease-out;
+        -moz-transition: opacity 0.1s linear, left 0.1s ease-out;
+        -o-transition: opacity 0.1s linear, left 0.1s ease-out;
+        transition: opacity 0.1s linear, left 0.1s ease-out;
+      }
+    }
+    .modal-content {
+      width: 100%;
+      height: 100%;
+      border: none;
     }
     .panel {
       border-radius: 0;
@@ -99,7 +120,7 @@
       margin-bottom: 0;
     }
     .panel-collapse {
-      padding-left: 125px;
+      padding-left: 40px;
       background: #232323;
     }
     &__item {
@@ -107,7 +128,7 @@
       font: 22px/24px "RobotoCondensed Regular";
       text-transform: uppercase;
       color: $white;
-      padding: 20px 0 20px 110px;
+      padding: 15px 0 15px 15px;
       background: #141414;
       position: relative;
       &.open {
@@ -133,7 +154,7 @@
       font: 18px/20px "RobotoCondensed Regular";
       text-transform: uppercase;
       color: #b8b8b8;
-      padding: 17px 0;
+      padding: 13px 0;
     }
     hr {
       width: 54%;

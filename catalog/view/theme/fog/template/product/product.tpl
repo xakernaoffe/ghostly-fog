@@ -36,8 +36,8 @@
                                         <a class="productPage__thumbnails__image js-popup" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>">
                                             <img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
                                             <span class="productPage__thumbnails__icon">
-                                        <i class="fa fa-expand fa-lg" aria-hidden="true"></i>
-                                    </span>
+                                                <i class="fa fa-expand fa-lg" aria-hidden="true"></i>
+                                            </span>
                                         </a>
                                     </li>
                                 <?php } ?>
