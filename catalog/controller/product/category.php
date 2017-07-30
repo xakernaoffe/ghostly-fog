@@ -229,6 +229,8 @@ class ControllerProductCategory extends Controller {
                     'attribute_groups' => $this->model_catalog_product->getProductAttributes($result['product_id']),
 					'price'       => $price,
 					'special'     => $special,
+                    'statuses' => $result['statuses']['category'],
+                    'stickers' => $result['statuses']['category_stickers'],
 					'tax'         => $tax,
 					'minimum'     => $result['minimum'] > 0 ? $result['minimum'] : 1,
 					'rating'      => $result['rating'],

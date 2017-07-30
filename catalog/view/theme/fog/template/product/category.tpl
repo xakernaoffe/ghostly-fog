@@ -48,14 +48,10 @@
                     <div class="row">
                         <?php foreach ($products as $product) { ?>
                             <div class="product product-list col-xs-12">
-                                <?php echo $product['stickers']; ?>
-<!--                                <div class="status-icon">-->
-<!--                                    --><?php //if($product['labels']) { ?>
-<!--                                        --><?php //foreach ($product['labels'] as $label) { ?>
-<!--                                            <div class="--><?php //echo $label['position']; ?><!--"><img src="--><?php //echo HTTP_SERVER.'image/'.$label['image']; ?><!--"></div>-->
-<!--                                        --><?php //} ?>
-<!--                                    --><?php //} ?>
-<!--                                </div>-->
+                                <div class="statuses">
+                                    <?php echo $product['statuses']; ?>
+                                    <?php echo $product['stickers']; ?>
+                                </div>
                                 <div class="product__thumb">
                                     <div class="product__thumb__image">
                                         <a href="<?php echo $product['href']; ?>">

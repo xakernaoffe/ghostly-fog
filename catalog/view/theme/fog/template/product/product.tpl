@@ -33,6 +33,10 @@
                             <ul class="productPage__thumbnails__list js-popup">
                                 <?php if ($thumb) { ?>
                                     <li class="productPage__thumbnails__item" >
+                                        <div class="statuses">
+                                            <?php echo $statuses; ?>
+                                                <?php echo $stickers; ?>
+                                        </div>
                                         <a class="productPage__thumbnails__image js-popup" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>">
                                             <img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
                                             <span class="productPage__thumbnails__icon">
