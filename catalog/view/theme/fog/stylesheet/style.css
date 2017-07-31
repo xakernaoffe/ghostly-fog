@@ -784,6 +784,7 @@ input[type="checkbox"]:checked {
   display: none; }
 
 .instagram {
+  padding: 40px 0;
   width: 100vw;
   margin-top: 40px;
   margin-left: calc((-100vw + 1140px)/2);
@@ -801,6 +802,33 @@ input[type="checkbox"]:checked {
     .instagram {
       margin-left: -15px;
       margin-right: -15px; } }
+  .instagram__title {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    font: 20px/22px "Roboto Light";
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #e2e2e2; }
+    @media screen and (max-width: 992px) {
+      .instagram__title {
+        display: block;
+        text-align: center; } }
+    @media screen and (max-width: 480px) {
+      .instagram__title {
+        width: 65%;
+        margin: 0 auto; } }
+  .instagram__line {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 45px;
+    height: 3px;
+    background: #32a0ed;
+    margin: 0;
+    border: none; }
 
 .instagram-wrapper {
   height: 600px; }
@@ -2592,8 +2620,11 @@ input[type="checkbox"]:checked {
   align-content: center;
   align-items: center; }
   .latestPage .latest .product {
-    width: 33%;
+    width: 25%;
     margin-bottom: 30px; }
+    @media screen and (max-width: 1200px) {
+      .latestPage .latest .product {
+        width: 33%; } }
     @media screen and (max-width: 992px) {
       .latestPage .latest .product {
         width: 50%; } }

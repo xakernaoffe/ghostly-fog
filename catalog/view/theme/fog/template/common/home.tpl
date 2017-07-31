@@ -13,6 +13,10 @@
 
         <div class="instagram">
             <div class="container">
+                <div class="instagram__title">
+                    Мы в инстаграмме
+                    <hr class="instagram__line hidden-sm hidden-xs">
+                </div>
                 <div class="instagram-wrapper">
                     <iframe src='/inwidget/index.php?width=1100&view=8&toolbar=false&preview=large' scrolling='no' frameborder='no' style='border:none;width:100%;height:100%;overflow:hidden;'>
 
