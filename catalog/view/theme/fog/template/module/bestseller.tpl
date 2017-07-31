@@ -7,7 +7,6 @@
         <div class="bestseller js-slider">
             <?php foreach ($products as $product) { ?>
                 <div class="product">
-                    <div class="status-icon"></div>
                     <div class="product__thumb transition">
                         <div class="product__thumb__image">
                             <a href="<?php echo $product['href']; ?>">

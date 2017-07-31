@@ -46,10 +46,10 @@
             <label class="col-sm-2 control-label" for="input-date-start"><?php echo $entry_position; ?></label>
             <div class="col-sm-3">
               <select name="position" class="form-control">
-                <option value="rb-tl" <?php if($position == 'rb-tl') { ?>selected="selected"<?php } ?> >Вверху слева</option>
-                <option value="rb-tr" <?php if($position == 'rb-tr') { ?>selected="selected"<?php } ?> >Вверху справа</option>
-                <option value="rb-bl" <?php if($position == 'rb-bl') { ?>selected="selected"<?php } ?> >Внизу слева</option>
-                <option value="rb-br" <?php if($position == 'rb-br') { ?>selected="selected"<?php } ?> >Внизу справа</option>
+                <option value="rb-tl" <?php if($position == 'rb-tl') { ?>selected="selected"<?php } ?> >Top Left</option>
+                <option value="rb-tr" <?php if($position == 'rb-tr') { ?>selected="selected"<?php } ?> >Top Right</option>
+                <option value="rb-bl" <?php if($position == 'rb-bl') { ?>selected="selected"<?php } ?> >Bottom Left</option>
+                <option value="rb-br" <?php if($position == 'rb-br') { ?>selected="selected"<?php } ?> >Bottom right</option>
               </select>
             </div>  
           </div>

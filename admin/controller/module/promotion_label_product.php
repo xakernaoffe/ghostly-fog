@@ -1,1 +1,290 @@
-<?php eval(gzuncompress(base64_decode('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')));
+<?php
+class ControllerModulePromotionLabelProduct extends Controller {
+	private $error = array();
+
+	public function index() {
+		$this->load->language('module/promotion_label_product');
+
+		$this->document->setTitle($this->language->get('heading_title'));
+		
+		$this->load->model('extension/module');
+
+		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
+			if (!isset($this->request->get['module_id'])) {
+				$this->model_extension_module->addModule('promotion_label_product', $this->request->post);
+			} else {
+				$this->model_extension_module->editModule($this->request->get['module_id'], $this->request->post);
+			}
+						
+			$this->session->data['success'] = $this->language->get('text_success');
+
+			$this->response->redirect($this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'));
+		}
+
+		$data['heading_title'] = $this->language->get('heading_title');
+
+		$data['text_edit'] = $this->language->get('text_edit');
+		$data['text_enabled'] = $this->language->get('text_enabled');
+		$data['text_disabled'] = $this->language->get('text_disabled');
+		
+		$data['entry_name'] = $this->language->get('entry_name');
+		$data['entry_module_name'] = $this->language->get('entry_module_name');
+		$data['entry_featured'] = $this->language->get('entry_featured');
+		$data['entry_category'] = $this->language->get('entry_category');
+		$data['entry_manufacturer'] = $this->language->get('entry_manufacturer');
+		$data['entry_limit'] = $this->language->get('entry_limit');
+		$data['entry_width'] = $this->language->get('entry_width');
+		$data['entry_height'] = $this->language->get('entry_height');
+		$data['entry_status'] = $this->language->get('entry_status');
+
+		$data['help_product'] = $this->language->get('help_product');
+
+		$data['button_save'] = $this->language->get('button_save');
+		$data['button_cancel'] = $this->language->get('button_cancel');
+
+		if (isset($this->error['warning'])) {
+			$data['error_warning'] = $this->error['warning'];
+		} else {
+			$data['error_warning'] = '';
+		}
+		
+		if (isset($this->error['name'])) {
+			$data['error_name'] = $this->error['name'];
+		} else {
+			$data['error_name'] = '';
+		}
+
+		if (isset($this->error['module_name'])) {
+			$data['error_module_name'] = $this->error['module_name'];
+		} else {
+			$data['error_module_name'] = array();
+		}
+
+		if (isset($this->error['width'])) {
+			$data['error_width'] = $this->error['width'];
+		} else {
+			$data['error_width'] = '';
+		}
+		
+		if (isset($this->error['height'])) {
+			$data['error_height'] = $this->error['height'];
+		} else {
+			$data['error_height'] = '';
+		}
+
+		$data['breadcrumbs'] = array();
+
+		$data['breadcrumbs'][] = array(
+			'text' => $this->language->get('text_home'),
+			'href' => $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL')
+		);
+
+		$data['breadcrumbs'][] = array(
+			'text' => $this->language->get('text_module'),
+			'href' => $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL')
+		);
+
+		if (!isset($this->request->get['module_id'])) {
+			$data['breadcrumbs'][] = array(
+				'text' => $this->language->get('heading_title'),
+				'href' => $this->url->link('module/promotion_label_product', 'token=' . $this->session->data['token'], 'SSL')
+			);
+		} else {
+			$data['breadcrumbs'][] = array(
+				'text' => $this->language->get('heading_title'),
+				'href' => $this->url->link('module/promotion_label_product', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL')
+			);			
+		}
+
+		if (!isset($this->request->get['module_id'])) {
+			$data['action'] = $this->url->link('module/promotion_label_product', 'token=' . $this->session->data['token'], 'SSL');
+		} else {
+			$data['action'] = $this->url->link('module/promotion_label_product', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL');
+		}
+		
+		$data['cancel'] = $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL');
+		
+		if (isset($this->request->get['module_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
+			$module_info = $this->model_extension_module->getModule($this->request->get['module_id']);
+		}
+		
+		$data['token'] = $this->session->data['token'];
+
+		$this->load->model('localisation/language');
+
+		$data['languages'] = $this->model_localisation_language->getLanguages();
+
+		if (isset($this->request->post['module_name'])) {
+			$data['module_name'] = $this->request->post['module_name'];
+		}  elseif (!empty($module_info)) {
+			$data['module_name'] = $module_info['module_name'];
+		} else {
+			$data['module_name'] = array();
+		}
+
+		if (isset($this->request->post['name'])) {
+			$data['name'] = $this->request->post['name'];
+		} elseif (!empty($module_info)) {
+			$data['name'] = $module_info['name'];
+		} else {
+			$data['name'] = '';
+		}
+
+		$this->load->model('catalog/product');
+		
+		$data['products'] = array();
+		
+		if (isset($this->request->post['product'])) {
+			$products = $this->request->post['product'];
+		} elseif (!empty($module_info['product'])) {
+			$products = $module_info['product'];
+		} else {
+			$products = array();
+		}	
+		
+		if($products) {
+
+			foreach ($products as $product_id) {
+				$product_info = $this->model_catalog_product->getProduct($product_id);
+
+				if ($product_info) {
+					$data['products'][] = array(
+						'product_id' => $product_info['product_id'],
+						'name'       => $product_info['name']
+					);
+				}
+			}
+
+		}
+
+		$this->load->model('catalog/manufacturer');
+
+		$data['manufacturers'] = array();
+
+		if (isset($this->request->post['manufacturer'])) {
+			$manufacturers = $this->request->post['manufacturer'];
+		} elseif (!empty($module_info['manufacturer'])) {
+			$manufacturers = $module_info['manufacturer'];
+		} else {
+			$manufacturers = array();
+		}	
+		
+		if($manufacturers) {	
+			foreach ($manufacturers as $manufacturer_id) {
+				$manufacturer_info = $this->model_catalog_manufacturer->getManufacturer($manufacturer_id);
+
+				if ($manufacturer_info) {
+					$data['manufacturers'][] = array(
+						'manufacturer_id' => $manufacturer_info['manufacturer_id'],
+						'name'       => $manufacturer_info['name']
+					);
+				}
+			}
+		}	
+
+		$this->load->model('catalog/category');
+		
+		$data['categories'] = array();
+		
+		if (isset($this->request->post['category'])) {
+			$categories = $this->request->post['category'];
+		} elseif (!empty($module_info['category'])) {
+			$categories = $module_info['category'];
+		} else {
+			$categories = array();
+		}	
+		
+		if($categories) {
+			foreach ($categories as $category_id) {
+				$category_info = $this->model_catalog_category->getCategory($category_id);
+
+				if ($category_info) {
+					$data['categories'][] = array(
+						'category_id' => $category_info['category_id'],
+						'name'       => $category_info['name']
+					);
+				}
+			}
+		}
+
+		if (isset($this->request->post['show_product'])) {
+			$data['show_product'] = $this->request->post['show_product'];
+		} elseif (!empty($module_info)) {
+			$data['show_product'] = $module_info['show_product'];
+		} else {
+			$data['show_product'] = '';
+		}
+
+		if (isset($this->request->post['sort_product'])) {
+			$data['sort_product'] = $this->request->post['sort_product'];
+		} elseif (!empty($module_info)) {
+			$data['sort_product'] = $module_info['sort_product'];
+		} else {
+			$data['sort_product'] = 'p.sort_order-ASC';
+		}
+		
+		if (isset($this->request->post['limit'])) {
+			$data['limit'] = $this->request->post['limit'];
+		} elseif (!empty($module_info)) {
+			$data['limit'] = $module_info['limit'];
+		} else {
+			$data['limit'] = 5;
+		}	
+				
+		if (isset($this->request->post['width'])) {
+			$data['width'] = $this->request->post['width'];
+		} elseif (!empty($module_info)) {
+			$data['width'] = $module_info['width'];
+		} else {
+			$data['width'] = 200;
+		}	
+			
+		if (isset($this->request->post['height'])) {
+			$data['height'] = $this->request->post['height'];
+		} elseif (!empty($module_info)) {
+			$data['height'] = $module_info['height'];
+		} else {
+			$data['height'] = 200;
+		}		
+		
+		if (isset($this->request->post['status'])) {
+			$data['status'] = $this->request->post['status'];
+		} elseif (!empty($module_info)) {
+			$data['status'] = $module_info['status'];
+		} else {
+			$data['status'] = '';
+		}
+
+		$data['header'] = $this->load->controller('common/header');
+		$data['column_left'] = $this->load->controller('common/column_left');
+		$data['footer'] = $this->load->controller('common/footer');
+
+		$this->response->setOutput($this->load->view('module/promotion_label_product.tpl', $data));
+	}
+
+	protected function validate() {
+		if (!$this->user->hasPermission('modify', 'module/promotion_label_product')) {
+			$this->error['warning'] = $this->language->get('error_permission');
+		}
+		
+		if ((utf8_strlen($this->request->post['name']) < 3) || (utf8_strlen($this->request->post['name']) > 64)) {
+			$this->error['name'] = $this->language->get('error_name');
+		}
+
+		foreach ($this->request->post['module_name'] as $language_id => $value) {
+			if ((utf8_strlen($value['name']) < 1) || (utf8_strlen($value['name']) > 128)) {
+				$this->error['module_name'][$language_id] = $this->language->get('error_module_name');
+			}
+		}
+
+		if (!$this->request->post['width']) {
+			$this->error['width'] = $this->language->get('error_width');
+		}
+		
+		if (!$this->request->post['height']) {
+			$this->error['height'] = $this->language->get('error_height');
+		}
+		
+		return !$this->error;
+	}
+}

@@ -1,0 +1,32 @@
+.notFoundPage {
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "OpenSans Regular";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+  }
+  &__text {
+    font: 18px/20px "OpenSans Regular";
+    text-align: center;
+  }
+  &__btn {
+    display: block;
+    width: 100px;
+    height: 42px;
+    background-color: $blue;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font: 13px/42px "MyriadPro Regular";
+    text-transform: uppercase;
+    &:hover {
+      color: $white; 
+    }
+  }
+}

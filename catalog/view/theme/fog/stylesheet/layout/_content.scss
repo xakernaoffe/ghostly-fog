@@ -195,3 +195,9 @@ input[type="checkbox"]:checked{
 .modal-backdrop {
   z-index: 50;
 }
+#content {
+  min-height: 290px;
+  @media screen and (max-width: 992px){
+    min-height: 100%;
+  }
+}

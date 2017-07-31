@@ -38,7 +38,7 @@
             <label class="col-sm-2 control-label"><?php echo $entry_name; ?></label>
             <div class="col-sm-10">
               <?php foreach ($languages as $language) { ?>
-              <div class="input-group"><span class="input-group-addon"><img src="<?php echo version_compare(VERSION, '2.2.0', '>=') ? "language/{$language['code']}/{$language['code']}.png" : "view/image/flags/{$language['image']}"; ?>" title="<?php echo $language['name']; ?>" /></span>
+              <div class="input-group"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span>
                 <input type="text" name="module_name[<?php echo $language['language_id']; ?>][name]" value="<?php echo isset($module_name[$language['language_id']]) ? $module_name[$language['language_id']]['name'] : ''; ?>" placeholder="<?php echo $entry_module_name; ?>" class="form-control" />
               </div>
               <?php if (isset($error_module_name[$language['language_id']])) { ?>
@@ -48,17 +48,17 @@
             </div>
           </div>     
           <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-product">Показывать товары с:</label>
+            <label class="col-sm-2 control-label" for="input-product">Show Products By:</label>
             <div class="col-sm-10">
               <select name="show_product" class="form-control" id="show-product">
-                <option>Выберите</option>
-                <option value="category" <?php if($show_product == 'category') { ?>selected="selected"<?php } ?> >Категорий</option>
-                <option value="manufacturer" <?php if($show_product == 'manufacturer') { ?>selected="selected"<?php } ?> >Производителей</option>
-                <option value="latest" <?php if($show_product == 'latest') { ?>selected="selected"<?php } ?> >Последние</option>
-                <option value="bestseller" <?php if($show_product == 'bestseller') { ?>selected="selected"<?php } ?> >Бестселлеры</option>
-                <option value="special" <?php if($show_product == 'special') { ?>selected="selected"<?php } ?> >Товары со скидками</option>
-                <option value="popular" <?php if($show_product == 'popular') { ?>selected="selected"<?php } ?> >Популярные</option>
-                <option value="featured" <?php if($show_product == 'featured') { ?>selected="selected"<?php } ?> >Рекомендуемые</option>
+                <option>Please Select</option>
+                <option value="category" <?php if($show_product == 'category') { ?>selected="selected"<?php } ?> >Category</option>
+                <option value="manufacturer" <?php if($show_product == 'manufacturer') { ?>selected="selected"<?php } ?> >Manufacturer</option>
+                <option value="latest" <?php if($show_product == 'latest') { ?>selected="selected"<?php } ?> >Latest</option>
+                <option value="bestseller" <?php if($show_product == 'bestseller') { ?>selected="selected"<?php } ?> >Best Seller</option>
+                <option value="special" <?php if($show_product == 'special') { ?>selected="selected"<?php } ?> >Special</option>
+                <option value="popular" <?php if($show_product == 'popular') { ?>selected="selected"<?php } ?> >Popular</option>
+                <option value="featured" <?php if($show_product == 'featured') { ?>selected="selected"<?php } ?> >Featured</option>
               </select>
             </div>
           </div>        
@@ -102,21 +102,21 @@
             </div>
           </div>
            <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-sort-product">Сортировка:</label>
+            <label class="col-sm-2 control-label" for="input-sort-product">Sort Products By:</label>
             <div class="col-sm-10">
               <select name="sort_product" class="form-control">
-                <option value="p.sort_order-ASC" <?php if($sort_product == 'p.sort_order-ASC') { ?>selected="selected"<?php } ?> >По умолчанию</option>
-                <option value="pd.name-ASC" <?php if($sort_product == 'pd.name-ASC') { ?>selected="selected"<?php } ?> >Название (А-Я)</option>
-                <option value="pd.name-DESC" <?php if($sort_product == 'pd.name-DESC') { ?>selected="selected"<?php } ?> >Название (Я-А)</option>
-                <option value="p.viewed" <?php if($sort_product == 'p.viewed') { ?>selected="selected"<?php } ?> >Просмотры</option>
-                <option value="p.date_added-DESC" <?php if($sort_product == 'p.date_added-DESC') { ?>selected="selected"<?php } ?> >Последние</option>
-                <option value="p.date_added-ASC" <?php if($sort_product == 'p.date_added-ASC') { ?>selected="selected"<?php } ?> >Старые</option>
-                <option value="p.price-ASC" <?php if($sort_product == 'p.price-ASC') { ?>selected="selected"<?php } ?> >Цена (возраст.)</option>
-                <option value="p.price-DESC" <?php if($sort_product == 'p.price-DESC') { ?>selected="selected"<?php } ?> >Цена (убыв.)</option>
-                <option value="rating-DESC" <?php if($sort_product == 'rating-DESC') { ?>selected="selected"<?php } ?> >Рейтинг (высокий)</option>
-                <option value="rating-ASC" <?php if($sort_product == 'rating-ASC') { ?>selected="selected"<?php } ?> >Рейтинг (низкий)</option>
-                <option value="p.model-ASC" <?php if($sort_product == 'p.model-ASC') { ?>selected="selected"<?php } ?> >Модель (А-Я)</option>
-                <option value="p.model-DESC" <?php if($sort_product == 'p.model-DESC') { ?>selected="selected"<?php } ?> >Модель (Я-А)</option>
+                <option value="p.sort_order-ASC" <?php if($sort_product == 'p.sort_order-ASC') { ?>selected="selected"<?php } ?> >Default</option>
+                <option value="pd.name-ASC" <?php if($sort_product == 'pd.name-ASC') { ?>selected="selected"<?php } ?> >Name (A-Z)</option>
+                <option value="pd.name-DESC" <?php if($sort_product == 'pd.name-DESC') { ?>selected="selected"<?php } ?> >Name (Z-A)</option>
+                <option value="p.viewed" <?php if($sort_product == 'p.viewed') { ?>selected="selected"<?php } ?> >Viewed (Highest)</option>
+                <option value="p.date_added-DESC" <?php if($sort_product == 'p.date_added-DESC') { ?>selected="selected"<?php } ?> >Newest</option>
+                <option value="p.date_added-ASC" <?php if($sort_product == 'p.date_added-ASC') { ?>selected="selected"<?php } ?> >Oldest</option>
+                <option value="p.price-ASC" <?php if($sort_product == 'p.price-ASC') { ?>selected="selected"<?php } ?> >Price (Low > High)</option>
+                <option value="p.price-DESC" <?php if($sort_product == 'p.price-DESC') { ?>selected="selected"<?php } ?> >Price (High > Low)</option>
+                <option value="rating-DESC" <?php if($sort_product == 'rating-DESC') { ?>selected="selected"<?php } ?> >Rating (Highest)</option>
+                <option value="rating-ASC" <?php if($sort_product == 'rating-ASC') { ?>selected="selected"<?php } ?> >Rating (Lowest)</option>
+                <option value="p.model-ASC" <?php if($sort_product == 'p.model-ASC') { ?>selected="selected"<?php } ?> >Model (A - Z)</option>
+                <option value="p.model-DESC" <?php if($sort_product == 'p.model-DESC') { ?>selected="selected"<?php } ?> >Model (Z - A)</option>
               </select>
             </div>
           </div>   

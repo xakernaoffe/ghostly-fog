@@ -845,6 +845,12 @@ input[type="checkbox"]:checked {
 .modal-backdrop {
   z-index: 50; }
 
+#content {
+  min-height: 290px; }
+  @media screen and (max-width: 992px) {
+    #content {
+      min-height: 100%; } }
+
 .module {
   margin-top: 40px; }
   .module__header {
@@ -2766,6 +2772,32 @@ input[type="checkbox"]:checked {
   padding: 0; }
 .manufacturerPage .category__sort {
   border: none; }
+
+.notFoundPage__header {
+  min-height: 95px;
+  background: url("./img/categoryBg.png") center no-repeat;
+  margin-bottom: 30px; }
+.notFoundPage__title {
+  margin-top: 38px;
+  font: 24px/26px "OpenSans Regular";
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 0; }
+.notFoundPage__text {
+  font: 18px/20px "OpenSans Regular";
+  text-align: center; }
+.notFoundPage__btn {
+  display: block;
+  width: 100px;
+  height: 42px;
+  background-color: #32a0ed;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font: 13px/42px "MyriadPro Regular";
+  text-transform: uppercase; }
+  .notFoundPage__btn:hover {
+    color: #fff; }
 
 /* Slider */
 .slick-slider {

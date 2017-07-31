@@ -48,10 +48,10 @@
                     <div class="row">
                         <?php foreach ($products as $product) { ?>
                             <div class="product product-list col-xs-12">
-                                <div class="statuses">
-                                    <?php echo $product['statuses']; ?>
-                                    <?php echo $product['stickers']; ?>
-                                </div>
+<!--                                <div class="statuses">-->
+<!--                                    --><?php //echo $product['statuses']; ?>
+<!--                                    --><?php //echo $product['stickers']; ?>
+<!--                                </div>-->
                                 <div class="product__thumb">
                                     <div class="product__thumb__image">
                                         <a href="<?php echo $product['href']; ?>">

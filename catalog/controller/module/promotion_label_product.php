@@ -72,12 +72,6 @@ class ControllerModulePromotionLabelProduct extends Controller {
 			
 		}
 
-		if(version_compare(VERSION, '2.2.0.0', '<') == true) {
-			$desc_length = (int)$this->config->get('config_product_description_length');
-		} else {
-			$desc_length = (int)$this->config->get($this->config->get('config_theme') . '_product_description_length');
-		}
-
 		
 
 		if($setting['show_product'] == 'featured' || $setting['show_product'] == 'manufacturer' || $setting['show_product'] == 'category') {
@@ -93,21 +87,13 @@ class ControllerModulePromotionLabelProduct extends Controller {
 					}
 
 					if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
-						if(version_compare(VERSION, '2.2.0.0', '<') == true) {
-							$price = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')));
-						} else {
-							$price = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-						}
+						$price = $this->currency->format($this->tax->calculate($product_info['price'], $product_info['tax_class_id'], $this->config->get('config_tax')));
 					} else {
 						$price = false;
 					}
 
 					if ((float)$product_info['special']) {
-						if(version_compare(VERSION, '2.2.0.0', '<') == true) {
-							$special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')));
-						} else {
-							$special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-						}
+						$special = $this->currency->format($this->tax->calculate($product_info['special'], $product_info['tax_class_id'], $this->config->get('config_tax')));
 					} else {
 						$special = false;
 					}
@@ -132,7 +118,7 @@ class ControllerModulePromotionLabelProduct extends Controller {
 						'product_id'  => $product_info['product_id'],
 						'thumb'       => $image,
 						'name'        => $product_info['name'],
-						'description' => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $desc_length) . '..',
+						'description' => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 						'price'       => $price,
 						'special'     => $special,
 						'tax'         => $tax,
@@ -146,6 +132,7 @@ class ControllerModulePromotionLabelProduct extends Controller {
 
 		} else if($setting['show_product'] == 'latest' || $setting['show_product'] == 'special' || $setting['show_product'] == 'bestseller' || $setting['show_product'] == 'popular') { 
 			
+
 			if ($results) {
 				foreach ($results as $result) {
 					if ($result['image']) {
@@ -155,21 +142,13 @@ class ControllerModulePromotionLabelProduct extends Controller {
 					}
 
 					if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
-						if(version_compare(VERSION, '2.2.0.0', '<') == true) {
-							$price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')));
-						} else {
-							$price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-						}
+						$price = $this->currency->format($this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax')));
 					} else {
 						$price = false;
 					}
 
 					if ((float)$result['special']) {
-						if(version_compare(VERSION, '2.2.0.0', '<') == true) {
-							$special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')));
-						} else {
-							$special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
-						}
+						$special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')));
 					} else {
 						$special = false;
 					}
@@ -190,11 +169,12 @@ class ControllerModulePromotionLabelProduct extends Controller {
 
 					$labels = $this->model_catalog_promotion_label_product->getProductLabel($result['product_id']);
 
+
 					$data['products'][] = array(
 						'product_id'  => $result['product_id'],
 						'thumb'       => $image,
 						'name'        => $result['name'],
-						'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $desc_length) . '..',
+						'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 						'price'       => $price,
 						'special'     => $special,
 						'tax'         => $tax,
@@ -206,16 +186,13 @@ class ControllerModulePromotionLabelProduct extends Controller {
 			}	
 
 		}	
-		if(version_compare(VERSION, '2.2.0.0', '<') == true) {
-			if ($data['products']) {
-				if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/promotion_label_product.tpl')) {
-					return $this->load->view($this->config->get('config_template') . '/template/module/promotion_label_product.tpl', $data);
-				} else {
-					return $this->load->view('default/template/module/promotion_label_product.tpl', $data);
-				}
+
+		if ($data['products']) {
+			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/promotion_label_product.tpl')) {
+				return $this->load->view($this->config->get('config_template') . '/template/module/promotion_label_product.tpl', $data);
+			} else {
+				return $this->load->view('default/template/module/promotion_label_product.tpl', $data);
 			}
-		} else {
-			return $this->load->view('module/promotion_label_product', $data);
 		}
 	}
 }
