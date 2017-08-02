@@ -2,622 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e95ee8-9947-45c8-b0eb-37c9bbce2200" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/notFound.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-228x228.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-260x130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-260x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-260x410.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-438x495.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-47x47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-74x74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-90x104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/cart-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/db-devs-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-180x180.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-438x495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_cinema_30-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_logo-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/apple_logo-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/banners/MacBookAir-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/banners/MacBookAir-1140x380.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/banners/MacBookAir-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/banners/iPhone6-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/banners/iPhone6-1140x380.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/banners/iPhone6-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-180x180.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-438x495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_1-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_eos_5d_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_logo-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_logo-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_logo-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/canon_logo-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-182x182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_1-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_2-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/hp_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-438x495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_1-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/htc_touch_hd_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_1-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/imac_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_1-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_4-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_4-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_5-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_5-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_6-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/iphone_6-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_4-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_4-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_classic_4-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_nano_5-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_shuffle_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_shuffle_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_shuffle_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_touch_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_touch_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/ipod_touch_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-438x495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_1-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_4-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_4-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_4-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_5-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_5-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_5-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_5-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-438x495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-47x47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_1-80x80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_4-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_air_4-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_pro_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_pro_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_pro_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/macbook_pro_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/burgerking-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/burgerking-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/burgerking-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/canon-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/canon-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/canon-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/cocacola-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/cocacola-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/cocacola-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/dell-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/dell-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/dell-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/disney-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/disney-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/disney-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/harley-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/harley-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/harley-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nfl-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nfl-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nfl-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nintendo-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nintendo-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nintendo-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/nintendo-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/redbull-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/redbull-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/redbull-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/sony-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/sony-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/sony-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/starbucks-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/starbucks-130x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/manufacturer/starbucks-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/nikon_d300_5-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/palm_treo_pro_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/palm_treo_pro_1-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/palm_treo_pro_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-260x260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-438x495.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_syncmaster_941bw-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_4-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_4-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_4-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_5-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_5-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_5-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_5-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_6-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_6-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_6-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_6-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_7-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_7-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_7-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/samsung_tab_7-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_1-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_1-200x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_1-228x228.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_1-40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_2-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_2-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_2-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_2-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_3-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_3-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_3-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_3-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_4-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_4-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_4-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_4-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_5-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_5-500x500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_5-74x74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/demo/sony_vaio_5-90x104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm1-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm1-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm1-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm10-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm10-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm10-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm2-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm2-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm3-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm3-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm3-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm4-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm4-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm4-50x50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm4-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm5-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm5-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm5-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm6-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm6-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm6-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm7-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm7-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm7-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm8-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm8-130x140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/firm8-92x92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hiticon-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hiticon-50x50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-228x228.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-260x130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-260x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-260x410.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-438x495.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-47x47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-228x228.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-260x130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-260x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-260x410.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-438x495.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-47x47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/kiloblack-80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/10_percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/10_percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/10_percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/10_percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/20_percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/20_percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/20_percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/20_percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/22416-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/22416-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/30_percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/30_percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/30_percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/30_percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/30day_warranty-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/30day_warranty-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/40_percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/40_percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/40_percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/40_percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/43939-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/43939-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/43947-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/43947-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/50_percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/50_percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/50_percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/50_percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/50percent-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/70_percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/70_percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/70_percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/70_percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/CORNER RIBBON GREEN 400X4001.PNG-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/Certified-Original-Grunge-Stamp-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/Certified-Original-Grunge-Stamp-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/SaleRibbon (1)-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/SaleRibbon (1)-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/SaleRibbon-(1)-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/SaleStamp-100x100.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/SaleStamp-40x40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/Stamp-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/Stamp-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/akcia-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/akcia-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best-price-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best-price-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best-price-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best-price-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best2-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best2-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best2-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/best2-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/bigstock-Best-price-rubber-stamp-17459288-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/bigstock-Best-price-rubber-stamp-17459288-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/bow_PNG10112-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/buy-me-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/buy-me-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/buy-me-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/buy-me-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/dostavka-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/dostavka-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/free-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/free-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/free-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/free-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/free-shiping-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/free-shiping-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/freeship-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/freeship-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hit2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hit2-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hitIcon-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hitIcon-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hot2-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hot2-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hot2-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/hot2-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/icon-maz7-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/icon-maz7-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/icon-sale-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/icon-sale-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/information_items_1965-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/information_items_1965-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/logo-nova-poshta-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/logo-nova-poshta-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/mega-sale-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/mega-sale-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/mega-sale-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/mega-sale-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/mtd-corner-ribbon-specialoffer-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/mtd-corner-ribbon-specialoffer-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new2-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new2-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new2-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/new2-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/newIcon-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/newIcon-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/newpost-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/newpost-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/offers_stamp-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/offers_stamp-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/one-free-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/one-free-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/one-free-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/one-free-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/pechat-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/pechat-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent2-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent2-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent2-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent2-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/percent_red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/red-coming-soon-stamp-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/red-coming-soon-stamp-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/red_sale_stamp_400_clr_3171-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/red_sale_stamp_400_clr_3171-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/ribbon-sale (1)-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/ribbon-sale (1)-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/ribbon-sale-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/ribbon-sale-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale badge-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale badge-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale126-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale2-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale2-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale2-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale2-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale546-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale546-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/saleRibbon-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/saleRibbon-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale_2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale_2-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale_blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale_blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sale_red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sold-stamp-angle-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sold-stamp-angle-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sold_out-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sold_out-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sold_out_stamp-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/sold_out_stamp-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/special_offer_stamp-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/special_offer_stamp-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/specpred-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/specpred-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/super-sale-blue-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/super-sale-blue-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/super-sale-red-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/super-sale-red-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/supercena_2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/supercena_2-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/vigodnoe-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/vigodnoe-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/zaverheno-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/label/zaverheno-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/logo-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/logotip-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-228x228.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-260x130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-260x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-260x410.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-438x495.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-47x47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/morningdaw-80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/newicon-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/newicon-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/newicon-50x50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-220x220.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-300x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-360x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-360x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-360x450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-370x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-560x560.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news1-80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-220x220.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-300x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-360x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-360x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-360x450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-370x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news2-560x560.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-220x220.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-300x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-360x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-360x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-360x450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-370x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/news3-560x560.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthub1-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthub1-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthub1-74x74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthub1-90x104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb2-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb2-74x74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb2-90x104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb3-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb3-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb3-74x74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb3-90x104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb4-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb4-500x500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb4-74x74.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb4-90x104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/slide1-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/slide1-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/slide1-200x560.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/slide1-380x560.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/tvaqnenmyas-100x100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/video0-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/video1-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/video2-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/video3-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/video4-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-100x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-22x22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-50x50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/no_image-80x80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/placeholder-200x200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/placeholder-228x228.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/placeholder-260x260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/placeholder-40x40.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/30day_warranty.png" afterPath="$PROJECT_DIR$/image/catalog/label/30day_warranty.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/CORNER RIBBON GREEN 400X4001.PNG.png" afterPath="$PROJECT_DIR$/image/catalog/label/CORNER RIBBON GREEN 400X4001.PNG.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/best-price-blue.png" afterPath="$PROJECT_DIR$/image/catalog/label/best-price-blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/bigstock-Best-price-rubber-stamp-17459288.png" afterPath="$PROJECT_DIR$/image/catalog/label/bigstock-Best-price-rubber-stamp-17459288.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/mtd-corner-ribbon-specialoffer.png" afterPath="$PROJECT_DIR$/image/catalog/label/mtd-corner-ribbon-specialoffer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/offers_stamp.png" afterPath="$PROJECT_DIR$/image/catalog/label/offers_stamp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/red_sale_stamp_400_clr_3171.png" afterPath="$PROJECT_DIR$/image/catalog/label/red_sale_stamp_400_clr_3171.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/sale.png" afterPath="$PROJECT_DIR$/image/catalog/label/sale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/catalog/label/saleRibbon.png" afterPath="$PROJECT_DIR$/image/catalog/label/saleRibbon.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/beardwape-0-1-1-90x104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-0-1-1-438x495.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/hogcob-0-1-1-500x500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthub1-0-1-1-500x500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthub1-0-1-1-90x104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb2-0-1-1-500x500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb2-0-1-1-90x104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb3-0-1-1-500x500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb3-0-1-1-90x104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb4-0-1-1-500x500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/cache/catalog/productthumb4-0-1-1-90x104.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/catalog/firm6-0-1-1-92x92.png" afterPath="$PROJECT_DIR$/image/cache/catalog/firm6-0-1-1-92x92.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/module/promotion_label_product.php" afterPath="$PROJECT_DIR$/admin/controller/module/promotion_label_product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/catalog/promotion_label_to_product_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/catalog/promotion_label_to_product_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/module/promotion_label_product.tpl" afterPath="$PROJECT_DIR$/admin/view/template/module/promotion_label_product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/promotion_label_product.php" afterPath="$PROJECT_DIR$/catalog/controller/module/promotion_label_product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/javascript/promotionlabelpro/style.css" afterPath="$PROJECT_DIR$/catalog/view/javascript/promotionlabelpro/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/ocmodpcart.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/ocmodpcart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/checkout.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/checkout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/newsPage.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/newsPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/notFound.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/notFound.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/error/not_found.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/error/not_found.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/bestseller.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/bestseller.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/d_quickcheckout/payment.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/d_quickcheckout/payment.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/information/news_list.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/information/news_list.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/slideshow.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/module/slideshow.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inwidget/cache/vape_cloudmania.txt" afterPath="$PROJECT_DIR$/inwidget/cache/vape_cloudmania.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -628,48 +40,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5889804">
+    <splitter split-orientation="horizontal" split-proportion="0.50981635">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl">
+          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+                <state relative-caret-position="105">
+                  <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
+          <file leaf-file-name="product.tpl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="79" lean-forward="false" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+                <state relative-caret-position="285">
+                  <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
                   <folding>
-                    <marker date="1501508785021" expanded="true" signature="29482:29489" ph="×" />
-                    <marker date="1501508785021" expanded="true" signature="30336:30350" ph="..." />
+                    <marker date="1501668760014" expanded="true" signature="29450:29457" ph="×" />
+                    <marker date="1501668760014" expanded="true" signature="30304:30318" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bestseller.tpl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/bestseller.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="not_found.tpl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/error/not_found.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="27" column="91" lean-forward="false" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -678,41 +70,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_content.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="764">
-                  <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+                <state relative-caret-position="149">
+                  <caret line="159" column="25" lean-forward="false" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="notFound.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/notFound.scss">
+          <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+                <state relative-caret-position="344">
+                  <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="latestPage.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/latestPage.scss">
+          <file leaf-file-name="_productPage.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="3" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
+                <state relative-caret-position="749">
+                  <caret line="398" column="25" lean-forward="false" selection-start-line="398" selection-start-column="25" selection-end-line="398" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -732,8 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>i</find>
-      <find>if</find>
       <find>ifram</find>
       <find>iframe</find>
       <find>/inwidget/index.php</find>
@@ -750,7 +130,6 @@
       <find>qc-breadcrumb</find>
       <find>call</find>
       <find>qc-step</find>
-      <find>.rb-tl</find>
       <find>$labels</find>
       <find>labels</find>
       <find>product_id</find>
@@ -758,10 +137,13 @@
       <find>login_model</find>
       <find>label</find>
       <find>$stickers</find>
-      <find>description</find>
-      <find>product_i</find>
       <find>stat</find>
+      <find>.rb-tl</find>
+      <find>payment_modal</find>
       <find>lab</find>
+      <find>product_i</find>
+      <find>description</find>
+      <find>acc</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -781,12 +163,12 @@
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\default</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\template\module</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\stylesheet</dir>
-      <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\inwidget</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view</dir>
       <dir>C:\OpenServer\domains\ghostly-fog</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog\template</dir>
       <dir>C:\OpenServer\domains\ghostly-fog\catalog</dir>
+      <dir>C:\OpenServer\domains\ghostly-fog\catalog\view\theme\fog</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -795,13 +177,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/catalog/language/english/common/cart.php" />
-        <option value="$PROJECT_DIR$/catalog/language/russian/common/cart.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/cart.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_slideshow.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/login.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_category.scss" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_videoPage.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/videopublisher/index.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_news.scss" />
@@ -815,22 +192,17 @@
         <option value="$PROJECT_DIR$/catalog/language/russian/common/footer.php" />
         <option value="$PROJECT_DIR$/catalog/controller/common/footer.php" />
         <option value="$PROJECT_DIR$/catalog/language/russian/common/header.php" />
-        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/callback.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_module.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/information/news.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/newsPage.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/d_quickcheckout.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/checkout.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/d_quickcheckout/login.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/checkout/d_quickcheckout.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_menu.scss" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/promotionlabelpro/style.css" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/search.tpl" />
         <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
@@ -840,12 +212,22 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl" />
         <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/bestseller.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/error/not_found.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/notFound.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/d_quickcheckout/payment.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/checkout.scss" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/ocmodpcart.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/module/slideshow.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/information/news_list.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/newsPage.scss" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss" />
       </list>
     </option>
   </component>
@@ -967,41 +349,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="latest" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghostly-fog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghostly-fog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="error" />
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1116,10 +464,6 @@
               <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1150,6 +494,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghostly-fog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1295,12 +679,12 @@
       <workItem from="1500885180881" duration="1661000" />
       <workItem from="1500886895167" duration="22691000" />
       <workItem from="1501060663335" duration="10457000" />
-      <workItem from="1501157109078" duration="23312000" />
+      <workItem from="1501157109078" duration="29290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394894000" />
+    <option name="totallyTimeSpent" value="400872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1368,163 +752,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/callback.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="63" column="63" lean-forward="false" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/manufacturer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_videopublisher.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/d_quickcheckout.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/d_quickcheckout.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_news.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/newsPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4380">
-          <caret line="292" column="19" lean-forward="false" selection-start-line="292" selection-start-column="19" selection-end-line="292" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/checkout/d_quickcheckout.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developers/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="13" column="93" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="93" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/checkout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/information/news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="222" column="7" lean-forward="false" selection-start-line="222" selection-start-column="7" selection-end-line="222" selection-end-column="7" />
-          <folding>
-            <marker date="1501160478044" expanded="true" signature="7503:7510" ph="×" />
-            <marker date="1501160478044" expanded="true" signature="11736:11743" ph="×" />
-            <marker date="1501160478044" expanded="true" signature="12582:12589" ph="×" />
-            <marker date="1501160478044" expanded="true" signature="13458:13465" ph="×" />
-            <marker date="1501160478044" expanded="true" signature="16301:16307" ph=" " />
-            <marker date="1501160478044" expanded="true" signature="16307:16313" ph=" " />
-            <marker date="1501160478044" expanded="true" signature="16313:16319" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="81" column="41" lean-forward="false" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/javascript/promotionlabelpro/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="265" column="14" lean-forward="false" selection-start-line="265" selection-start-column="14" selection-end-line="265" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1549,14 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1214">
-          <caret line="126" column="76" lean-forward="false" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
           <folding />
         </state>
       </provider>
@@ -1690,30 +913,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="79" lean-forward="false" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
-          <folding>
-            <marker date="1501508785021" expanded="true" signature="29482:29489" ph="×" />
-            <marker date="1501508785021" expanded="true" signature="30336:30350" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1757,14 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1781,17 +977,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/error/not_found.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="405">
           <caret line="27" column="91" lean-forward="false" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
           <folding />
         </state>
@@ -1801,6 +989,193 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/checkout/cart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1246">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/d_quickcheckout/payment.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/common/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="122" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/ocmodpcart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="147" lean-forward="false" selection-start-line="15" selection-start-column="147" selection-end-line="15" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/checkout/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/module/slideshow.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="46" column="74" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/checkout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3930">
+          <caret line="265" column="14" lean-forward="false" selection-start-line="265" selection-start-column="14" selection-end-line="265" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="159" column="25" lean-forward="false" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/newsPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/information/news_list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="38" column="127" lean-forward="false" selection-start-line="38" selection-start-column="127" selection-end-line="38" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/information/news.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+          <folding>
+            <marker date="1501668760014" expanded="true" signature="29450:29457" ph="×" />
+            <marker date="1501668760014" expanded="true" signature="30304:30318" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/fog/stylesheet/layout/_productPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="398" column="25" lean-forward="false" selection-start-line="398" selection-start-column="25" selection-end-line="398" selection-end-column="25" />
           <folding />
         </state>
       </provider>

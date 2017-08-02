@@ -4,8 +4,11 @@
     @media screen and (max-width: 992px){
       position: fixed;
       top: 15px;
-      right: 130px;
+      right: 140px;
       z-index: 200;
+    }
+    @media screen and (max-width: 900px){
+      right: 110px;
     }
     @media screen and (max-width: 768px){
       right: 95px;
@@ -37,6 +40,15 @@
       }
       &:first-child {
         padding-left: 0;
+        @media screen and (max-width: 992px){
+          margin-right: 25px;
+        }
+        @media screen and (max-width: 480px){
+          display: none;
+        }
+      }
+      i {
+        margin-right: 5px;
       }
     }
     &.login {

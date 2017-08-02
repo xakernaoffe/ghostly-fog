@@ -36,7 +36,7 @@
                                     <div class="newsPage__item__info">
                                         <a href="<?php echo $news_item['href']; ?>" class="newsPage__item__info__name"><?php echo $news_item['title']; ?></a>
                                         <p class="newsPage__item__info__descr"><?php echo $news_item['description']; ?></p>
-                                        <button type="button" onclick="location.href = ('<?php echo $news_item['href']; ?>');" data-toggle="tooltip" title="<?php echo $text_more; ?>" class="newsPage__item__info__btn"><?php echo $text_more; ?></button>
+                                        <button type="button" onclick="location.href = ('<?php echo $news_item['href']; ?>');" class="newsPage__item__info__btn"><?php echo $text_more; ?></button>
                                     </div>
                             </div>
                         <?php } ?>

@@ -393,3 +393,10 @@
     color: #676767;
   }
 }
+#product {
+  .productPage__info__item {
+    &:first-child {
+      padding-top: 20px; 
+    }
+  }
+}

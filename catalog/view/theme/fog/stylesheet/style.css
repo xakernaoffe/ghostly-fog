@@ -314,8 +314,11 @@ button:focus, button:active {
     .navigation__links {
       position: fixed;
       top: 15px;
-      right: 130px;
+      right: 140px;
       z-index: 200; } }
+  @media screen and (max-width: 900px) {
+    .navigation__links {
+      right: 110px; } }
   @media screen and (max-width: 768px) {
     .navigation__links {
       right: 95px; } }
@@ -343,6 +346,14 @@ button:focus, button:active {
       text-decoration: underline; }
     .navigation__links__item:first-child {
       padding-left: 0; }
+      @media screen and (max-width: 992px) {
+        .navigation__links__item:first-child {
+          margin-right: 25px; } }
+      @media screen and (max-width: 480px) {
+        .navigation__links__item:first-child {
+          display: none; } }
+    .navigation__links__item i {
+      margin-right: 5px; }
   .navigation__links.login {
     text-align: right; }
     .navigation__links.login__item {
@@ -1755,6 +1766,9 @@ input[type="checkbox"]:checked {
   font: 14px/16px "OpenSans Regular";
   color: #676767; }
 
+#product .productPage__info__item:first-child {
+  padding-top: 20px; }
+
 .ocfilter {
   background: transparent;
   border: none;
@@ -2262,7 +2276,7 @@ input[type="checkbox"]:checked {
   .newsPage__content__info__name {
     font: 18px/20px "Roboto Medium";
     color: #000;
-    margin: 20px 0;
+    margin: 20px 0 20px 15px;
     text-transform: uppercase; }
   .newsPage__content__info__description {
     font: 14px/18px "OpenSans Regular";
@@ -2759,6 +2773,44 @@ input[type="checkbox"]:checked {
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
+
+#d_quickcheckout .confirmation .modal-dialog {
+  width: 456px;
+  background: #fff;
+  margin: 120px auto 100px; }
+  @media screen and (max-width: 480px) {
+    #d_quickcheckout .confirmation .modal-dialog {
+      width: 90%;
+      margin-top: 50px; } }
+#d_quickcheckout .confirmation .modal-content {
+  border: none;
+  border-radius: 0;
+  padding: 0; }
+#d_quickcheckout .confirmation .modal-header {
+  position: relative; }
+  #d_quickcheckout .confirmation .modal-header .modal-title {
+    text-align: center;
+    font: 30px/42px "MyriadPro Regular";
+    color: #2e2e2e;
+    text-transform: uppercase;
+    margin-top: 15px; }
+    @media screen and (max-width: 480px) {
+      #d_quickcheckout .confirmation .modal-header .modal-title {
+        text-align: center; } }
+  #d_quickcheckout .confirmation .modal-header .close {
+    width: 41px;
+    height: 37px;
+    background-color: #2e2e2e;
+    color: #fff;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    line-height: 33px;
+    opacity: 1;
+    margin: 0; }
 
 .manufacturerPage__header {
   min-height: 95px;

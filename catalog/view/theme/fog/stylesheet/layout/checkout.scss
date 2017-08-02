@@ -12,3 +12,52 @@
     padding: 0;
   }
 }
+
+
+//modal window
+#d_quickcheckout {
+  .confirmation {
+    .modal-dialog {
+      width: 456px;
+      background: $white;
+      margin: 120px auto 100px;
+      @media screen and (max-width: 480px){
+        width: 90%;
+        margin-top: 50px;
+      }
+    }
+    .modal-content {
+      border: none;
+      border-radius: 0;
+      padding:0;
+    }
+    .modal-header {
+      position: relative;
+      .modal-title {
+        text-align: center;
+        font: 30px/42px "MyriadPro Regular";
+        color: #2e2e2e;
+        text-transform: uppercase;
+        margin-top: 15px;
+        @media screen and (max-width: 480px){
+          text-align: center;
+        }
+      }
+      .close {
+        width: 41px;
+        height: 37px;
+        background-color: #2e2e2e;
+        color: $white;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 25px;
+        line-height: 33px;
+        opacity: 1;
+        margin: 0;
+      }
+    }
+  }
+}

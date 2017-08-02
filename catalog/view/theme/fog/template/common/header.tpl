@@ -55,7 +55,7 @@
 <nav class="navigation">
   <div class="container">
       <div class="row">
-          <div class="navigation__links col-md-10 hidden-sm hidden-xs">
+          <div class="navigation__links col-md-8 hidden-sm hidden-xs">
               <?php if ($informations) { ?>
                   <?php foreach ($informations as $information) { ?>
                       <a href="<?php echo $information['href']; ?>" class="navigation__links__item"><?php echo $information['title']; ?></a>
@@ -63,11 +63,12 @@
               <?php } ?>
               <a href="<?php echo $contact; ?>" class="navigation__links__item"><?php echo $text_contact; ?></a>
           </div>
-          <div class="navigation__links login col-md-2">
+          <div class="navigation__links login col-md-4">
               <?php if (!$logged) { ?>
-              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
+              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-sign-in" aria-hidden="true"></i>  <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
               <?php } ?>
               <?php if ($logged) { ?>
+                  <a href="<?php echo $account; ?>" class="navigation__links__item"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="hidden-xs hidden-sm"><?php echo $text_room; ?></a>
               <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_logout; ?></span></a>
               <?php } ?>
           </div>

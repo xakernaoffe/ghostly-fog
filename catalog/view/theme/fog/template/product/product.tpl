@@ -87,7 +87,7 @@
                                 </div>
                             <?php } ?>
                         </div>
-                        <div id="product" class="productPage__info__item">
+                        <div id="product">
                             <div class="productPage__info__item">
                                 <div class="product__btn">
                                     <div class="product__btn__quantity js-quantity">

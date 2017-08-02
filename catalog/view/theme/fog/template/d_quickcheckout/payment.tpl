@@ -8,11 +8,11 @@
 <script type="text/html" id="payment_template">
 <% if(Number(model.payment_popup)) {%>
 	
-<div class="modal fade" id="payment_modal">
+<div class="modal fade confirmation" id="payment_modal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<div class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
 				<h4 class="modal-title"><span class="text"><%= model.payment_popup_title %></span></h4>
 			</div>
 			<div class="modal-body clearfix">

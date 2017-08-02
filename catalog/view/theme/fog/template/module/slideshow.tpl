@@ -39,7 +39,7 @@
 <script type="text/javascript"><!--
     $('#slideshow<?php echo $module; ?>').owlCarousel({
         items: 6,
-        autoPlay: 3000,
+        autoPlay: 15000,
         singleItem: true,
         pagination: false
     });
