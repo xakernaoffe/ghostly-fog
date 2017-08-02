@@ -27,7 +27,7 @@
       .ocmod-popup-center {
         padding: 0;
         .display-products-cart th {
-          font: 14px/16px "OpenSans Regular";
+          font: 14px/16px "Open Sans";
           color: #888;
           padding-bottom: 12px;
         }
@@ -46,11 +46,11 @@
           padding-left: 0;
         }
         .display-products-cart tr td.name a {
-          font: 16px/18px "Roboto Medium";
+          font: 500 16px/18px "Roboto";
           color: #4e4e4e;
         }
         .display-products-cart tr td.name .price {
-          font: 16px/18px "OpenSans Regular";
+          font: 16px/18px "Open Sans";
           color: #4e4e4e;
         }
         .display-products-cart tr td.qt {
@@ -66,7 +66,7 @@
           width: 45px;
           height: 33px;
           border: 1px solid #cfcfcf;
-          font: 14px/33px "OpenSans Semibold";
+          font: 600 14px/33px "Open Sans";
           color: #a9a9a9;
           text-align: center;
           top: -10px;
@@ -109,7 +109,7 @@
         .display-products-cart tr td.totals {
           min-width: 80px;
           text-align: left;
-          font: 16px/18px "Roboto Medium";
+          font:500 16px/18px "Roboto";
           color: #4e4e4e;
           padding-left: 0;
         }
@@ -117,7 +117,7 @@
           color: #a5a5a5;
         }
         .all-total {
-          font: 18px/20px "OpenSans Semibold";
+          font: 600 18px/20px "Open Sans";
           color: $black;
           @media screen and (max-width: 480px){
             float: none;
@@ -162,7 +162,7 @@
           border: 2px solid #2e2e2e;
           background: $white;
           text-transform: uppercase;
-          font: 13px/42px "OpenSans Regular";
+          font: 13px/42px "Open Sans";
           color: #141414;
           transition-duration: 0.3s;
           margin-bottom: 0;
@@ -180,7 +180,7 @@
           width: 144px;
           height: 42px;
           background-color: #2e2e2e;
-          font: 13px/42px "OpenSans Regular";
+          font: 13px/42px "Open Sans";
           text-transform: uppercase;
           color: $white;
           margin-top: 0;

@@ -11,7 +11,7 @@
   }
   &__title {
     margin-top:38px;
-    font: 24px/26px "OpenSans Regular";
+    font: 24px/26px "Open Sans";
     text-transform: uppercase;
     color: #dedede;
     padding: 0;
@@ -47,25 +47,25 @@
     &__text {
       width: 85%;
       &__title {
-        font: 14px/18px "Roboto Medium";
+        font: 500 14px/18px "Roboto";
       }
       &__link {
         display: block;
-        font: 14px/18px "OpenSans Regular";
+        font: 14px/18px "Open Sans";
         color: #141414;
       }
     }
   }
   &__shopForm {
     &__title {
-      font: 18px/20px "OpenSans Regular";
+      font: 18px/20px "Open Sans";
       padding: 0;
       color: #141414;
       border: none;
     }
     label.control-label {
       display: block;
-      font: 13px/25px "OpenSans Regular";
+      font: 13px/25px "Open Sans";
       color: #2a2a2a;
       text-align: left;
       padding: 0;

@@ -6,12 +6,12 @@
   }
   &__title {
     margin-top:38px;
-    font: 24px/26px "OpenSans Regular";
+    font: 24px/26px "Open Sans";
     text-transform: uppercase;
     color: #dedede;
     padding: 0;
     @media screen and (max-width: 480px){
-      font: 20px/22px "OpenSans Regular";
+      font: 20px/22px "Open Sans";
     }
   }
   &__sort {
@@ -103,7 +103,7 @@
       .product__attribute {
         margin:5px 0;
         &__item {
-          font: 13px/20px "OpenSans Regular";
+          font: 13px/20px "Open Sans";
           color: #3a3a3a;
         }
       }
@@ -137,7 +137,7 @@
     }
   }
   &__empty {
-    font: 16px/20px "OpenSans Regular";
+    font: 16px/20px "Open Sans";
     text-align: center;
   }
   &__continue {

@@ -1,4 +1,5 @@
 @import url(stylesheet.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Roboto+Condensed|Roboto:300,400,500&subset=cyrillic");
 @import url(components/font-awesome.min.css);
 a:hover, a:active, a:focus {
   outline: none;
@@ -14,21 +15,6 @@ button:focus, button:active {
 @font-face {
   font-family: 'MyriadPro Regular';
   src: url("./fonts/MyriadProRegular.ttf"); }
-@font-face {
-  font-family: 'OpenSans Regular';
-  src: url("./fonts/OpenSans-Regular.ttf"); }
-@font-face {
-  font-family: 'Roboto Medium';
-  src: url("./fonts/Roboto-Medium.ttf"); }
-@font-face {
-  font-family: 'RobotoCondensed Regular';
-  src: url("./fonts/RobotoCondensed-Regular.ttf"); }
-@font-face {
-  font-family: 'OpenSans Semibold';
-  src: url("./fonts/OpenSans-Semibold.ttf"); }
-@font-face {
-  font-family: 'Roboto Light';
-  src: url("./fonts/Roboto-Light.ttf"); }
 @font-face {
   font-family: 'FontAwesome';
   src: url("./fonts/fontawesome-webfont.ttf"); }
@@ -65,7 +51,7 @@ button:focus, button:active {
     .header .callback__info {
       display: inline-block;
       vertical-align: middle;
-      font: 16px/20px "OpenSans Regular";
+      font: 16px/20px "Open Sans";
       color: #fff; }
       @media screen and (max-width: 1200px) {
         .header .callback__info {
@@ -108,7 +94,7 @@ button:focus, button:active {
           margin: 0 auto; } }
       .header .phones__links__item {
         display: block;
-        font: 16px/20px "Roboto Medium";
+        font: 500 16px/20px "Roboto";
         color: #fff; }
         @media screen and (max-width: 1200px) {
           .header .phones__links__item {
@@ -143,7 +129,7 @@ button:focus, button:active {
             width: 100px; } }
         .header .cart .cart-wrap__content__item {
           width: 65%;
-          font: 16px/46px "OpenSans Regular";
+          font: 16px/46px "Open Sans";
           color: #fff; }
           @media screen and (max-width: 992px) {
             .header .cart .cart-wrap__content__item {
@@ -183,7 +169,7 @@ button:focus, button:active {
       .header .cart .cart-wrap__sum {
         width: 100%;
         text-align: center;
-        font: 16px/46px "OpenSans Regular";
+        font: 16px/46px "Open Sans";
         color: #fff; }
       .header .cart .cart-wrap__total {
         position: absolute;
@@ -193,7 +179,7 @@ button:focus, button:active {
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        font: 14px/25px "OpenSans Regular";
+        font: 14px/25px "Open Sans";
         color: #fff;
         text-align: center; }
         @media screen and (max-width: 992px) {
@@ -416,7 +402,7 @@ button:focus, button:active {
             color: #fff; }
     .menu .navbar__link {
       display: block;
-      font: 16px/55px "RobotoCondensed Regular";
+      font: 16px/55px "Roboto Condensed";
       text-transform: uppercase;
       color: #fff; }
   .menu__mobile {
@@ -465,7 +451,7 @@ button:focus, button:active {
       background: #232323; }
     .menu__mobile__item {
       display: block;
-      font: 22px/24px "RobotoCondensed Regular";
+      font: 22px/24px "Roboto Condensed";
       text-transform: uppercase;
       color: #fff;
       padding: 15px 0 15px 15px;
@@ -487,7 +473,7 @@ button:focus, button:active {
         background: url("./img/arrowMenu.png") no-repeat; }
     .menu__mobile__link {
       display: block;
-      font: 18px/20px "RobotoCondensed Regular";
+      font: 18px/20px "Roboto Condensed";
       text-transform: uppercase;
       color: #b8b8b8;
       padding: 13px 0; }
@@ -581,7 +567,7 @@ button:focus, button:active {
     text-align: center;
     position: relative;
     min-height: 45px;
-    font: 16px "Roboto Medium";
+    font: 500 16px "Roboto";
     color: #4e4e4e; }
     .product__name:after {
       content: '';
@@ -596,7 +582,7 @@ button:focus, button:active {
   .product__price {
     text-align: center;
     margin: 20px 0;
-    font: 18px/20px "OpenSans Semibold";
+    font: 600 18px/20px "Open Sans";
     color: #3a3a3a;
     text-transform: uppercase; }
     .product__price_new {
@@ -604,7 +590,7 @@ button:focus, button:active {
       display: inline-block;
       vertical-align: bottom; }
     .product__price_old {
-      font: 15px/20px "OpenSans Regular";
+      font: 15px/20px "Open Sans";
       color: #8b8b8b;
       display: inline-block;
       vertical-align: bottom;
@@ -817,7 +803,7 @@ input[type="checkbox"]:checked {
     position: relative;
     display: block;
     vertical-align: middle;
-    font: 20px/22px "Roboto Light";
+    font: 300 20px/22px "Roboto";
     color: #fff;
     text-transform: uppercase;
     padding-bottom: 15px;
@@ -884,7 +870,7 @@ input[type="checkbox"]:checked {
   .module__title {
     display: inline-block;
     vertical-align: middle;
-    font: 20px/22px "Roboto Light";
+    font: 300 20px/22px "Roboto";
     color: #3a3a3a;
     text-transform: uppercase; }
     @media screen and (max-width: 992px) {
@@ -999,7 +985,7 @@ input[type="checkbox"]:checked {
           .video-wrap .video__item.first {
             display: none; } }
         .video-wrap .video__item.first .video__item__title {
-          font: 18px/20px "OpenSans Regular"; }
+          font: 18px/20px "Open Sans"; }
       .video-wrap .video__item__link {
         display: block;
         position: relative; }
@@ -1022,7 +1008,7 @@ input[type="checkbox"]:checked {
         bottom: 12px;
         left: 25px;
         border-left: 3px solid #32a0ed;
-        font: 16px/18px "OpenSans Regular";
+        font: 16px/18px "Open Sans";
         color: #fff;
         padding-left: 8px; }
 
@@ -1039,10 +1025,10 @@ input[type="checkbox"]:checked {
 .news__caption {
   padding: 10px 20px 0; }
 .news__title {
-  font: 16px/18px "Roboto Medium";
+  font: 500 16px/18px "Roboto";
   color: #4e4e4e; }
 .news__descr {
-  font: 14px/18px "Roboto Light";
+  font: 300 14px/18px "Roboto";
   color: #4d4d4d;
   margin: 16px 0;
   height: 126px;
@@ -1050,7 +1036,7 @@ input[type="checkbox"]:checked {
 .news__info {
   border-top: 1px solid #f4f4f4;
   padding: 10px 20px;
-  font: 13px/15px "Roboto Light";
+  font: 300 13px/15px "Roboto";
   color: #b6b6b6; }
 .news__link img {
   width: 100%; }
@@ -1106,7 +1092,7 @@ input[type="checkbox"]:checked {
 .footer {
   background: #363636; }
   .footer__item__title {
-    font: 18px/20px "Roboto Medium";
+    font: 500 18px/20px "Roboto";
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 27px; }
@@ -1116,7 +1102,7 @@ input[type="checkbox"]:checked {
     padding: 0; }
   .footer__item__link {
     display: block;
-    font: 14px/16px "OpenSans Regular";
+    font: 14px/16px "Open Sans";
     color: #a9a9a9;
     margin: 8px 0; }
   @media screen and (max-width: 992px) {
@@ -1167,7 +1153,7 @@ input[type="checkbox"]:checked {
         background: url("./img/mailIcon.png") no-repeat; }
     .footer__item__info__link {
       display: block;
-      font: 14px/16px "Roboto Light";
+      font: 300 14px/16px "Roboto";
       color: #fff; }
       .footer__item__info__link.show-callback {
         display: block;
@@ -1176,7 +1162,7 @@ input[type="checkbox"]:checked {
         color: #32a0ed;
         text-decoration: underline; }
     .footer__item__info__wrap {
-      font: 14px/16px "Roboto Light";
+      font: 300 14px/16px "Roboto";
       color: #fff; }
     .footer__item__info.social {
       justify-content: center;
@@ -1187,7 +1173,7 @@ input[type="checkbox"]:checked {
 
 .copyright {
   background: #2a2a2a;
-  font: 13px/18px "OpenSans Regular";
+  font: 13px/18px "Open Sans";
   color: #a9a9a9;
   padding: 20px 0; }
   .copyright__text {
@@ -1201,7 +1187,7 @@ input[type="checkbox"]:checked {
         display: inline-block;
         vertical-align: middle; } }
     .copyright__text__link {
-      font: 13px/18px "OpenSans Regular";
+      font: 13px/18px "Open Sans";
       color: #a9a9a9; }
       .copyright__text__link:hover {
         color: #a9a9a9; }
@@ -1241,64 +1227,59 @@ input[type="checkbox"]:checked {
 
 .slideshow {
   width: 100vw;
-  margin-left: calc((-100vw + 1140px)/2);
-  background: url("./img/vaperBanner.png") 50% 100% no-repeat; }
+  margin-left: calc((-100vw + 1140px) / 2);
+  background: url("./img/vaperBanner.jpg") 50% 100% no-repeat; }
   @media screen and (max-width: 1200px) {
     .slideshow {
-      margin-left: calc((-100vw + 940px)/2); } }
+      margin-left: calc((-100vw + 940px) / 2); } }
   @media screen and (max-width: 990px) {
     .slideshow {
-      margin-left: calc((-100vw + 720px)/2); } }
+      margin-left: calc((-100vw + 720px) / 2); } }
   @media screen and (max-width: 768px) {
     .slideshow {
       margin-left: -15px;
       margin-right: -15px; } }
-  .slideshow .owl-carousel {
-    background: transparent; }
-    .slideshow .owl-carousel .owl-wrapper-outer {
-      border: none;
-      box-shadow: none; }
-      .slideshow .owl-carousel .owl-wrapper-outer .productAdvt {
-        position: relative;
-        display: block; }
-        .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn {
-          position: absolute;
-          bottom: 145px;
-          left: 185px;
-          width: 110px;
-          height: 35px;
-          border: 2px solid #fff;
-          border-radius: 20px;
-          padding-left: 11px;
-          cursor: pointer;
-          transition-duration: 0.3s; }
-          .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn:hover {
-            background: #fff; }
-            .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn:hover .productAdvt__btn__icon {
-              background: url("./img/productCartIcon.png") no-repeat; }
-            .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn:hover .productAdvt__btn__text {
-              color: #000; }
-          @media screen and (max-width: 992px) {
-            .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn {
-              left: 0;
-              right: -100px;
-              margin: 0 auto;
-              bottom: 100px; } }
-          .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn__icon {
-            width: 17px;
-            height: 16px;
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 3px;
-            background: url("./img/productCartIconHover.png") no-repeat; }
-          .slideshow .owl-carousel .owl-wrapper-outer .productAdvt__btn__text {
-            display: inline-block;
-            vertical-align: middle;
-            font: 16px/30px "OpenSans Regular";
-            color: #fff; }
-        @media screen and (max-width: 992px) {
-          .slideshow .owl-carousel .owl-wrapper-outer .productAdvt .img-responsive {
-            margin: 0 auto; } }
+  .slideshow .productAdvt {
+    position: relative;
+    display: block; }
+    .slideshow .productAdvt__btn {
+      position: absolute;
+      bottom: 145px;
+      left: 185px;
+      width: 110px;
+      height: 35px;
+      border: 2px solid #fff;
+      border-radius: 20px;
+      padding-left: 11px;
+      cursor: pointer;
+      transition-duration: 0.3s; }
+      .slideshow .productAdvt__btn:hover {
+        background: #fff; }
+        .slideshow .productAdvt__btn:hover .productAdvt__btn__icon {
+          background: url("./img/productCartIcon.png") no-repeat; }
+        .slideshow .productAdvt__btn:hover .productAdvt__btn__text {
+          color: #000; }
+      @media screen and (max-width: 992px) {
+        .slideshow .productAdvt__btn {
+          left: 0;
+          right: -100px;
+          margin: 0 auto;
+          bottom: 100px; } }
+      .slideshow .productAdvt__btn__icon {
+        width: 17px;
+        height: 16px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 3px;
+        background: url("./img/productCartIconHover.png") no-repeat; }
+      .slideshow .productAdvt__btn__text {
+        display: inline-block;
+        vertical-align: middle;
+        font: 16px/30px "Open Sans";
+        color: #fff; }
+    @media screen and (max-width: 992px) {
+      .slideshow .productAdvt .img-responsive {
+        margin: 0 auto; } }
 
 .category__header {
   min-height: 95px;
@@ -1306,13 +1287,13 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .category__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
   @media screen and (max-width: 480px) {
     .category__title {
-      font: 20px/22px "OpenSans Regular"; } }
+      font: 20px/22px "Open Sans"; } }
 .category__sort {
   display: flex;
   justify-content: flex-end;
@@ -1386,7 +1367,7 @@ input[type="checkbox"]:checked {
 .category .product.product-list .product__attribute {
   margin: 5px 0; }
   .category .product.product-list .product__attribute__item {
-    font: 13px/20px "OpenSans Regular";
+    font: 13px/20px "Open Sans";
     color: #3a3a3a; }
 .category .product.product-list .product__btn {
   padding: 0;
@@ -1409,7 +1390,7 @@ input[type="checkbox"]:checked {
       .category .product.product-grid .product__btn {
         padding: 0 40px; } }
 .category__empty {
-  font: 16px/20px "OpenSans Regular";
+  font: 16px/20px "Open Sans";
   text-align: center; }
 .category__continue {
   display: block;
@@ -1453,7 +1434,7 @@ input[type="checkbox"]:checked {
   background: url("./img/productPageBg.png") no-repeat; }
 .productPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -1538,15 +1519,15 @@ input[type="checkbox"]:checked {
       .productPage__info__item .product__btn__button {
         margin: 0 0 0 13px; }
     .productPage__info__item__header {
-      font: 17px/19px "Roboto Medium";
+      font: 500 17px/19px "Roboto";
       color: #4e4e4e;
       margin-bottom: 20px; }
     .productPage__info__item .product__attribute__item {
-      font: 14px/16px "OpenSans Regular";
+      font: 14px/16px "Open Sans";
       color: #676767;
       margin-bottom: 13px; }
   .productPage__info__name {
-    font: 17px/19px "Roboto Medium";
+    font: 500 17px/19px "Roboto";
     color: #4e4e4e;
     padding-top: 13px;
     margin-bottom: 20px; }
@@ -1559,7 +1540,7 @@ input[type="checkbox"]:checked {
       .productPage__info__rating {
         justify-content: center; } }
     .productPage__info__rating__link {
-      font: 12px/14px "OpenSans Regular";
+      font: 12px/14px "Open Sans";
       color: #676767;
       margin-left: 12px; }
       .productPage__info__rating__link:hover {
@@ -1589,19 +1570,19 @@ input[type="checkbox"]:checked {
       .productPage__info__price {
         justify-content: center; } }
     .productPage__info__price_old {
-      font: 22px/24px "OpenSans Regular";
+      font: 22px/24px "Open Sans";
       color: #939393;
       text-decoration: line-through; }
     .productPage__info__price_new {
       padding: 10px;
       background: #2a2a2a;
-      font: 22px/22px "OpenSans Semibold";
+      font: 600 22px/22px "Open Sans";
       color: #fff;
       margin-left: 10px; }
 .productPage__options {
   padding-top: 20px; }
   .productPage__options__title {
-    font: 16px/18px "OpenSans Semibold";
+    font: 600 16px/18px "Open Sans";
     color: #2a2a2a;
     margin-bottom: 20px; }
   .productPage__options__wrap {
@@ -1623,7 +1604,7 @@ input[type="checkbox"]:checked {
       cursor: pointer; }
       .productPage__options__item__name span {
         position: absolute;
-        font: 14px/16px "OpenSans Regular";
+        font: 14px/16px "Open Sans";
         color: #000;
         top: 10px;
         left: 0;
@@ -1676,7 +1657,7 @@ input[type="checkbox"]:checked {
     .productPage__navigation__item__link {
       height: 68px;
       display: block;
-      font: 16px/70px "OpenSans Semibold";
+      font: 600 16px/70px "Open Sans";
       color: #2a2a2a; }
 .productPage__reviews {
   padding: 30px 35px;
@@ -1708,7 +1689,7 @@ input[type="checkbox"]:checked {
         content: "\f005"; }
     .productPage__reviews .reviews__form__item__name {
       display: block;
-      font: 14px/24px "OpenSans Regular";
+      font: 14px/24px "Open Sans";
       color: #676767;
       padding: 0;
       text-align: left; }
@@ -1742,7 +1723,7 @@ input[type="checkbox"]:checked {
         width: 95%;
         height: 100%;
         border: 1px solid #c2c2c2;
-        font: 14px/50px "OpenSans Regular";
+        font: 14px/50px "Open Sans";
         color: #676767;
         padding: 0 15px; }
         @media screen and (max-width: 480px) {
@@ -1754,7 +1735,7 @@ input[type="checkbox"]:checked {
     background: #000;
     color: #fff;
     text-transform: uppercase;
-    font: 14px/50px "OpenSans Regular";
+    font: 14px/50px "Open Sans";
     text-align: center; }
     @media screen and (max-width: 480px) {
       .productPage__reviews .reviews__form__btn {
@@ -1763,7 +1744,7 @@ input[type="checkbox"]:checked {
   padding: 30px 35px;
   border: 1px solid #c2c2c2;
   background: #fff;
-  font: 14px/16px "OpenSans Regular";
+  font: 14px/16px "Open Sans";
   color: #676767; }
 
 #product .productPage__info__item:first-child {
@@ -1827,7 +1808,8 @@ input[type="checkbox"]:checked {
         color: #fff;
         border-radius: 50%;
         text-align: center;
-        font-family: 'OpenSans Semibold';
+        font-family: 'Open Sans';
+        font-weight: 600;
         margin-left: auto;
         width: 22px;
         height: 22px;
@@ -1909,7 +1891,8 @@ input[type="checkbox"]:checked {
   color: #fff;
   border-radius: 50%;
   text-align: center;
-  font-family: 'OpenSans Semibold';
+  font-family: 'Open Sans';
+  font-weight: 600;
   margin-left: auto;
   width: 22px;
   height: 22px;
@@ -1923,7 +1906,7 @@ input[type="checkbox"]:checked {
   padding: 15px;
   margin-bottom: 10px; }
   .review__text {
-    font: 12px/15px "OpenSans Regular";
+    font: 12px/15px "Open Sans";
     color: #676767; }
   .review__rating {
     margin: 15px 0 5px;
@@ -1946,7 +1929,7 @@ input[type="checkbox"]:checked {
           color: #ffd700; }
   .review__info {
     text-align: right;
-    font: 12px/15px "Roboto Medium";
+    font: 500 12px/15px "Roboto";
     color: #676767; }
 
 .review__line {
@@ -1981,7 +1964,7 @@ input[type="checkbox"]:checked {
   .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center {
     padding: 0; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart th {
-      font: 14px/16px "OpenSans Regular";
+      font: 14px/16px "Open Sans";
       color: #888;
       padding-bottom: 12px; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart tr {
@@ -1995,10 +1978,10 @@ input[type="checkbox"]:checked {
       min-width: 110px;
       padding-left: 0; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart tr td.name a {
-      font: 16px/18px "Roboto Medium";
+      font: 500 16px/18px "Roboto";
       color: #4e4e4e; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart tr td.name .price {
-      font: 16px/18px "OpenSans Regular";
+      font: 16px/18px "Open Sans";
       color: #4e4e4e; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart tr td.qt {
       text-align: left; }
@@ -2010,7 +1993,7 @@ input[type="checkbox"]:checked {
       width: 45px;
       height: 33px;
       border: 1px solid #cfcfcf;
-      font: 14px/33px "OpenSans Semibold";
+      font: 600 14px/33px "Open Sans";
       color: #a9a9a9;
       text-align: center;
       top: -10px;
@@ -2047,13 +2030,13 @@ input[type="checkbox"]:checked {
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart tr td.totals {
       min-width: 80px;
       text-align: left;
-      font: 16px/18px "Roboto Medium";
+      font: 500 16px/18px "Roboto";
       color: #4e4e4e;
       padding-left: 0; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .display-products-cart tr td.remove {
       color: #a5a5a5; }
     .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total {
-      font: 18px/20px "OpenSans Semibold";
+      font: 600 18px/20px "Open Sans";
       color: #000; }
       @media screen and (max-width: 480px) {
         .mfp-content #ocmod-popup-okno #ocmod-popup-okno-inner .ocmod-popup-center .all-total {
@@ -2090,7 +2073,7 @@ input[type="checkbox"]:checked {
       border: 2px solid #2e2e2e;
       background: #fff;
       text-transform: uppercase;
-      font: 13px/42px "OpenSans Regular";
+      font: 13px/42px "Open Sans";
       color: #141414;
       transition-duration: 0.3s;
       margin-bottom: 0; }
@@ -2106,7 +2089,7 @@ input[type="checkbox"]:checked {
       width: 144px;
       height: 42px;
       background-color: #2e2e2e;
-      font: 13px/42px "OpenSans Regular";
+      font: 13px/42px "Open Sans";
       text-transform: uppercase;
       color: #fff;
       margin-top: 0; }
@@ -2130,7 +2113,7 @@ input[type="checkbox"]:checked {
   background: url("./img/categoryBg.png") no-repeat; }
 .videoPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2174,12 +2157,12 @@ input[type="checkbox"]:checked {
   background: #fff;
   position: relative; }
   .videoPage__review__title {
-    font: 20px/22px "Roboto Medium";
+    font: 500 20px/22px "Roboto";
     color: #000;
     text-transform: uppercase; }
   .videoPage__review .pvr-text {
     margin: 15px 0;
-    font: 14px/16px "OpenSans Regular";
+    font: 14px/16px "Open Sans";
     max-height: 33px;
     overflow: hidden; }
   .videoPage__review.video {
@@ -2199,7 +2182,7 @@ input[type="checkbox"]:checked {
   background: #fff;
   border: 2px solid #000;
   color: #000;
-  font: 13px/25px "OpenSans Regular";
+  font: 13px/25px "Open Sans";
   text-align: center;
   transition-duration: 0.3s;
   float: none; }
@@ -2213,7 +2196,7 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .newsPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2248,12 +2231,12 @@ input[type="checkbox"]:checked {
         width: 80%;
         margin: 0 auto; } }
     .newsPage__item__info__name {
-      font: 18px/20px "Roboto Medium";
+      font: 500 18px/20px "Roboto";
       color: #000;
       margin-bottom: 15px;
       display: block; }
     .newsPage__item__info__descr {
-      font: 14px/16px "OpenSans Regular";
+      font: 14px/16px "Open Sans";
       color: #626262;
       margin-bottom: 30px; }
     .newsPage__item__info__btn {
@@ -2262,7 +2245,7 @@ input[type="checkbox"]:checked {
       text-align: center;
       border: 2px solid #000;
       color: #000;
-      font: 13px/25px "OpenSans Regular";
+      font: 13px/25px "Open Sans";
       background: none;
       transition-duration: 0.3s;
       float: right; }
@@ -2274,20 +2257,20 @@ input[type="checkbox"]:checked {
 .newsPage__content__info {
   text-align: left; }
   .newsPage__content__info__name {
-    font: 18px/20px "Roboto Medium";
+    font: 500 18px/20px "Roboto";
     color: #000;
     margin: 20px 0 20px 15px;
     text-transform: uppercase; }
   .newsPage__content__info__description {
-    font: 14px/18px "OpenSans Regular";
+    font: 14px/18px "Open Sans";
     color: #626262;
     margin-bottom: 20px; }
   .newsPage__content__info__posted {
-    font: 14px/18px "OpenSans Regular";
+    font: 14px/18px "Open Sans";
     color: #626262;
     text-align: right; }
   .newsPage__content__info__viewed {
-    font: 14px/18px "OpenSans Regular";
+    font: 14px/18px "Open Sans";
     color: #626262;
     text-align: right; }
 .newsPage__content__buttons {
@@ -2306,7 +2289,7 @@ input[type="checkbox"]:checked {
     text-align: center;
     border: 2px solid #000;
     color: #000;
-    font: 13px/32px "OpenSans Regular";
+    font: 13px/32px "Open Sans";
     background: none;
     transition-duration: 0.3s; }
     @media screen and (max-width: 480px) {
@@ -2323,13 +2306,13 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .searchPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
 .searchPage__result {
   margin: 20px 0;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #000;
   text-align: center; }
@@ -2357,7 +2340,7 @@ input[type="checkbox"]:checked {
   text-align: center;
   border: 2px solid #32a0ed;
   color: #000;
-  font: 13px/32px "OpenSans Regular";
+  font: 13px/32px "Open Sans";
   background: #fff;
   transition-duration: 0.3s;
   text-transform: uppercase;
@@ -2368,7 +2351,7 @@ input[type="checkbox"]:checked {
 .searchPage__empty {
   margin: 25px 0;
   text-align: center;
-  font: 16px/20px "OpenSans Regular"; }
+  font: 16px/20px "Open Sans"; }
 
 .informationPage__header {
   min-height: 95px;
@@ -2376,12 +2359,12 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .informationPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
 .informationPage__content {
-  font: 14px/22px "OpenSans Regular"; }
+  font: 14px/22px "Open Sans"; }
 
 @media screen and (max-width: 768px) {
   .contactPage fieldset {
@@ -2392,7 +2375,7 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .contactPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2423,19 +2406,19 @@ input[type="checkbox"]:checked {
   .contactPage__item__text {
     width: 85%; }
     .contactPage__item__text__title {
-      font: 14px/18px "Roboto Medium"; }
+      font: 500 14px/18px "Roboto"; }
     .contactPage__item__text__link {
       display: block;
-      font: 14px/18px "OpenSans Regular";
+      font: 14px/18px "Open Sans";
       color: #141414; }
 .contactPage__shopForm__title {
-  font: 18px/20px "OpenSans Regular";
+  font: 18px/20px "Open Sans";
   padding: 0;
   color: #141414;
   border: none; }
 .contactPage__shopForm label.control-label {
   display: block;
-  font: 13px/25px "OpenSans Regular";
+  font: 13px/25px "Open Sans";
   color: #2a2a2a;
   text-align: left;
   padding: 0; }
@@ -2625,7 +2608,7 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .latestPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2659,7 +2642,7 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .accountPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2667,7 +2650,7 @@ input[type="checkbox"]:checked {
   .accountPage__item {
     text-align: center; } }
 .accountPage__item__title {
-  font: 20px/22px "Roboto Light";
+  font: 300 20px/22px "Roboto";
   color: #3a3a3a;
   text-transform: uppercase;
   margin-bottom: 20px; }
@@ -2739,7 +2722,7 @@ input[type="checkbox"]:checked {
   .accountPage__continue:hover {
     color: #fff; }
 .accountPage__note__title {
-  font: 20px/22px "Roboto Light";
+  font: 300 20px/22px "Roboto";
   color: #3a3a3a;
   text-transform: uppercase;
   margin-bottom: 20px; }
@@ -2769,7 +2752,7 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .checkoutPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2811,6 +2794,8 @@ input[type="checkbox"]:checked {
     line-height: 33px;
     opacity: 1;
     margin: 0; }
+#d_quickcheckout label img {
+  margin-right: 5px; }
 
 .manufacturerPage__header {
   min-height: 95px;
@@ -2818,7 +2803,7 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .manufacturerPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
@@ -2831,12 +2816,12 @@ input[type="checkbox"]:checked {
   margin-bottom: 30px; }
 .notFoundPage__title {
   margin-top: 38px;
-  font: 24px/26px "OpenSans Regular";
+  font: 24px/26px "Open Sans";
   text-transform: uppercase;
   color: #dedede;
   padding: 0; }
 .notFoundPage__text {
-  font: 18px/20px "OpenSans Regular";
+  font: 18px/20px "Open Sans";
   text-align: center; }
 .notFoundPage__btn {
   display: block;

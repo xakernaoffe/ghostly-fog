@@ -2,7 +2,7 @@
   background: $gray-light;
   &__item {
     &__title {
-      font: 18px/20px "Roboto Medium";
+      font: 500 18px/20px "Roboto";
       color: $white;
       text-transform: uppercase;
       margin-bottom: 27px;
@@ -14,7 +14,7 @@
     }
     &__link {
       display: block;
-      font: 14px/16px "OpenSans Regular";
+      font: 14px/16px "Open Sans";
       color: #a9a9a9;
       margin:8px 0;
     }
@@ -72,7 +72,7 @@
       }
       &__link {
         display: block;
-        font: 14px/16px "Roboto Light";
+        font: 300 14px/16px "Roboto";
         color: $white;
         &.show-callback {
           display: block;
@@ -83,7 +83,7 @@
         }
       }
       &__wrap {
-        font: 14px/16px "Roboto Light";
+        font: 300 14px/16px "Roboto";
         color: $white;
       }
       &.social {
@@ -99,7 +99,7 @@
 }
 .copyright {
   background: #2a2a2a;
-  font: 13px/18px "OpenSans Regular";
+  font: 13px/18px "Open Sans";
   color: #a9a9a9;
   padding: 20px 0;
   &__text {
@@ -115,7 +115,7 @@
       }
     }
     &__link {
-      font: 13px/18px "OpenSans Regular";
+      font: 13px/18px "Open Sans";
       color: #a9a9a9;
       &:hover {
         color: #a9a9a9;

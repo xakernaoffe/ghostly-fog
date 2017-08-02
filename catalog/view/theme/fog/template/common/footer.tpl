@@ -104,4 +104,11 @@
 
 <!-- Theme created by MakaroFF for OpenCart 2.1 -->
 
+
+
+
+
+
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+
 </body></html>

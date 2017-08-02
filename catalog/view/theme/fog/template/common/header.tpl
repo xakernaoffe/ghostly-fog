@@ -11,6 +11,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?></title>
 <base href="<?php echo $base; ?>" />
+
+
+
 <meta name="theme-color" content="#211f20">
 <?php if ($description) { ?>
 <meta name="description" content="<?php echo $description; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?>" />
@@ -27,18 +30,22 @@
 <meta property="og:image" content="<?php echo $logo; ?>" />
 <?php } ?>
 <meta property="og:site_name" content="<?php echo $name; ?>" />
-<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+
+
+    <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/jquery/slick/slick.min.js" type="text/javascript"></script>
+
+
 <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
-<!--<link href="catalog/view/theme/fog/stylesheet/stylesheet.css" rel="stylesheet">-->
 <link href="catalog/view/theme/fog/stylesheet/style.css" rel="stylesheet">
+
+
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
-<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
-    <script src="catalog/view/javascript/jquery/slick/slick.min.js" type="text/javascript"></script>
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
@@ -49,7 +56,7 @@
 <?php echo $analytic; ?>
 <?php } ?>
 
-    <script src="//ulogin.ru/js/ulogin.js"></script>
+
 </head>
 <body class="<?php echo $class; ?>">
 <nav class="navigation">

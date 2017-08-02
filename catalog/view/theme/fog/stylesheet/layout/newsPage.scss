@@ -6,7 +6,7 @@
   }
   &__title {
     margin-top:38px;
-    font: 24px/26px "OpenSans Regular";
+    font: 24px/26px "Open Sans";
     text-transform: uppercase;
     color: #dedede;
     padding: 0;
@@ -46,13 +46,13 @@
         margin:0 auto;
       }
       &__name {
-        font: 18px/20px "Roboto Medium";
+        font:500 18px/20px "Roboto";
         color: $black;
         margin-bottom: 15px;
         display: block;
       }
       &__descr {
-        font: 14px/16px "OpenSans Regular";
+        font: 14px/16px "Open Sans";
         color: #626262;
         margin-bottom: 30px;
       }
@@ -62,7 +62,7 @@
         text-align: center;
         border: 2px solid $black;
         color: $black;
-        font: 13px/25px "OpenSans Regular";
+        font: 13px/25px "Open Sans";
         background: none;
         transition-duration: 0.3s;
         float: right;
@@ -80,23 +80,23 @@
     &__info {
       text-align: left;
       &__name {
-        font: 18px/20px "Roboto Medium";
+        font:500 18px/20px "Roboto";
         color: $black;
         margin:20px 0 20px 15px;
         text-transform: uppercase;
       }
       &__description {
-        font: 14px/18px "OpenSans Regular";
+        font: 14px/18px "Open Sans";
         color: #626262;
         margin-bottom:20px;
       }
       &__posted {
-        font: 14px/18px "OpenSans Regular";
+        font: 14px/18px "Open Sans";
         color: #626262;
         text-align: right;
       }
       &__viewed {
-        font: 14px/18px "OpenSans Regular";
+        font: 14px/18px "Open Sans";
         color: #626262;
         text-align: right;
       }
@@ -117,7 +117,7 @@
         text-align: center;
         border: 2px solid $black;
         color: $black;
-        font: 13px/32px "OpenSans Regular";
+        font: 13px/32px "Open Sans";
         background: none;
         transition-duration: 0.3s;
         @media screen and (max-width: 480px){

@@ -31,7 +31,7 @@
     text-align: center;
     position: relative;
     min-height: 45px;
-    font: 16px "Roboto Medium";
+    font:500 16px "Roboto";
     color: $text-color;
     &:after {
       content: '';
@@ -48,7 +48,7 @@
   &__price {
     text-align: center;
     margin:20px 0;
-    font: 18px/20px "OpenSans Semibold";
+    font: 600 18px/20px "Open Sans";
     color: #3a3a3a;
     text-transform: uppercase;
     &_new {
@@ -57,7 +57,7 @@
       vertical-align: bottom;
     }
     &_old {
-      font: 15px/20px "OpenSans Regular";
+      font: 15px/20px "Open Sans";
       color: #8b8b8b;
       display: inline-block;
       vertical-align: bottom;

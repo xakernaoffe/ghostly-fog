@@ -34,7 +34,7 @@
     &__info {
       display: inline-block;
       vertical-align: middle;
-      font: 16px/20px "OpenSans Regular";
+      font: 16px/20px "Open Sans";
       color: $white;
       @media screen and (max-width: 1200px){
         display: block;
@@ -83,7 +83,7 @@
       }
       &__item {
         display: block;
-        font: 16px/20px "Roboto Medium";
+        font:500 16px/20px "Roboto";
         color: $white;
         @media screen and (max-width: 1200px){
           text-align: center;
@@ -121,7 +121,7 @@
         }
         &__item {
           width: 65%;
-          font: 16px/46px "OpenSans Regular";
+          font: 16px/46px "Open Sans";
           color: $white;
           @media screen and (max-width: 992px){
             height: 36px;
@@ -167,7 +167,7 @@
       &__sum {
         width: 100%;
         text-align: center;
-        font: 16px/46px "OpenSans Regular";
+        font: 16px/46px "Open Sans";
         color: $white;
       }
       &__total {
@@ -178,7 +178,7 @@
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        font: 14px/25px "OpenSans Regular";
+        font: 14px/25px "Open Sans";
         color: $white;
         text-align: center;
         @media screen and (max-width: 992px){

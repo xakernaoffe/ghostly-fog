@@ -1,15 +1,9 @@
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-
 <div class="slideshow">
-    <div id="slideshow<?php echo $module; ?>" class="owl-carousel" style="opacity: 1;">
+    <div id="slideshow<?php echo $module; ?>" class="" >
         <?php foreach ($banners as $banner) { ?>
             <div class="item">
 
                 <div class="container">
-
 
                     <?php if ($banner['link']) { ?>
                         <a href="<?php echo $banner['link']; ?>" class="productAdvt">
@@ -31,16 +25,15 @@
     </div>
 </div>
 
-
-<!--<div class="container">-->
-<!--    <div class="row">-->
-<!--        <div class="col-sm-12">-->
-
 <script type="text/javascript"><!--
-    $('#slideshow<?php echo $module; ?>').owlCarousel({
-        items: 6,
-        autoPlay: 15000,
-        singleItem: true,
-        pagination: false
+    $('#slideshow<?php echo $module; ?>').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 15000,
+        adaptiveHeight: true,
+        arrows:false,
+
     });
-    --></script>
+   // --></script>

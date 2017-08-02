@@ -5,7 +5,7 @@
   }
   &__title {
     margin-top:38px;
-    font: 24px/26px "OpenSans Regular";
+    font: 24px/26px "Open Sans";
     text-transform: uppercase;
     color: #dedede;
     padding: 0;
@@ -56,13 +56,13 @@
     background: $white;
     position: relative;
     &__title {
-      font: 20px/22px "Roboto Medium";
+      font:500 20px/22px "Roboto";
       color: $black;
       text-transform: uppercase;
     }
     .pvr-text {
       margin:15px 0;
-      font: 14px/16px "OpenSans Regular";
+      font: 14px/16px "Open Sans";
       max-height: 33px;
       overflow: hidden;
     }
@@ -87,7 +87,7 @@
     background: $white;
     border: 2px solid $black;
     color: $black;
-    font: 13px/25px "OpenSans Regular";
+    font: 13px/25px "Open Sans";
     text-align: center;
     transition-duration: 0.3s;
     float: none;

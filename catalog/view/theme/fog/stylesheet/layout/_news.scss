@@ -15,11 +15,11 @@
     padding:10px 20px 0;
   }
   &__title {
-    font: 16px/18px "Roboto Medium";
+    font: 500 16px/18px "Roboto";
     color: $text-color;
   }
   &__descr {
-    font: 14px/18px "Roboto Light";
+    font: 300 14px/18px "Roboto";
     color: #4d4d4d;
     margin:16px 0;
     height: 126px;
@@ -28,7 +28,7 @@
   &__info {
     border-top: 1px solid #f4f4f4;
     padding:10px 20px;
-    font: 13px/15px "Roboto Light";
+    font: 300 13px/15px "Roboto";
     color: #b6b6b6;
   }
   &__link {

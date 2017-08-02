@@ -6,14 +6,14 @@
   }
   &__title {
     margin-top:38px;
-    font: 24px/26px "OpenSans Regular";
+    font: 24px/26px "Open Sans";
     text-transform: uppercase;
     color: #dedede;
     padding: 0;
   }
   &__result {
     margin:20px 0;
-    font: 24px/26px "OpenSans Regular";
+    font: 24px/26px "Open Sans";
     text-transform: uppercase;
     color: $black;
     text-align: center;
@@ -48,7 +48,7 @@
     text-align: center;
     border: 2px solid $blue;
     color: $black;
-    font: 13px/32px "OpenSans Regular";
+    font: 13px/32px "Open Sans";
     background: $white;
     transition-duration: 0.3s;
     text-transform: uppercase;
@@ -61,6 +61,6 @@
   &__empty {
     margin:25px 0;
     text-align: center;
-    font: 16px/20px "OpenSans Regular";
+    font: 16px/20px "Open Sans";
   }
 }
