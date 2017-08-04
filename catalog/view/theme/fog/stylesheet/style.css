@@ -1041,53 +1041,29 @@ input[type="checkbox"]:checked {
 .news__link img {
   width: 100%; }
 
-.module .owl-carousel {
+.module .manufacturer-slider {
   margin-bottom: 50px;
   padding: 25px 55px;
   background: #f4f4f4;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc; }
-  .module .owl-carousel .item {
+  .module .manufacturer-slider .item {
     display: flex;
     justify-content: center; }
-  .module .owl-carousel .owl-wrapper-outer {
-    border: none;
-    box-shadow: none;
-    border-radius: 0; }
-  .module .owl-carousel .owl-buttons .owl-prev {
-    opacity: 1;
+  .module .manufacturer-slider .slick-arrow.prev {
     left: 0;
     top: 25px;
     width: 33px;
     height: 92px;
-    background: #2a2a2a; }
-    .module .owl-carousel .owl-buttons .owl-prev .prev {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      display: block;
-      width: 6px;
-      height: 10px;
-      background: url("./img/slick-prev.png") center no-repeat; }
-  .module .owl-carousel .owl-buttons .owl-next {
-    opacity: 1;
+    background: #2a2a2a url("./img/slick-prev.png") center no-repeat;
+    cursor: pointer; }
+  .module .manufacturer-slider .slick-arrow.next {
     right: 0;
     top: 25px;
     width: 33px;
     height: 92px;
-    background: #2a2a2a; }
-    .module .owl-carousel .owl-buttons .owl-next .next {
-      position: absolute;
-      display: block;
-      width: 6px;
-      height: 10px;
-      top: 50%;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      background: url("./img/slick-next.png") center no-repeat; }
+    background: #2a2a2a url("./img/slick-next.png") center no-repeat;
+    cursor: pointer; }
 
 .footer {
   background: #363636; }
