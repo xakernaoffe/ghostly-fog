@@ -608,7 +608,9 @@ button:focus, button:active {
     padding: 0 40px; }
     @media screen and (max-width: 992px) {
       .product__btn {
-        padding: 0 70px;
+        padding: 0 70px; } }
+    @media screen and (max-width: 767px) {
+      .product__btn {
         justify-content: center; } }
     .product__btn__quantity {
       width: 70px;
