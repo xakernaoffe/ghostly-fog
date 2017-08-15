@@ -53,7 +53,7 @@
                     <div class="footer__item__info__wrap">
                         <a href="tel:<?php echo $telephone; ?>" class="footer__item__info__link"><?php echo $telephone; ?></a>
                         <a href="tel:<?php echo $telephone2; ?>" class="footer__item__info__link"><?php echo $telephone2; ?></a>
-                        <a href="#" class="footer__item__info__link show-callback hidden-lg hidden-md"><?php echo $text_callback; ?></a>
+                        <div href="#" class="footer__item__info__link show-callback hidden-lg hidden-md"><?php echo $text_callback; ?></div>
                     </div>
                 </div>
                 <div class="footer__item__info">

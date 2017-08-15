@@ -91,8 +91,8 @@
                             </select>
                         </div>
                         <div class="category__sort__buttons">
-                            <button type="button" id="list-view" class="category__sort__buttons__item active" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
-                            <button type="button" id="grid-view" class="category__sort__buttons__item" data-toggle="tooltip" title="<?php echo $button_grid; ?>"><i class="fa fa-th"></i></button>
+                            <button type="button" id="list-view" class="category__sort__buttons__item active"><i class="fa fa-th-list"></i></button>
+                            <button type="button" id="grid-view" class="category__sort__buttons__item"><i class="fa fa-th"></i></button>
                         </div>
                     </div>
                     <br />

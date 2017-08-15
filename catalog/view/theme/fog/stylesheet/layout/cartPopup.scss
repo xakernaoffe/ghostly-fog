@@ -162,7 +162,7 @@
           border: 2px solid #2e2e2e;
           background: $white;
           text-transform: uppercase;
-          font: 13px/42px "Open Sans";
+          font: 13px/40px "Open Sans";
           color: #141414;
           transition-duration: 0.3s;
           margin-bottom: 0;
@@ -202,6 +202,13 @@
       line-height: 37px;
       border: none;
       border-radius: 0;
+    }
+  }
+  .product-table {
+    max-height:calc(100vh - 470px);
+    overflow: auto;
+    @media screen and (max-width: 768px){
+      text-align: center;
     }
   }
 }

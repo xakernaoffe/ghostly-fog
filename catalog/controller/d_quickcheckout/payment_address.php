@@ -115,9 +115,9 @@ class ControllerDQuickcheckoutPaymentAddress extends Controller {
         if(isset($this->request->post['payment_address'])){
 
             //fix &amp; 
-            foreach ($this->request->post['payment_address'] as $key => $value) {
-                $this->request->post['payment_address'][$key] = htmlspecialchars_decode($value);
-            }
+//            foreach ($this->request->post['payment_address'] as $key => $value) {
+//                $this->request->post['payment_address'][$key] = htmlspecialchars_decode($value);
+//            }
 
             if(isset($this->session->data['payment_address']['customer_group_id']) && isset($this->request->post['payment_address']['customer_group_id'])){
                 if($this->session->data['payment_address']['customer_group_id'] != $this->request->post['payment_address']['customer_group_id']){

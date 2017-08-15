@@ -123,10 +123,12 @@
 							</div>
 						</div>
 					<% } %>
-					<label class="col-sm-4 control-label" >
-						<?php echo $text_use_coupon; ?>
-					</label>
-					<div class="col-sm-8">
+					<div class="col-sm-6">
+                        <label class="control-label">
+                            <?php echo $text_use_coupon; ?>
+                        </label>
+					</div>
+					<div class="col-sm-6">
 						<div class="input-group">
 							<input type="text" value="<%= model.coupon ? model.coupon : '' %>" name="coupon" id="coupon" <% if(Number(config.design.placeholder)) {  %>placeholder="<?php echo $text_use_coupon; ?>" <% } %>  class="form-control"/>
 							<span class="input-group-btn">
@@ -154,10 +156,12 @@
 						</div>
 					<% } %>
 
-					<label class="col-sm-4 control-label" >
-						<?php echo $text_use_voucher; ?>
-					</label>
-					<div class="col-sm-8">
+					<div class="col-sm-6 " >
+                        <label class="control-label">
+                            <?php echo $text_use_voucher; ?>
+                        </label>
+					</div>
+					<div class="col-sm-6">
 						<div class="input-group">
 							<input type="text" value="<%= model.voucher ? model.voucher : '' %>" name="voucher" id="voucher" <% if(Number(config.design.placeholder)) {  %>placeholder="<?php echo $text_use_voucher; ?>" <% } %>  class="form-control"/>
 							<span class="input-group-btn">

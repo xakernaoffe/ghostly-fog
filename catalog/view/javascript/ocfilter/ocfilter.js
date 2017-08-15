@@ -344,6 +344,7 @@ Math.easeIn = function (val, min, max, strength) {
           },
           html: true,
           placement: $this.options['mobile'] ? 'bottom' : 'right',
+          // placement: 'right',
           container: '#ocfilter',
           trigger: 'manual'
         });

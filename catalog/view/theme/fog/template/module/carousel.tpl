@@ -16,7 +16,7 @@ $('#carousel<?php echo $module; ?>').slick({
     slidesToShow: 9,
     slidesToScroll: 1,
     autoplay:true,
-    speed: 3000,
+    speed:  500,
     arrows: true,
     prevArrow: '<span class="prev"></span>',
     nextArrow: '<span class="next"></span>',

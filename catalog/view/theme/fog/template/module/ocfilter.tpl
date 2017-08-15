@@ -1,13 +1,13 @@
 <?php if ($options || $show_price) { ?>
-<div class="visible-xs" id="ocfilter-mobile">
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <span class="navbar-brand"><i class="fa fa-filter"></i> <?php echo $heading_title; ?></span>
-      <button data-target="#navbar-ocfilter" data-toggle="collapse" class="btn btn-navbar navbar-toggle" type="button"><i class="fa fa-bars"></i></button>
-    </div>
-    <div id="navbar-ocfilter" class="navbar-collapse collapse" aria-expanded="false"></div>
-  </nav>
-</div>
+<!--<div class="visible-xs" id="ocfilter-mobile">-->
+<!--  <nav class="navbar navbar-default">-->
+<!--    <div class="navbar-header">-->
+<!--      <span class="navbar-brand"><i class="fa fa-filter"></i> --><?php //echo $heading_title; ?><!--</span>-->
+<!--      <button data-target="#navbar-ocfilter" data-toggle="collapse" class="btn btn-navbar navbar-toggle" type="button"><i class="fa fa-bars"></i></button>-->
+<!--    </div>-->
+<!--    <div id="navbar-ocfilter" class="navbar-collapse collapse" aria-expanded="false"></div>-->
+<!--  </nav>-->
+<!--</div>-->
 <div class="panel ocfilter panel-default" id="ocfilter">
 <!--  <div class="panel-heading hidden-xs">--><?php //echo $heading_title; ?><!--</div>-->
   <div class="hidden" id="ocfilter-button">
@@ -232,15 +232,9 @@ $(function() {
 	  }
 	};
 
-  if ($('#ocfilter').is(':hidden')) {
-    $('#navbar-ocfilter').html($('#ocfilter').remove().get(0).outerHTML);
-
-    var html = $('#ocfilter-mobile').remove().get(0).outerHTML;
-
-    $('.breadcrumb').after(html);
-
-    options['mobile'] = true;
-  }
+    if(window.matchMedia('(max-width: 992px)').matches) {
+        options['mobile'] = true;
+    }
 
   setTimeout(function() {
     $('#ocfilter').ocfilter(options);
