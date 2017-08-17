@@ -2,7 +2,7 @@
 <div class="accountPage">
     <div class="accountPage__header">
         <div class="container">
-            <div class="accountPage__title col-sm-8"><?php echo $heading_title; ?></div>
+<!--            <div class="accountPage__title col-sm-8">--><?php //echo $heading_title; ?><!--</div>-->
             <ul class="breadcrumb col-sm-4">
                 <?php foreach ($breadcrumbs as $breadcrumb) { ?>
                     <li class="breadcrumb__item">

@@ -13,7 +13,7 @@
 				<span class="icon">
 					<i class="<%= model.config.icon %>"></i>
 				</span>
-				<span class="text"><%= model.config.title %> <%= (model.cart_weight) ? '('+model.cart_weight+')' : '' %></span>
+				<span class="text"><%= model.config.title %></span>
 			</h4>
 		</div>
 

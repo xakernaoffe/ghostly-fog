@@ -6,7 +6,7 @@
 -->
 <div id="shipping_address" class="qc-step" data-col="<?php echo $col; ?>" data-row="<?php echo $row; ?>"></div>
 <script type="text/html" id="shipping_address_template">
-<div class="<%= (parseInt(model.config.display) == 1) && model.show_shipping_address ? '' : 'hidden' %>">
+<div class="<%= (parseInt(model.config.display) == 1) ? '' : 'hidden' %>">
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
@@ -14,6 +14,8 @@
 					<i class="<%= model.config.icon %>"></i>
 				</span>
 				<span class="text"><%= model.config.title %></span>
+				<span class="text"><%= model.config.display %></span>
+				<span class="text"><%= model.show_shipping_address %></span>
 			</h4>
 		</div>
 		<div class="panel-body">
