@@ -46,17 +46,13 @@
     width: 210px;
     height: 40px;
     text-align: center;
-    border: 2px solid $blue;
-    color: $black;
+    border: 2px solid $black;
+    color: $white;
     font: 13px/32px "Open Sans";
-    background: $white;
+    background: $black;
     transition-duration: 0.3s;
     text-transform: uppercase;
     margin:45px auto;
-    &:hover {
-      background: $blue;
-      color: $white;
-    }
   }
   &__empty {
     margin:25px 0;

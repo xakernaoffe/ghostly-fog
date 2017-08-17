@@ -4,6 +4,9 @@
     background: url("./img/categoryBg.png") center no-repeat;
     margin-bottom: 30px;
   }
+  .breadcrumb {
+    display: none;
+  }
   &__title {
     margin-top:38px;
     font: 24px/26px "Open Sans";
@@ -61,6 +64,9 @@
         border: none;
         font-weight:bold;
       }
+      &.active {
+        color: $blue;
+      }
     }
   }
   .form-horizontal {
@@ -79,21 +85,20 @@
     display: block;
     width: 100px;
     height: 42px;
-    background-color: #2a2a2a;
-    border: none;
+    border: 1px solid $black;
     text-align: center;
-    color: #fff;
+    color: $black;
     font: 13px/42px "MyriadPro Regular";
     text-transform: uppercase;
     &:hover {
-      color: $white;
+      color: $black;
     }
   }
   &__continue {
     display: block;
     width: 100px;
     height: 42px;
-    background-color: $blue;
+    background-color: $black;
     border: none;
     text-align: center;
     color: #fff;

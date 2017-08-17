@@ -211,6 +211,17 @@ $(document).ready(function() {
         ]
     });
 
+
+    // account page links
+        $('.accountModule__link').each(function () {
+            var location = window.location.href;
+            var link = this.href;
+            if(location == link) {
+                $(this).removeClass('active').addClass('active');
+            }
+        });
+
+
     // burger button// mobile menu
     $('.burger_btn').on('click', function(){
         $(this).toggleClass('open');
@@ -597,3 +608,4 @@ $(document).delegate('.agree', 'click', function(e) {
 		});
 	}
 })(window.jQuery);
+

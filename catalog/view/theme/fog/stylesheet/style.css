@@ -337,7 +337,8 @@ button:focus, button:active {
           margin-right: 25px; } }
       @media screen and (max-width: 480px) {
         .navigation__links__item:first-child {
-          display: none; } }
+          display: inline-block;
+          margin-right: 5px; } }
     .navigation__links__item i {
       margin-right: 5px; }
   .navigation__links.login {
@@ -2345,16 +2346,13 @@ input[type="checkbox"]:checked {
   width: 210px;
   height: 40px;
   text-align: center;
-  border: 2px solid #32a0ed;
-  color: #000;
+  border: 2px solid #000;
+  color: #fff;
   font: 13px/32px "Open Sans";
-  background: #fff;
+  background: #000;
   transition-duration: 0.3s;
   text-transform: uppercase;
   margin: 45px auto; }
-  .searchPage__btn:hover {
-    background: #32a0ed;
-    color: #fff; }
 .searchPage__empty {
   margin: 25px 0;
   text-align: center;
@@ -2647,6 +2645,8 @@ input[type="checkbox"]:checked {
   min-height: 95px;
   background: url("./img/categoryBg.png") center no-repeat;
   margin-bottom: 30px; }
+.accountPage .breadcrumb {
+  display: none; }
 .accountPage__title {
   margin-top: 38px;
   font: 24px/26px "Open Sans";
@@ -2695,6 +2695,8 @@ input[type="checkbox"]:checked {
     .accountPage .accountModule__link:last-child {
       border: none;
       font-weight: bold; }
+    .accountPage .accountModule__link.active {
+      color: #32a0ed; }
 .accountPage .form-horizontal {
   margin-top: 40px; }
 .accountPage .control-label {
@@ -2708,19 +2710,18 @@ input[type="checkbox"]:checked {
   display: block;
   width: 100px;
   height: 42px;
-  background-color: #2a2a2a;
-  border: none;
+  border: 1px solid #000;
   text-align: center;
-  color: #fff;
+  color: #000;
   font: 13px/42px "MyriadPro Regular";
   text-transform: uppercase; }
   .accountPage__back:hover {
-    color: #fff; }
+    color: #000; }
 .accountPage__continue {
   display: block;
   width: 100px;
   height: 42px;
-  background-color: #32a0ed;
+  background-color: #000;
   border: none;
   text-align: center;
   color: #fff;

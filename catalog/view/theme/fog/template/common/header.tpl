@@ -72,10 +72,10 @@
           </div>
           <div class="navigation__links login col-md-4">
               <?php if (!$logged) { ?>
-              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-sign-in" aria-hidden="true"></i>  <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
+              <a title="<?php echo $text_account; ?>" class="navigation__links__item quick_signup"><i class="fa fa-user-circle-o" aria-hidden="true"></i>  <span class="hidden-xs hidden-sm"><?php echo $text_account; ?></span></a>
               <?php } ?>
               <?php if ($logged) { ?>
-                  <a href="<?php echo $account; ?>" class="navigation__links__item"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="hidden-xs hidden-sm"><?php echo $text_room; ?></a>
+                  <a href="<?php echo $account; ?>" class="navigation__links__item hidden-xs"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="hidden-xs hidden-sm"><?php echo $text_room; ?></a>
               <a  href="<?php echo $logout; ?>" class="navigation__links__item"><i class="fa fa-sign-out" aria-hidden="true"></i> <span class="hidden-xs hidden-sm"><?php echo $text_logout; ?></span></a>
               <?php } ?>
           </div>
