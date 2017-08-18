@@ -9,6 +9,7 @@
     <div class="simplecheckout-warning-block"><?php echo $error_warning; ?></div>
 <?php } ?>
     <div class="table-responsive">
+        <div class="customHeading">Мой заказ</div>
         <table class="simplecheckout-cart">
             <colgroup>
                 <col class="image">

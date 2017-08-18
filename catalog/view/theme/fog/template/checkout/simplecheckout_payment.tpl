@@ -1,9 +1,12 @@
 <div class="simplecheckout-block" id="simplecheckout_payment" <?php echo $hide ? 'data-hide="true"' : '' ?> <?php echo $display_error && $has_error ? 'data-error="true"' : '' ?>>
-    <?php if ($display_header) { ?>
-        <div class="checkout-heading panel-heading"><?php echo $text_checkout_payment_method ?></div>
-    <?php } ?>
+<!--    --><?php //if ($display_header) { ?>
+<!--        <div class="checkout-heading panel-heading">--><?php //echo $text_checkout_payment_method ?><!--</div>-->
+<!--    --><?php //} ?>
+
     <div class="simplecheckout-warning-block" <?php echo $display_error && $has_error_payment ? '' : 'style="display:none"' ?>><?php echo $error_payment ?></div>
-    <div class="simplecheckout-block-content">
+    <div class="sCart__shipping">
+        <div class="sCart__shippingTitle">Оплата:</div>
+            <div class="simplecheckout-block-content">
         <?php if (!empty($payment_methods)) { ?>
             <?php if ($display_type == 2 ) { ?>
                 <?php $current_method = false; ?>
@@ -52,5 +55,6 @@
         <?php if (empty($payment_methods) && !$address_empty) { ?>
             <div class="simplecheckout-warning-text"><?php echo $error_no_payment; ?></div>
         <?php } ?>
+    </div>
     </div>
 </div>

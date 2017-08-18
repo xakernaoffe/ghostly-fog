@@ -1,6 +1,15 @@
 <div class="simplecheckout-block" id="simplecheckout_customer" <?php echo $hide ? 'data-hide="true"' : '' ?> <?php echo $display_error && $has_error ? 'data-error="true"' : '' ?>>
   <?php if ($display_header || $display_login) { ?>
-  <div class="checkout-heading panel-heading"><span><?php echo $text_checkout_customer ?></span><?php if ($display_login) { ?><span class="checkout-heading-button"><a href="javascript:void(0)" data-onclick="openLoginBox"><?php echo $text_checkout_customer_login ?></a></span><?php } ?></div>
+  <div class="checkout-heading panel-heading sCart__userUnlogin">
+      <span>Если Вы уже зарегистрированы, перейдите на страницу<?php //echo $text_checkout_customer ?>
+      <?php if ($display_login) { ?>
+              <a class="quick_signup">
+                  входа в систему.
+                  <?php // echo $text_checkout_customer_login ?>
+              </a>
+      <?php } ?>
+      </span>
+  </div>
   <?php } ?>
   <div class="simplecheckout-block-content">
     <?php if ($display_registered) { ?>

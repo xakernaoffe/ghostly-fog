@@ -24,3 +24,7 @@ https://opencartforum.com/topic/35072-kak-mozhno-vyvesti-stoimost-pokupok-i-koli
 
 add plus minus btn 
 https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=25282
+
+
+simple checkout
+https://opencartforum.com/files/file/324-modul-simple-uproschennaya-registraciya-i-zakaz/

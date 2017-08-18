@@ -377,7 +377,7 @@
     text-align: center;
 }
 .simplecheckout-cart td {
-    padding: 7px;
+    padding: 7px 7px 15px;
     border-bottom: 1px solid #DDDDDD;
     vertical-align: top;
 }
@@ -770,7 +770,7 @@
         display: none;
     }
     .simplecheckout-cart col.price,.simplecheckout-cart th.price,.simplecheckout-cart td.price {
-        display: none;
+        display: none !important;
     }
     .simplecheckout-cart td.name div.image {
         display: block;

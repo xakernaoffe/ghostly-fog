@@ -1,4 +1,21 @@
 .sCart{
+  overflow: hidden;
+  position: relative;
+  &__header {
+    min-height: 95px;
+    background: url("./img/categoryBg.png") center no-repeat;
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-top:38px;
+    font: 24px/26px "Open Sans";
+    text-transform: uppercase;
+    color: #dedede;
+    padding: 0;
+    @media screen and (max-width: 480px){
+      font: 20px/22px "Open Sans";
+    }
+  }
   &__round{
     border-radius: 50% ;
     border: 2px solid #15abe4;
@@ -16,35 +33,24 @@
     box-sizing: border-box;
     padding-left: 2px;
   }
-  &__{
+  &__shipping{
+    display: flex;
 
   }
-  &__{
+  &__shippingTitle{
+    padding: 20px 10px;
+    font-size: 14px;
+    text-align: right;
+    width: 35%;
 
+    @media only screen and (max-width:640px) {
+      min-width:100px;
+      width: 20%;
+    }
   }
-  &__{
-
-  }
-  &__{
-
-  }
-  &__{
-
-  }
-  &__{
-
-  }
-  &__{
-
-  }
-  &__{
-
-  }
-  &__{
-
-  }
-  &__{
-
+  &__userUnlogin{
+    font-size: 14px;
+    border: none;
   }
 }
 
@@ -62,8 +68,31 @@
       font-size: 13px;
     }
   }
+  .simplecheckout-button-block{
+    background: transparent;
+    .simplecheckout-button-right{
+      width: 46%;
+    }
+    .button_oc{
+      width: 100%;
+    }
+  }
+  input,textarea{
+    background: #e9e9e9;
+    border-radius: 0;
+    border: 1px solid #c2c2c2;
+    box-shadow: none;
+    font-size: 13px;
+  }
+  .btn-primary{
+    background: #15abe4;
+    border-radius: 0;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    border-color: transparent;
+  }
 }
-
+//ебучие костыли
 #simplecheckout_customer{
   legend{
     font-weight: 600;
@@ -73,8 +102,87 @@
   }
 }
 #simplecheckout_shipping{
+  margin-top: -50px;
   .simplecheckout-block-content{
-    width: 50%;
-    float: right;
+    label{
+      font-size: 14px;
+    }
+    .row-shipping_field20{
+      .control-label.col-sm-4{
+        display: none !important;
+      }
+      .col-sm-8{
+        width: 100%;
+      }
+    }
   }
+}
+#simplecheckout_payment{
+  margin-top: -35px;
+  label{
+    font-size: 14px;
+  }
+}
+#simplecheckout_cart{
+  .table-responsive{
+    .customHeading{
+      display: block;
+      width: 100%;
+      height: 35px;
+      padding: 5px 10px;
+      line-height: 25px;
+      background: #e9e9e9;
+      font-size: 14px;
+      font-family: "Open Sans";
+      margin-bottom: 25px;
+    }
+    .btn-primary{
+      font-size: 14px;
+    }
+    .btn-danger{
+      background: $red;
+      border-radius: 0;
+      border-color: transparent;
+    }
+    table{
+      thead{
+        display: none;
+      }
+    }
+  }
+  .simplecheckout-cart{
+    border:none;
+    td.image{
+      img{
+        border: 1px solid #a7a7a7;
+      }
+    }
+    td.name a{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      max-width: 100px;
+      display: block;
+      font-weight: 600;
+    }
+    td.price, td.total{
+      padding-top: 12px;
+    }
+    td.quantity{
+      input{
+        text-align: center;
+      }
+    }
+  }
+  .simplecheckout-cart-total{
+    border:none;
+  }
+}
+#simplecheckout_comment{
+  .checkout-heading{
+    padding:  10px 0;
+    font-size: 14px;
+  }
+}
+#simplecheckout_button_cart{
+  width: 100px;
 }

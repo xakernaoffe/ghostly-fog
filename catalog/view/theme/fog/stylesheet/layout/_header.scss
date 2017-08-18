@@ -130,7 +130,8 @@
       }
       &__icon {
         width: 35%;
-        height: 46px;
+        height: 45px;
+        top: -1px;
         background: linear-gradient(to top, #32a0ed, #00deff);
         position: relative;
         border-top-left-radius: 5px;
