@@ -1,5 +1,5 @@
 <?php echo $header; ?>
-<div class="sCart">
+<div class="sCart accountPage">
     <div class="sCart__header">
         <div class="container">
             <div class="sCart__title col-sm-8 col-xs-10"><?php echo $heading_title; ?></div>
@@ -22,7 +22,7 @@
                 <?php if ($column_left && $column_right) { ?>
                     <?php $class = 'col-sm-6'; ?>
                 <?php } elseif ($column_left || $column_right) { ?>
-                    <?php $class = 'col-sm-9'; ?>
+                    <?php $class = 'col-md-9 col-sm-12'; ?>
                 <?php } else { ?>
                     <?php $class = 'col-sm-12'; ?>
                 <?php } ?>

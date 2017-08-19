@@ -39,7 +39,7 @@
                         <li><a href="<?php echo $order; ?>" class="accountPage__item__list__link"><?php echo $text_order; ?></a></li>
                     </ul>
                 </div>
-                <div class="accountPage__item col-sm-12 col-md-4">
+                <div class="accountPage__item col-sm-12 col-md-3">
                     <?php echo $column_right; ?>
                 </div>
                 <?php echo $content_bottom; ?>

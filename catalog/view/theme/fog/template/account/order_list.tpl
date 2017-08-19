@@ -17,7 +17,7 @@
             <?php if ($column_left && $column_right) { ?>
                 <?php $class = 'col-sm-6'; ?>
             <?php } elseif ($column_left || $column_right) { ?>
-                <?php $class = 'col-sm-12 col-md-8'; ?>
+                <?php $class = 'col-sm-12 col-md-9'; ?>
             <?php } else { ?>
                 <?php $class = 'col-sm-12'; ?>
             <?php } ?>
@@ -59,7 +59,7 @@
                     <div class="pull-right"><a href="<?php echo $continue; ?>" class="accountPage__continue"><?php echo $button_continue; ?></a></div>
                 </div>
                 <?php echo $content_bottom; ?></div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-3">
                 <?php echo $column_right; ?>
             </div>
             </div>

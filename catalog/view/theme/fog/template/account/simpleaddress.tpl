@@ -40,7 +40,7 @@
             </div>
             <div class="simpleregister-button-block buttons">
                 <div class="simpleregister-button-right">
-                    <a class="button btn-primary button_oc btn" data-onclick="submit" id="simpleregister_button_confirm"><span><?php echo $button_continue; ?></span></a>
+                    <a class="button accountPage__continue" data-onclick="submit" id="simpleregister_button_confirm"><span><?php echo $button_continue; ?></span></a>
                 </div>
             </div>
         </div>
