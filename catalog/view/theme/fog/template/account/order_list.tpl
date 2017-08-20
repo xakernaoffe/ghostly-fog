@@ -56,6 +56,7 @@
                     <p><?php echo $text_empty; ?></p>
                 <?php } ?>
                 <div class="buttons clearfix">
+                    <div class="pull-left"><a href="/ru/my-account/" class="accountPage__back">Назад</a></div>
                     <div class="pull-right"><a href="<?php echo $continue; ?>" class="accountPage__continue"><?php echo $button_continue; ?></a></div>
                 </div>
                 <?php echo $content_bottom; ?></div>

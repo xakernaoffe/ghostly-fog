@@ -72,6 +72,9 @@
     background: transparent;
     .simplecheckout-button-right{
       width: 46%;
+      @media only screen and (max-width:450px) {
+        width: 100%;
+      }
     }
     .button_oc{
       width: 100%;
@@ -100,6 +103,9 @@
     margin-bottom: 0;
     border: none;
   }
+  .form-horizontal{
+    margin: 0;
+  }
 }
 #simplecheckout_shipping{
   margin-top: -50px;
@@ -108,6 +114,7 @@
       font-size: 14px;
     }
     .row-shipping_field20{
+      margin-top: -20px;
       .control-label.col-sm-4{
         display: none !important;
       }
@@ -118,7 +125,7 @@
   }
 }
 #simplecheckout_payment{
-  margin-top: -35px;
+  margin-top: -45px;
   label{
     font-size: 14px;
   }

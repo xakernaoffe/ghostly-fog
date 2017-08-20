@@ -2906,6 +2906,9 @@ input[type="checkbox"]:checked {
   background: transparent; }
   .simplecheckout .simplecheckout-button-block .simplecheckout-button-right {
     width: 46%; }
+    @media only screen and (max-width: 450px) {
+      .simplecheckout .simplecheckout-button-block .simplecheckout-button-right {
+        width: 100%; } }
   .simplecheckout .simplecheckout-button-block .button_oc {
     width: 100%; }
 .simplecheckout input, .simplecheckout textarea {
@@ -2926,18 +2929,22 @@ input[type="checkbox"]:checked {
   font-size: 16px;
   margin-bottom: 0;
   border: none; }
+#simplecheckout_customer .form-horizontal {
+  margin: 0; }
 
 #simplecheckout_shipping {
   margin-top: -50px; }
   #simplecheckout_shipping .simplecheckout-block-content label {
     font-size: 14px; }
-  #simplecheckout_shipping .simplecheckout-block-content .row-shipping_field20 .control-label.col-sm-4 {
-    display: none !important; }
-  #simplecheckout_shipping .simplecheckout-block-content .row-shipping_field20 .col-sm-8 {
-    width: 100%; }
+  #simplecheckout_shipping .simplecheckout-block-content .row-shipping_field20 {
+    margin-top: -20px; }
+    #simplecheckout_shipping .simplecheckout-block-content .row-shipping_field20 .control-label.col-sm-4 {
+      display: none !important; }
+    #simplecheckout_shipping .simplecheckout-block-content .row-shipping_field20 .col-sm-8 {
+      width: 100%; }
 
 #simplecheckout_payment {
-  margin-top: -35px; }
+  margin-top: -45px; }
   #simplecheckout_payment label {
     font-size: 14px; }
 

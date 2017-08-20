@@ -37,6 +37,7 @@
                 <?php } ?>
             </div>
             <div class="simpleregister-button-block buttons">
+                <div class="pull-left"><a href="/ru/my-account/" class="accountPage__back">Назад</a></div>
                 <div class="simpleregister-button-right">
                     <a class="button accountPage__continue" data-onclick="submit" id="simpleregister_button_confirm"><span><?php echo $button_continue; ?></span></a>
                 </div>
